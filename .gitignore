@@ -1,0 +1,21 @@
+# Raw game data, exported locally (see README) — not committed
+/data
+
+# Claude Code
+.claude
+
+# Python
+.venv
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Node
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
