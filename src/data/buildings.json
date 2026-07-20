@@ -1,0 +1,7056 @@
+{
+  "Altar": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalOther"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 20,
+      "Stone": 100
+    },
+    "name": "Summoning Altar",
+    "rank": 1
+  },
+  "AncientBlastFurnace": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Furnace",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Refine"
+    },
+    "ingredients": {
+      "AncientParts2": 10,
+      "Computer": 30,
+      "ManganeseIngot": 100,
+      "Thermal_Core": 20
+    },
+    "name": "Ancient Furnace",
+    "rank": 1
+  },
+  "AncientCookingStove": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Cooking"
+    },
+    "ingredients": {
+      "AncientParts2": 10,
+      "Bio_Coolant": 50,
+      "SkyislandIngot": 80,
+      "Thermal_Core": 30
+    },
+    "name": "Ancient Kitchen",
+    "rank": 1
+  },
+  "AncientElectricGenerator": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_GeneratePower",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Electricity"
+    },
+    "ingredients": {
+      "AncientParts2": 10,
+      "ElectricOrgan": 200,
+      "WorldTreeIngot": 100
+    },
+    "name": "Ancient Power Generator",
+    "rank": 1
+  },
+  "AncientFarmBlock": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Food_Agriculture",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Farm"
+    },
+    "ingredients": {
+      "AncientParts2": 10,
+      "Wood_WorldTree": 100,
+      "WorldTreeHolyWater": 50,
+      "WorldTreeIngot": 50
+    },
+    "name": "Ancient Farm",
+    "rank": 1
+  },
+  "AncientMultiProduct": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "AncientParts2": 10,
+      "WorldTreeIngot": 50
+    },
+    "name": "Ancient Material Synthesizer",
+    "rank": 1
+  },
+  "AncientRelicRecycler": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "AncientParts2": 20,
+      "PalCrystal_Ex": 30,
+      "Wood_WorldTree": 50,
+      "WorldTreeIngot": 50
+    },
+    "name": "Ancient Relic Recycler",
+    "rank": 1
+  },
+  "AncientWorkBench": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "AIcore": 5,
+      "Bio_Battery": 20,
+      "SkyislandIngot": 50
+    },
+    "name": "Ancient Workbench",
+    "rank": 1
+  },
+  "Ancient_AirConditioner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Electricity"
+    },
+    "ingredients": {
+      "AIcore": 10,
+      "Bio_Coolant": 5,
+      "Thermal_Core": 5,
+      "WorldTreeIngot": 30
+    },
+    "name": "Ancient Air Conditioner",
+    "rank": 1
+  },
+  "Ancient_Clinic": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_Medical",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Health"
+    },
+    "ingredients": {
+      "AncientParts2": 10,
+      "Computer": 15,
+      "SkyislandIngot": 50,
+      "WorldTreeHolyWater": 45
+    },
+    "name": "Ancient Clinic",
+    "rank": 1
+  },
+  "Ancient_DiagonalWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Diagonal Wall",
+    "rank": 1
+  },
+  "Ancient_DoorWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Wall and Door",
+    "rank": 1
+  },
+  "Ancient_Fence": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Fence",
+    "rank": 1
+  },
+  "Ancient_MedicalPalBed": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Bed"
+    },
+    "ingredients": {
+      "SkyislandIngot": 10,
+      "Wood_WorldTree": 3,
+      "WorldTreeHolyWater": 2
+    },
+    "name": "Ancient Pal Bed",
+    "rank": 1
+  },
+  "Ancient_Pillars": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Pillar",
+    "rank": 1
+  },
+  "Ancient_PyramidRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Pyramid Roof",
+    "rank": 1
+  },
+  "Ancient_SlantedRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Slanted Roof",
+    "rank": 1
+  },
+  "Ancient_SlopedRoofCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Slanted Triangular Roof",
+    "rank": 1
+  },
+  "Ancient_SlopedRoofCornerReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Slanted Triangular Roof (Inverted)",
+    "rank": 1
+  },
+  "Ancient_Spa": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Health"
+    },
+    "ingredients": {
+      "Bio_Coolant": 20,
+      "Thermal_Core": 20,
+      "WorldTreeHolyWater": 10,
+      "WorldTreeIngot": 100
+    },
+    "name": "Ancient Hot Spring",
+    "rank": 1
+  },
+  "Ancient_TriangleFoundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Triangular Foundation",
+    "rank": 1
+  },
+  "Ancient_TriangleRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Triangular Roof",
+    "rank": 1
+  },
+  "Ancient_TriangleStairsCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Corner Roof",
+    "rank": 1
+  },
+  "Ancient_TriangleWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Triangular Wall",
+    "rank": 1
+  },
+  "Ancient_TriangleWallReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Triangular Wall (Inverted)",
+    "rank": 1
+  },
+  "Ancient_WallGate": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Pal Passage Entrance",
+    "rank": 1
+  },
+  "Ancient_WindowWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Wall and Window",
+    "rank": 1
+  },
+  "Ancient_foundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Foundation",
+    "rank": 1
+  },
+  "Ancient_roof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Roof",
+    "rank": 1
+  },
+  "Ancient_stair": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Stairs",
+    "rank": 1
+  },
+  "Ancient_wall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ancient"
+    },
+    "ingredients": {
+      "SkyislandIngot": 2
+    },
+    "name": "Ancient Wall",
+    "rank": 1
+  },
+  "Andon": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "FireOrgan": 3,
+      "Wood_Fine": 10
+    },
+    "name": "Japanese Paper Lantern",
+    "rank": 1
+  },
+  "ArcadeVideoGame": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 30
+    },
+    "name": "Arcade Game Cabinet",
+    "rank": 1
+  },
+  "Banyan_Big": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Fiber": 10,
+      "Wood": 10
+    },
+    "name": "Banyan_Big",
+    "rank": 1
+  },
+  "Barrel01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "PalFluid": 1
+    },
+    "name": "Red Metal Barrel",
+    "rank": 1
+  },
+  "Barrel02_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "PalFluid": 1
+    },
+    "name": "Blue Metal Barrel",
+    "rank": 1
+  },
+  "Barrel03_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "PalFluid": 1
+    },
+    "name": "Green Metal Barrel",
+    "rank": 1
+  },
+  "Barrel_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "Stone": 5,
+      "Wood": 30
+    },
+    "name": "Wooden Barrel",
+    "rank": 1
+  },
+  "BaseCampBattleDirector": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 5,
+      "Stone": 20
+    },
+    "name": "Alarm Bell",
+    "rank": 1
+  },
+  "BaseCampItemDispenser": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chest"
+    },
+    "ingredients": {
+      "Bio_Battery": 4,
+      "Pal_crystal_S": 30,
+      "StealIngot": 100
+    },
+    "name": "Item Retrieval Machine",
+    "rank": 1
+  },
+  "BaseCampWorkHard": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalManagement"
+    },
+    "ingredients": {
+      "Stone": 10,
+      "Wood": 30
+    },
+    "name": "Monitoring Stand",
+    "rank": 1
+  },
+  "BaseCampWorkHard02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalManagement"
+    },
+    "ingredients": {
+      "Cement": 30,
+      "CopperIngot": 100
+    },
+    "name": "High Quality Monitoring Stand",
+    "rank": 1
+  },
+  "BaseCampWorkHard03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalManagement"
+    },
+    "ingredients": {
+      "AncientParts2": 5,
+      "SkyislandIngot": 100
+    },
+    "name": "Ancient Monitoring Stand",
+    "rank": 1
+  },
+  "BaseCampWorkerExtraStation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalManagement"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "Pal_crystal_S": 30
+    },
+    "name": "Palbox Control Device",
+    "rank": 1
+  },
+  "BathTub_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Cloth": 1,
+      "CopperIngot": 1,
+      "Stone": 20
+    },
+    "name": "Antique Bathtub",
+    "rank": 1
+  },
+  "Believer_Banner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 20,
+      "CopperIngot": 10,
+      "Fiber": 10
+    },
+    "name": "Free Pal Alliance Vertical Banner",
+    "rank": 1
+  },
+  "Believer_Flag": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 20,
+      "Fiber": 10,
+      "Wood": 20
+    },
+    "name": "Free Pal Alliance Standard",
+    "rank": 1
+  },
+  "Bench_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Wood": 10
+    },
+    "name": "Wooden Bench",
+    "rank": 1
+  },
+  "BerrySeeds": {
+    "base": true,
+    "category": null,
+    "ingredients": {},
+    "name": "Berry Seeds",
+    "rank": 1
+  },
+  "BlastFurnace": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Furnace",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Refine"
+    },
+    "ingredients": {
+      "FireOrgan": 3,
+      "Stone": 40,
+      "Wood": 20
+    },
+    "name": "Primitive Furnace",
+    "rank": 1
+  },
+  "BlastFurnace2": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Furnace",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Refine"
+    },
+    "ingredients": {
+      "Bio_Coolant": 5,
+      "Cement": 30,
+      "FireOrgan": 15,
+      "Stone": 100
+    },
+    "name": "Improved Furnace",
+    "rank": 1
+  },
+  "BlastFurnace3": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Furnace",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Refine"
+    },
+    "ingredients": {
+      "Bio_Battery": 4,
+      "Bio_Coolant": 10,
+      "IronIngot": 50,
+      "Polymer": 20
+    },
+    "name": "Electric Furnace",
+    "rank": 1
+  },
+  "BlastFurnace4": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Furnace",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Refine"
+    },
+    "ingredients": {
+      "Computer": 12,
+      "FireOrgan": 200,
+      "Plastic": 150,
+      "Polymer": 100
+    },
+    "name": "Gigantic Furnace",
+    "rank": 1
+  },
+  "Bonsai": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 1,
+      "Wood_Fine": 10
+    },
+    "name": "Bonsai",
+    "rank": 1
+  },
+  "Box01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "Wood": 20
+    },
+    "name": "Small Container",
+    "rank": 1
+  },
+  "Box01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Fiber": 10
+    },
+    "name": "Antique Braided Basket",
+    "rank": 1
+  },
+  "Box02_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "Cloth": 2,
+      "CopperIngot": 10,
+      "Wood": 15
+    },
+    "name": "Cloth Covered Container",
+    "rank": 1
+  },
+  "Box_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "Stone": 5,
+      "Wood": 30
+    },
+    "name": "Wooden Box",
+    "rank": 1
+  },
+  "BreedFarm": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Pal_Breed",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalTraining"
+    },
+    "ingredients": {
+      "Fiber": 50,
+      "Processed_Wood": 10,
+      "Stone": 20
+    },
+    "name": "Breeding Farm",
+    "rank": 1
+  },
+  "BuildableGoddessStatue": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalTraining"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 10,
+      "Stone": 20
+    },
+    "name": "Statue of Power",
+    "rank": 1
+  },
+  "Byobu": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Fiber": 10,
+      "Wood_Fine": 10
+    },
+    "name": "Folding Screen",
+    "rank": 1
+  },
+  "CableCoil01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "Wood": 20
+    },
+    "name": "Cable Reel",
+    "rank": 1
+  },
+  "CampFire": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Cooking"
+    },
+    "ingredients": {
+      "Wood": 10
+    },
+    "name": "Campfire",
+    "rank": 1
+  },
+  "CandleStand": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "FireOrgan": 2
+    },
+    "name": "Majestic Candlestick",
+    "rank": 1
+  },
+  "CarrotSeeds": {
+    "base": true,
+    "category": null,
+    "ingredients": {},
+    "name": "Carrot Seeds",
+    "rank": 1
+  },
+  "Cauldron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "Bio_Coolant": 5,
+      "CopperIngot": 10,
+      "PalOil": 3,
+      "Stone": 20
+    },
+    "name": "Witch Cauldron",
+    "rank": 1
+  },
+  "CeilingLamp": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ceiling"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "ElectricOrgan": 3,
+      "MachineParts": 3
+    },
+    "name": "Ceiling Lamp",
+    "rank": 1
+  },
+  "Chair01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "CopperIngot": 2,
+      "Leather": 1
+    },
+    "name": "Leather Chair",
+    "rank": 1
+  },
+  "Chair01_Pal": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "CopperIngot": 2,
+      "Leather": 2
+    },
+    "name": "Frog Chair",
+    "rank": 1
+  },
+  "Chair01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Wood": 10
+    },
+    "name": "Antique Wooden Chair",
+    "rank": 1
+  },
+  "Chair01_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Wood": 10
+    },
+    "name": "Wooden Chair",
+    "rank": 1
+  },
+  "Chair02_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "CopperIngot": 3
+    },
+    "name": "Iron Chair",
+    "rank": 1
+  },
+  "Chair02_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Venom": 1,
+      "Wood": 10
+    },
+    "name": "Antique Green Wooden Chair",
+    "rank": 1
+  },
+  "CharacterRankUp": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Pal_Modify",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalTraining"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "PalCrystal_Ex": 5,
+      "Pal_crystal_S": 20
+    },
+    "name": "Pal Essence Condenser",
+    "rank": 1
+  },
+  "Clinic": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_Medical",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Health"
+    },
+    "ingredients": {
+      "Cloth": 20,
+      "MachineParts": 15,
+      "Processed_Wood": 10
+    },
+    "name": "Clinic",
+    "rank": 1
+  },
+  "Clock01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "Wood": 30
+    },
+    "name": "Antique Grandfather Clock",
+    "rank": 1
+  },
+  "Clock01_Wall_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallDecoration"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "Pal_crystal_S": 3
+    },
+    "name": "Wall Clock",
+    "rank": 1
+  },
+  "CoalPit": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "Coal": 100,
+      "PalCrystal_Ex": 10,
+      "Pal_crystal_S": 30,
+      "Stone": 70
+    },
+    "name": "Coal Quarry",
+    "rank": 1
+  },
+  "CompositeDesk": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "Charcoal": 30,
+      "HighGrade_Processed_Wood": 10,
+      "IronIngot": 20
+    },
+    "name": "Drafting Table",
+    "rank": 1
+  },
+  "ConservationGroupBannerA": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 10,
+      "Fiber": 5,
+      "Wood": 10
+    },
+    "name": "Free Pal Alliance Flag",
+    "rank": 1
+  },
+  "ConservationGroupBannerB": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 10,
+      "Fiber": 10
+    },
+    "name": "Free Pal Alliance Horizontal Banner",
+    "rank": 1
+  },
+  "Container01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "CopperIngot": 100
+    },
+    "name": "Large Container",
+    "rank": 1
+  },
+  "CookingStove": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Cooking"
+    },
+    "ingredients": {
+      "CopperIngot": 15,
+      "FireOrgan": 3,
+      "Processed_Wood": 5
+    },
+    "name": "Cooking Pot",
+    "rank": 1
+  },
+  "Cooler": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Electricity"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "IceOrgan": 5,
+      "Stone": 20
+    },
+    "name": "Cooler",
+    "rank": 1
+  },
+  "CoolerBox": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chest"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "IceOrgan": 2,
+      "Stone": 10
+    },
+    "name": "Cooler Box",
+    "rank": 1
+  },
+  "CoolerPalFoodBox": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Food_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::FeedBox"
+    },
+    "ingredients": {
+      "Bio_Coolant": 15,
+      "Plastic": 20,
+      "StealIngot": 20
+    },
+    "name": "Cold Food Box",
+    "rank": 1
+  },
+  "CopperPit": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "CopperIngot": 25,
+      "PalCrystal_Ex": 5,
+      "Pal_crystal_S": 20,
+      "Stone": 50
+    },
+    "name": "Ore Mining Site",
+    "rank": 1
+  },
+  "CopperPit_2": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "CopperIngot": 50,
+      "PalCrystal_Ex": 10,
+      "Pal_crystal_S": 40,
+      "Stone": 100
+    },
+    "name": "Ore Mining Site II",
+    "rank": 1
+  },
+  "Counter_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "Stone": 5,
+      "Wood": 30
+    },
+    "name": "Wooden Counter",
+    "rank": 1
+  },
+  "Crusher": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Milling_Crusher"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 10,
+      "Stone": 20,
+      "Wood": 50
+    },
+    "name": "Crusher",
+    "rank": 1
+  },
+  "CrystalPit": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "PalCrystal_Ex": 10,
+      "RainbowCrystal": 100,
+      "Stone": 70
+    },
+    "name": "Hexolite Quartz Mine",
+    "rank": 1
+  },
+  "Curtain01_Wall_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallDecoration"
+    },
+    "ingredients": {
+      "Cloth": 3,
+      "CopperIngot": 1,
+      "Wood": 10
+    },
+    "name": "Antique Curtain",
+    "rank": 1
+  },
+  "DamagedScarecrow": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Pal_crystal_S": 5,
+      "Wood": 20
+    },
+    "name": "Training Dummy",
+    "rank": 1
+  },
+  "DamagedScarecrow_Test": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Pal_crystal_S": 5,
+      "Wood": 20
+    },
+    "name": "DamagedScarecrow_Test",
+    "rank": 1
+  },
+  "DarkIsland_Banner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth2": 20,
+      "Fiber": 10,
+      "IronIngot": 10
+    },
+    "name": "Feybreak Banner",
+    "rank": 1
+  },
+  "DarkIsland_Flag": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth2": 20,
+      "Fiber": 10,
+      "IronIngot": 20
+    },
+    "name": "Feybreak Flag",
+    "rank": 1
+  },
+  "Decal_PalSticker_PinkCat": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Wood": 1
+    },
+    "name": "Tuppanyan sticker",
+    "rank": 1
+  },
+  "DefenseBowGun": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "MachineParts": 5,
+      "Processed_Wood": 3,
+      "Stone": 15
+    },
+    "name": "Mounted Crossbow",
+    "rank": 1
+  },
+  "DefenseMachinegun": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "Cement": 15,
+      "CopperIngot": 15,
+      "MachineParts": 10
+    },
+    "name": "Mounted Machine Gun",
+    "rank": 1
+  },
+  "DefenseMachinegun_AutoTurret": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "Cement": 15,
+      "CopperIngot": 30,
+      "MachineParts": 10
+    },
+    "name": "Ancient Turret",
+    "rank": 1
+  },
+  "DefenseMissile": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "Bio_Battery": 3,
+      "Cement": 30,
+      "Computer": 5,
+      "IronIngot": 20
+    },
+    "name": "Mounted Missile Launcher",
+    "rank": 1
+  },
+  "DefenseWait": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "Stone": 10,
+      "Wood": 10
+    },
+    "name": "Sandbag",
+    "rank": 1
+  },
+  "DefenseWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Barieer"
+    },
+    "ingredients": {
+      "Stone": 10
+    },
+    "name": "Stone Defensive Wall",
+    "rank": 1
+  },
+  "DefenseWall_Metal": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Barieer"
+    },
+    "ingredients": {
+      "Cement": 1,
+      "CopperIngot": 10
+    },
+    "name": "Metal Defensive Wall",
+    "rank": 1
+  },
+  "DefenseWall_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Barieer"
+    },
+    "ingredients": {
+      "Wood": 10
+    },
+    "name": "Wooden Defensive Wall",
+    "rank": 1
+  },
+  "Desk01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "CopperIngot": 15,
+      "Processed_Wood": 2
+    },
+    "name": "Iron Desk",
+    "rank": 1
+  },
+  "Desk01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Stone": 5,
+      "Wood": 20
+    },
+    "name": "Antique Desk",
+    "rank": 1
+  },
+  "DimensionPalStorage": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalManagement"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "PalCrystal_Ex": 5,
+      "Pal_crystal_S": 40
+    },
+    "name": "Dimensional Pal Storage",
+    "rank": 1
+  },
+  "DismantlingConveyor": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Pal_Modify",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalOther"
+    },
+    "ingredients": {
+      "Computer": 15,
+      "MachineParts": 30,
+      "Plastic": 30,
+      "StealIngot": 100
+    },
+    "name": "Pal Disassembly Conveyor",
+    "rank": 1
+  },
+  "DisplayCharacter": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalOther"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 10,
+      "Stone": 20,
+      "Wood": 10
+    },
+    "name": "Viewing Cage",
+    "rank": 1
+  },
+  "ElectricCooler": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Electricity"
+    },
+    "ingredients": {
+      "Bio_Coolant": 10,
+      "IronIngot": 30,
+      "MachineParts2": 10
+    },
+    "name": "Electric Cooler",
+    "rank": 1
+  },
+  "ElectricGenerator": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_GeneratePower",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Electricity"
+    },
+    "ingredients": {
+      "CopperIngot": 50,
+      "ElectricOrgan": 20
+    },
+    "name": "Power Generator",
+    "rank": 1
+  },
+  "ElectricGenerator_Large": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_GeneratePower",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Electricity"
+    },
+    "ingredients": {
+      "ElectricOrgan": 200,
+      "StealIngot": 200
+    },
+    "name": "Large Power Generator",
+    "rank": 1
+  },
+  "ElectricHatchingPalEgg": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Pal_Breed",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalTraining"
+    },
+    "ingredients": {
+      "AncientParts2": 2,
+      "IronIngot": 50,
+      "MachineParts2": 15,
+      "PalCrystal_Ex": 5
+    },
+    "name": "Electric Egg Incubator",
+    "rank": 1
+  },
+  "ElectricHeater": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Electricity"
+    },
+    "ingredients": {
+      "Bio_Coolant": 5,
+      "FireOrgan": 10,
+      "IronIngot": 30,
+      "MachineParts2": 10
+    },
+    "name": "Electric Heater",
+    "rank": 1
+  },
+  "ElectricKitchen": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Cooking"
+    },
+    "ingredients": {
+      "Charcoal": 20,
+      "FireOrgan": 5,
+      "IronIngot": 30,
+      "MachineParts2": 5
+    },
+    "name": "Electric Kitchen",
+    "rank": 1
+  },
+  "EnergyStorage_Electric": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_GeneratePower",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Electricity"
+    },
+    "ingredients": {
+      "Bio_Coolant": 5,
+      "CopperIngot": 50,
+      "Corrosive_Solvent": 5,
+      "ElectricOrgan": 20
+    },
+    "name": "Accumulator",
+    "rank": 1
+  },
+  "Expedition": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalManagement"
+    },
+    "ingredients": {
+      "Cement": 20,
+      "Pal_crystal_S": 20,
+      "Processed_Wood": 10,
+      "Stone": 100
+    },
+    "name": "Pal Expedition Station",
+    "rank": 1
+  },
+  "Factory_Hard_01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "CopperIngot": 8,
+      "MachineParts": 10,
+      "Wood": 20
+    },
+    "name": "High-Quality Workbench",
+    "rank": 1
+  },
+  "Factory_Hard_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "Cement": 10,
+      "CopperIngot": 100,
+      "MachineParts": 20,
+      "Processed_Wood": 5
+    },
+    "name": "Production Assembly Line",
+    "rank": 1
+  },
+  "Factory_Hard_03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "Cement": 30,
+      "Corrosive_Solvent": 5,
+      "IronIngot": 100,
+      "MachineParts2": 10
+    },
+    "name": "Production Assembly Line II",
+    "rank": 1
+  },
+  "Factory_Hard_04": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "Bio_Battery": 20,
+      "Computer": 30,
+      "ManganeseIngot": 50,
+      "StainlessSteel": 50
+    },
+    "name": "Advanced Workshop",
+    "rank": 1
+  },
+  "Factory_Money": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "AIcore": 10,
+      "AncientParts2": 5,
+      "PalCrystal_Ex": 20,
+      "SkyislandIngot": 100
+    },
+    "name": "Gold Coin Assembly Line",
+    "rank": 1
+  },
+  "FarmBlockV2_Berries": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Food_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Farm"
+    },
+    "ingredients": {
+      "BerrySeeds": 3,
+      "Stone": 10,
+      "Wood": 10
+    },
+    "name": "Berry Plantation",
+    "rank": 1
+  },
+  "FarmBlockV2_Carrot": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Food_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Farm"
+    },
+    "ingredients": {
+      "CarrotSeeds": 3,
+      "PalFluid": 1,
+      "Stone": 20,
+      "Wood": 30
+    },
+    "name": "Carrot Plantation",
+    "rank": 1
+  },
+  "FarmBlockV2_Lettuce": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Food_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Farm"
+    },
+    "ingredients": {
+      "LettuceSeeds": 3,
+      "PalFluid": 10,
+      "Stone": 70,
+      "Wood": 100
+    },
+    "name": "Lettuce Plantation",
+    "rank": 1
+  },
+  "FarmBlockV2_Onion": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Food_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Farm"
+    },
+    "ingredients": {
+      "OnionSeeds": 3,
+      "PalFluid": 2,
+      "Stone": 20,
+      "Wood": 30
+    },
+    "name": "Onion Plantation",
+    "rank": 1
+  },
+  "FarmBlockV2_Potato": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Food_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Farm"
+    },
+    "ingredients": {
+      "PalFluid": 3,
+      "PotatoSeeds": 3,
+      "Stone": 20,
+      "Wood": 30
+    },
+    "name": "Potato Plantation",
+    "rank": 1
+  },
+  "FarmBlockV2_tomato": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Food_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Farm"
+    },
+    "ingredients": {
+      "PalFluid": 5,
+      "Stone": 50,
+      "TomatoSeeds": 3,
+      "Wood": 70
+    },
+    "name": "Tomato Plantation",
+    "rank": 1
+  },
+  "FarmBlockV2_wheet": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Food_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Farm"
+    },
+    "ingredients": {
+      "Stone": 15,
+      "WheatSeeds": 3,
+      "Wood": 15
+    },
+    "name": "Wheat Plantation",
+    "rank": 1
+  },
+  "Farm_SkillFruits": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Farm"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 500,
+      "SkyIslandOre": 150,
+      "Wood_WorldTree": 200
+    },
+    "name": "Skillfruit Orchard",
+    "rank": 1
+  },
+  "FastTravelPoint": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 5,
+      "Stone": 10
+    },
+    "name": "Great Eagle Statue",
+    "rank": 1
+  },
+  "FireCult_Banner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 20,
+      "CopperIngot": 10,
+      "Fiber": 10
+    },
+    "name": "Brothers of the Eternal Pyre Vertical Banner",
+    "rank": 1
+  },
+  "FireCult_Flag": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 20,
+      "CopperIngot": 20,
+      "Fiber": 10
+    },
+    "name": "Brothers of the Eternal Pyre Standard",
+    "rank": 1
+  },
+  "FireStand": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "Charcoal": 2,
+      "CopperIngot": 5,
+      "FireOrgan": 2
+    },
+    "name": "Ceremonial Candlestick",
+    "rank": 1
+  },
+  "FishingPond1": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::FishingPond"
+    },
+    "ingredients": {
+      "Bio_Coolant": 3,
+      "Cement": 30,
+      "Processed_Wood": 15
+    },
+    "name": "Fishing Pond",
+    "rank": 1
+  },
+  "FishingPond2": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::FishingPond"
+    },
+    "ingredients": {
+      "HighGrade_Processed_Wood": 20,
+      "ManganeseIngot": 10,
+      "PalOil": 20,
+      "Stone": 30
+    },
+    "name": "Large Fishing Pond",
+    "rank": 1
+  },
+  "FlourMill": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Milling_Crusher"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "Processed_Wood": 10,
+      "Stone": 40
+    },
+    "name": "Mill",
+    "rank": 1
+  },
+  "FlowerBed": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "Cement": 20,
+      "Poppy": 10,
+      "Stone": 50,
+      "Wood": 30
+    },
+    "name": "Flower Bed",
+    "rank": 1
+  },
+  "Fountain": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "PalFluid": 8,
+      "Stone": 50
+    },
+    "name": "Water Fountain",
+    "rank": 1
+  },
+  "Fudukue": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "Wood_Fine": 10
+    },
+    "name": "Japanese Writing Table",
+    "rank": 1
+  },
+  "FurnitureBush01_Flower": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Fiber": 20
+    },
+    "name": "Faux Flowering Bush A",
+    "rank": 1
+  },
+  "FurnitureBush01_Green": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Bush",
+    "rank": 1
+  },
+  "FurnitureBush01_Snow": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Fiber": 20
+    },
+    "name": "Faux White Bush",
+    "rank": 1
+  },
+  "FurnitureBush01_Tropical": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Fiber": 20
+    },
+    "name": "Faux Tropical Bush",
+    "rank": 1
+  },
+  "FurnitureBush01_Yellow": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Fiber": 20
+    },
+    "name": "Faux Golden Bush",
+    "rank": 1
+  },
+  "FurnitureBush02_Flower": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Fiber": 20
+    },
+    "name": "Faux Flowering Bush B",
+    "rank": 1
+  },
+  "FurnitureStone01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Stone": 20
+    },
+    "name": "Faux Rock",
+    "rank": 1
+  },
+  "FurnitureTree01_Bamboo": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Bamboo A",
+    "rank": 1
+  },
+  "FurnitureTree01_Cherry": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Cherry Blossoms A",
+    "rank": 1
+  },
+  "FurnitureTree01_Desert": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Desert Greenery A",
+    "rank": 1
+  },
+  "FurnitureTree01_Green": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Greenery A",
+    "rank": 1
+  },
+  "FurnitureTree01_Red": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Crimson Foliage A",
+    "rank": 1
+  },
+  "FurnitureTree01_Snow": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Snowy Greenery A",
+    "rank": 1
+  },
+  "FurnitureTree01_Tropical": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Tropical Greenery A",
+    "rank": 1
+  },
+  "FurnitureTree01_Yellow": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Golden Foliage A",
+    "rank": 1
+  },
+  "FurnitureTree02_Bamboo": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Bamboo B",
+    "rank": 1
+  },
+  "FurnitureTree02_Cherry": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Cherry Blossoms B",
+    "rank": 1
+  },
+  "FurnitureTree02_Desert": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Desert Greenery B",
+    "rank": 1
+  },
+  "FurnitureTree02_Green": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Greenery B",
+    "rank": 1
+  },
+  "FurnitureTree02_Red": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Crimson Foliage B",
+    "rank": 1
+  },
+  "FurnitureTree02_Snow": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Snowy Greenery B",
+    "rank": 1
+  },
+  "FurnitureTree02_Tropical": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Tropical Greenery B",
+    "rank": 1
+  },
+  "FurnitureTree02_Yellow": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Golden Foliage B",
+    "rank": 1
+  },
+  "FurnitureTree03_Bamboo": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Bamboo C",
+    "rank": 1
+  },
+  "FurnitureTree03_Cherry": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Cherry Blossoms C",
+    "rank": 1
+  },
+  "FurnitureTree03_Desert": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Desert Greenery C",
+    "rank": 1
+  },
+  "FurnitureTree03_Green": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Greenery C",
+    "rank": 1
+  },
+  "FurnitureTree03_Red": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Crimson Foliage C",
+    "rank": 1
+  },
+  "FurnitureTree03_Snow": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Snowy Greenery C",
+    "rank": 1
+  },
+  "FurnitureTree03_Tropical": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood_Fine": 20
+    },
+    "name": "Faux Tropical Greenery C",
+    "rank": 1
+  },
+  "FurnitureTree03_Yellow": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Faux Golden Foliage C",
+    "rank": 1
+  },
+  "GarbageBag_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Stone": 5,
+      "Wood": 5
+    },
+    "name": "Garbage Bag",
+    "rank": 1
+  },
+  "Glass_DiagonalWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Diagonal Wall",
+    "rank": 1
+  },
+  "Glass_DoorWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Wall and Door",
+    "rank": 1
+  },
+  "Glass_Fence": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 1,
+      "Stone": 3
+    },
+    "name": "Glass Fence",
+    "rank": 1
+  },
+  "Glass_PyramidRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Pyramid Roof",
+    "rank": 1
+  },
+  "Glass_SlantedRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Slanted Roof",
+    "rank": 1
+  },
+  "Glass_SlopedRoofCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Slanted Triangular Roof",
+    "rank": 1
+  },
+  "Glass_SlopedRoofCornerReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Slanted Corner Roof (Inverted)",
+    "rank": 1
+  },
+  "Glass_TriangleFoundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Triangular Foundation",
+    "rank": 1
+  },
+  "Glass_TriangleRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Triangular Roof",
+    "rank": 1
+  },
+  "Glass_TriangleStairsCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Corner Roof",
+    "rank": 1
+  },
+  "Glass_TriangleWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Triangular Wall",
+    "rank": 1
+  },
+  "Glass_TriangleWallReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Triangular Wall (Inverted)",
+    "rank": 1
+  },
+  "Glass_WallGate": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Pal Passage Entrance",
+    "rank": 1
+  },
+  "Glass_WindowWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Wall and Window",
+    "rank": 1
+  },
+  "Glass_foundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Foundation",
+    "rank": 1
+  },
+  "Glass_pillars": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass_pillars",
+    "rank": 1
+  },
+  "Glass_roof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Roof",
+    "rank": 1
+  },
+  "Glass_stair": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Stairs",
+    "rank": 1
+  },
+  "Glass_wall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Glass"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 1
+    },
+    "name": "Glass Wall",
+    "rank": 1
+  },
+  "GlobalPalStorage": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalManagement"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 3,
+      "Stone": 15,
+      "Wood": 5
+    },
+    "name": "Global Palbox",
+    "rank": 1
+  },
+  "Globe01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Wood": 50
+    },
+    "name": "Antique Globe",
+    "rank": 1
+  },
+  "GoalSoccer_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "Fiber": 20
+    },
+    "name": "Soccer Goal",
+    "rank": 1
+  },
+  "GuardianDogStatue": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Stone": 70
+    },
+    "name": "Yakumo Statue",
+    "rank": 1
+  },
+  "GuildChest": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Storage",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chest"
+    },
+    "ingredients": {
+      "IronIngot": 50,
+      "PalCrystal_Ex": 10,
+      "Pal_crystal_S": 100
+    },
+    "name": "Guild Chest",
+    "rank": 1
+  },
+  "HatchingPalEgg": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Pal_Breed",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalTraining"
+    },
+    "ingredients": {
+      "Cloth": 5,
+      "PalCrystal_Ex": 2,
+      "Pal_crystal_S": 10,
+      "Stone": 30
+    },
+    "name": "Egg Incubator",
+    "rank": 1
+  },
+  "Headstone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Stone": 10
+    },
+    "name": "Tombstone",
+    "rank": 1
+  },
+  "Heater": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Electricity"
+    },
+    "ingredients": {
+      "Charcoal": 10,
+      "CopperIngot": 20,
+      "FireOrgan": 5
+    },
+    "name": "Heater",
+    "rank": 1
+  },
+  "HugeKitchen": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Cooking"
+    },
+    "ingredients": {
+      "Bio_Coolant": 13,
+      "Cement": 200,
+      "Charcoal": 200,
+      "HighGrade_Processed_Wood": 25
+    },
+    "name": "Large-Scale Stone Oven",
+    "rank": 1
+  },
+  "Hunter_Banner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 20,
+      "CopperIngot": 10,
+      "Fiber": 10
+    },
+    "name": "Rayne Syndicate Vertical Banner",
+    "rank": 1
+  },
+  "Hunter_Flag": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 20,
+      "CopperIngot": 20,
+      "Fiber": 10
+    },
+    "name": "Rayne Syndicate Standard",
+    "rank": 1
+  },
+  "Hunter_GangFlag": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 2,
+      "Wood": 10
+    },
+    "name": "Rayne Syndicate Flag",
+    "rank": 1
+  },
+  "IceCrusher": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Milling_Crusher"
+    },
+    "ingredients": {
+      "Bio_Coolant": 25,
+      "Corrosive_Solvent": 20,
+      "Plastic": 30,
+      "StealIngot": 50
+    },
+    "name": "Cryogenic Crusher",
+    "rank": 1
+  },
+  "IceHorseStatue": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Stone": 100
+    },
+    "name": "Frostallion Statue",
+    "rank": 1
+  },
+  "Iron_DiagonalWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Diagonal Wall",
+    "rank": 1
+  },
+  "Iron_Fence": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 3
+    },
+    "name": "Metal Fence",
+    "rank": 1
+  },
+  "Iron_PyramidRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Pyramid Roof",
+    "rank": 1
+  },
+  "Iron_SlopedRoofCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Slanted Triangular Roof",
+    "rank": 1
+  },
+  "Iron_SlopedRoofCornerReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Slanted Corner Roof (Inverted)",
+    "rank": 1
+  },
+  "Iron_TriangleFoundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Triangular Foundation",
+    "rank": 1
+  },
+  "Iron_TriangleRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Triangular Roof",
+    "rank": 1
+  },
+  "Iron_TriangleStairsCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Corner Roof",
+    "rank": 1
+  },
+  "Iron_TriangleWallReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Triangular Wall (Inverted)",
+    "rank": 1
+  },
+  "Iron_WallGate": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Pal Passage Entrance",
+    "rank": 1
+  },
+  "Irori": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Charcoal": 2,
+      "CopperIngot": 3,
+      "Wood_Fine": 10
+    },
+    "name": "Japanese Hearth",
+    "rank": 1
+  },
+  "ItemBooth": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Cloth": 3,
+      "CopperIngot": 20,
+      "Processed_Wood": 4
+    },
+    "name": "Flea Market (Items)",
+    "rank": 1
+  },
+  "ItemChest": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Storage",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chest"
+    },
+    "ingredients": {
+      "Stone": 5,
+      "Wood": 15
+    },
+    "name": "Wooden Chest",
+    "rank": 1
+  },
+  "ItemChest_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Storage",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chest"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "Wood": 10
+    },
+    "name": "Metal Chest",
+    "rank": 1
+  },
+  "ItemChest_03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Storage",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chest"
+    },
+    "ingredients": {
+      "IronIngot": 5,
+      "MachineParts": 10,
+      "Wood_Fine": 10
+    },
+    "name": "Refined Metal Chest",
+    "rank": 1
+  },
+  "ItemChest_04": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Storage",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chest"
+    },
+    "ingredients": {
+      "CarbonFiber": 20,
+      "Computer": 2,
+      "StainlessSteel": 20
+    },
+    "name": "Advanced Chest",
+    "rank": 1
+  },
+  "Ivy01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallDecoration"
+    },
+    "ingredients": {
+      "Fiber": 10
+    },
+    "name": "Big Wall Ivy",
+    "rank": 1
+  },
+  "Ivy02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallDecoration"
+    },
+    "ingredients": {
+      "Fiber": 5
+    },
+    "name": "Small Wall Ivy",
+    "rank": 1
+  },
+  "Ivy03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallDecoration"
+    },
+    "ingredients": {
+      "Fiber": 5
+    },
+    "name": "Horizontal Wall Ivy",
+    "rank": 1
+  },
+  "JapaneseStyle_DiagonalWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Diagonal Wall",
+    "rank": 1
+  },
+  "JapaneseStyle_DoorWall_01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Door A",
+    "rank": 1
+  },
+  "JapaneseStyle_DoorWall_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Door B",
+    "rank": 1
+  },
+  "JapaneseStyle_DoorWall_03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Door C",
+    "rank": 1
+  },
+  "JapaneseStyle_Fence": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 5
+    },
+    "name": "Japanese-Style Fence",
+    "rank": 1
+  },
+  "JapaneseStyle_Pillar": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Pillar",
+    "rank": 1
+  },
+  "JapaneseStyle_PyramidRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Pyramid Roof",
+    "rank": 1
+  },
+  "JapaneseStyle_SlantedRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Slanted Roof",
+    "rank": 1
+  },
+  "JapaneseStyle_SlopedRoofCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Slanted Triangular Roof",
+    "rank": 1
+  },
+  "JapaneseStyle_SlopedRoofCornerReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Slanted Corner Roof (Inverted)",
+    "rank": 1
+  },
+  "JapaneseStyle_TriangleFoundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Triangular Foundation",
+    "rank": 1
+  },
+  "JapaneseStyle_TriangleRoof_01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Triangular Roof A",
+    "rank": 1
+  },
+  "JapaneseStyle_TriangleRoof_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Triangular Roof B",
+    "rank": 1
+  },
+  "JapaneseStyle_TriangleStairsCorner_01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Corner Roof",
+    "rank": 1
+  },
+  "JapaneseStyle_TriangleStairsCorner_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "en Text",
+    "rank": 1
+  },
+  "JapaneseStyle_TriangleWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Triangular Wall",
+    "rank": 1
+  },
+  "JapaneseStyle_TriangleWallReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Triangular Wall (Inverted)",
+    "rank": 1
+  },
+  "JapaneseStyle_WallGate": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Pal Passage Entrance",
+    "rank": 1
+  },
+  "JapaneseStyle_WindowWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Wall and Window",
+    "rank": 1
+  },
+  "JapaneseStyle_foundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Foundation",
+    "rank": 1
+  },
+  "JapaneseStyle_roof_01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Roof A",
+    "rank": 1
+  },
+  "JapaneseStyle_roof_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Roof B",
+    "rank": 1
+  },
+  "JapaneseStyle_stair": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Stairs",
+    "rank": 1
+  },
+  "JapaneseStyle_wall_01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::JapaneseStyle"
+    },
+    "ingredients": {
+      "Wood_Fine": 4
+    },
+    "name": "Japanese-Style Wall",
+    "rank": 1
+  },
+  "JetDragonStatue": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Stone": 100
+    },
+    "name": "Jetragon Statue",
+    "rank": 1
+  },
+  "Kakejiku": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallDecoration"
+    },
+    "ingredients": {
+      "Fiber": 10,
+      "Wood_Fine": 10
+    },
+    "name": "Hanging Scroll",
+    "rank": 1
+  },
+  "Koro": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 3,
+      "Wood": 5
+    },
+    "name": "Incense Burner",
+    "rank": 1
+  },
+  "Lab": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalManagement"
+    },
+    "ingredients": {
+      "CopperIngot": 30,
+      "Pal_crystal_S": 30
+    },
+    "name": "Pal Labor Research Lab",
+    "rank": 1
+  },
+  "Lamp": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "ElectricOrgan": 3,
+      "MachineParts": 3,
+      "Wood": 20
+    },
+    "name": "Lamp",
+    "rank": 1
+  },
+  "LanternTop": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ceiling"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "ElectricOrgan": 2
+    },
+    "name": "Paper Lantern",
+    "rank": 1
+  },
+  "LargeCeilingLamp": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ceiling"
+    },
+    "ingredients": {
+      "Bio_Battery": 1,
+      "IronIngot": 30,
+      "MachineParts": 5,
+      "MachineParts2": 5
+    },
+    "name": "Large Ceiling Lamp",
+    "rank": 1
+  },
+  "LargeLamp": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "Bio_Battery": 1,
+      "IronIngot": 30,
+      "MachineParts": 5,
+      "MachineParts2": 5
+    },
+    "name": "Large Mounted Lamp",
+    "rank": 1
+  },
+  "LettuceSeeds": {
+    "base": true,
+    "category": null,
+    "ingredients": {},
+    "name": "Lettuce Seeds",
+    "rank": 1
+  },
+  "Light_CandleSticks_Top": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ceiling"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "ElectricOrgan": 3,
+      "MachineParts": 3
+    },
+    "name": "Chandelier",
+    "rank": 1
+  },
+  "Light_CandleSticks_Wall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallHanging"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "ElectricOrgan": 2,
+      "MachineParts": 2
+    },
+    "name": "Wall Lamp",
+    "rank": 1
+  },
+  "Light_FirePlace01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "Stone": 15,
+      "Wood": 30
+    },
+    "name": "Brick Fireplace",
+    "rank": 1
+  },
+  "Light_FirePlace02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "Stone": 30,
+      "Wood": 15
+    },
+    "name": "Fireplace",
+    "rank": 1
+  },
+  "Light_FloorLamp01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "ElectricOrgan": 3,
+      "MachineParts": 3,
+      "Wood": 30
+    },
+    "name": "Antique Brown Floor Lamp",
+    "rank": 1
+  },
+  "Light_FloorLamp02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "ElectricOrgan": 3,
+      "MachineParts": 3,
+      "Wood": 30
+    },
+    "name": "Antique Red Floor Lamp",
+    "rank": 1
+  },
+  "Light_LightPole01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "ElectricOrgan": 3,
+      "MachineParts": 3
+    },
+    "name": "Simple Street Lamp",
+    "rank": 1
+  },
+  "Light_LightPole02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "ElectricOrgan": 3,
+      "MachineParts": 3
+    },
+    "name": "Double Street Lamp",
+    "rank": 1
+  },
+  "Light_LightPole03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "ElectricOrgan": 3,
+      "MachineParts": 3
+    },
+    "name": "Retro Street Lamp",
+    "rank": 1
+  },
+  "Light_LightPole04": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "ElectricOrgan": 3,
+      "MachineParts": 3
+    },
+    "name": "Stylish Street Lamp",
+    "rank": 1
+  },
+  "LilyQueenStatue": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Stone": 100
+    },
+    "name": "Lyleen Statue",
+    "rank": 1
+  },
+  "MachineGame01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Cloth": 5,
+      "CopperIngot": 30
+    },
+    "name": "Claw Machine",
+    "rank": 1
+  },
+  "MachineVending01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 30,
+      "IceOrgan": 2
+    },
+    "name": "Cola Vending Machine",
+    "rank": 1
+  },
+  "ManualElectricGenerator": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_GeneratePower",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Electricity"
+    },
+    "ingredients": {
+      "ElectricOrgan": 5,
+      "Processed_Wood": 5
+    },
+    "name": "Human-Powered Generator",
+    "rank": 1
+  },
+  "MedicalPalBed_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Bed"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Wood": 10
+    },
+    "name": "Straw Pal Bed",
+    "rank": 1
+  },
+  "MedicalPalBed_03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Bed"
+    },
+    "ingredients": {
+      "Cloth": 5,
+      "Fiber": 10,
+      "MachineParts": 5,
+      "Processed_Wood": 3
+    },
+    "name": "Fluffy Pal Bed",
+    "rank": 1
+  },
+  "MedicalPalBed_04": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Bed"
+    },
+    "ingredients": {
+      "Cloth2": 5,
+      "Fiber": 20,
+      "MachineParts": 20,
+      "Wood_Fine": 5
+    },
+    "name": "Large Pal Bed",
+    "rank": 1
+  },
+  "MedicalPalBed_05": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Bed"
+    },
+    "ingredients": {
+      "Bio_Coolant": 6,
+      "Computer": 3,
+      "StealIngot": 10
+    },
+    "name": "Pal Pod",
+    "rank": 1
+  },
+  "MedicineFacility_01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Medicine",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Medicine"
+    },
+    "ingredients": {
+      "MachineParts": 5,
+      "Pal_crystal_S": 10,
+      "Wood": 30
+    },
+    "name": "Medieval Medicine Workbench",
+    "rank": 1
+  },
+  "MedicineFacility_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Medicine",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Medicine"
+    },
+    "ingredients": {
+      "CarbonFiber": 10,
+      "IronIngot": 40,
+      "MachineParts2": 10
+    },
+    "name": "Electric Medicine Workbench",
+    "rank": 1
+  },
+  "MedicineFacility_03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Medicine",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Medicine"
+    },
+    "ingredients": {
+      "MachineParts2": 30,
+      "Plastic": 50,
+      "StainlessSteel": 50
+    },
+    "name": "Advanced Medicine Workbench",
+    "rank": 1
+  },
+  "Metal_DoorWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Door",
+    "rank": 1
+  },
+  "Metal_Gate": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Barieer"
+    },
+    "ingredients": {
+      "Cement": 1,
+      "CopperIngot": 10
+    },
+    "name": "Iron Gate",
+    "rank": 1
+  },
+  "Metal_SlantedRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Slanted Roof",
+    "rank": 1
+  },
+  "Metal_TriangleWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Triangular Wall",
+    "rank": 1
+  },
+  "Metal_WindowWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Wall and Window",
+    "rank": 1
+  },
+  "Metal_foundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Foundation",
+    "rank": 1
+  },
+  "Metal_pillars": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal_pillars",
+    "rank": 1
+  },
+  "Metal_roof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Roof",
+    "rank": 1
+  },
+  "Metal_stair": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Stairs",
+    "rank": 1
+  },
+  "Metal_wall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Metal"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Stone": 2
+    },
+    "name": "Metal Wall",
+    "rank": 1
+  },
+  "MiningTool": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "CopperIngot": 15,
+      "Stone": 50,
+      "Wood": 20
+    },
+    "name": "Mining Cart",
+    "rank": 1
+  },
+  "Mirror01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 10,
+      "Wood": 10
+    },
+    "name": "Antique Oval Mirror",
+    "rank": 1
+  },
+  "Mirror01_Wall_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallDecoration"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 2,
+      "Stone": 10,
+      "Wood": 10
+    },
+    "name": "Antique Wall Mirror",
+    "rank": 1
+  },
+  "Mirror02_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 1,
+      "Stone": 8,
+      "Wood": 10
+    },
+    "name": "Antique Mirror",
+    "rank": 1
+  },
+  "MonsterFarm": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Pal_Breed",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalTraining"
+    },
+    "ingredients": {
+      "Fiber": 30,
+      "Stone": 20,
+      "Wood": 30
+    },
+    "name": "Ranch",
+    "rank": 1
+  },
+  "MultiElectricHatchingPalEgg": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Pal_Breed",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalTraining"
+    },
+    "ingredients": {
+      "AncientParts2": 20,
+      "MachineParts2": 50,
+      "PalCrystal_Ex": 30,
+      "StainlessSteel": 100
+    },
+    "name": "Large-Scale Electric Egg Incubator",
+    "rank": 1
+  },
+  "MultiElectricHatchingPalEggWithBreed": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Pal_Breed",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalTraining"
+    },
+    "ingredients": {
+      "AIcore": 50,
+      "AncientParts2": 20,
+      "PalCrystal_Ex": 30,
+      "WorldTreeIngot": 100
+    },
+    "name": "Ancient Hatchery",
+    "rank": 1
+  },
+  "MultiHatchingPalEgg": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Pal_Breed",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalTraining"
+    },
+    "ingredients": {
+      "AncientParts2": 4,
+      "Cloth2": 20,
+      "PalCrystal_Ex": 20,
+      "StealIngot": 50
+    },
+    "name": "Large Incubator",
+    "rank": 1
+  },
+  "Ninja_Banner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth2": 20,
+      "Fiber": 10,
+      "IronIngot": 10
+    },
+    "name": "Moonflower Vertical Banner",
+    "rank": 1
+  },
+  "Ninja_Flag": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth2": 20,
+      "Fiber": 10,
+      "IronIngot": 20
+    },
+    "name": "Moonflower Standard",
+    "rank": 1
+  },
+  "OilPump": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "MachineParts2": 50,
+      "StealIngot": 250
+    },
+    "name": "Crude Oil Extractor",
+    "rank": 1
+  },
+  "OilPump02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "Bio_Battery": 50,
+      "MachineParts2": 50,
+      "PalCrystal_Ex": 10,
+      "StealIngot": 300
+    },
+    "name": "High-Pressure Crude Oil Extractor",
+    "rank": 1
+  },
+  "OlympicCauldron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "FireOrgan": 5,
+      "Wood": 30
+    },
+    "name": "Flame Cauldron",
+    "rank": 1
+  },
+  "OperatingTable": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalTraining"
+    },
+    "ingredients": {
+      "Cloth2": 20,
+      "Corrosive_Solvent": 10,
+      "IronIngot": 30
+    },
+    "name": "Pal Surgery Table",
+    "rank": 1
+  },
+  "PalBooth": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "Pal_crystal_S": 5,
+      "Processed_Wood": 4
+    },
+    "name": "Flea Market (Pals)",
+    "rank": 1
+  },
+  "PalBoxV2": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalManagement"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 1,
+      "Stone": 3,
+      "Wood": 8
+    },
+    "name": "Palbox",
+    "rank": 1
+  },
+  "PalCage": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Fiber": 10,
+      "Wood": 10
+    },
+    "name": "Aerial Cage",
+    "rank": 1
+  },
+  "PalFoodBox": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Food",
+      "typeB": "EPalBuildObjectTypeB::Food_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::FeedBox"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Feed Box",
+    "rank": 1
+  },
+  "PalMedicineBox": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Food_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Health"
+    },
+    "ingredients": {
+      "Cloth": 5,
+      "CopperIngot": 20,
+      "Processed_Wood": 3
+    },
+    "name": "Medicine Rack",
+    "rank": 1
+  },
+  "Partition_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Antique Partition",
+    "rank": 1
+  },
+  "Piano01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "Fiber": 20,
+      "Processed_Wood": 10
+    },
+    "name": "Grand Piano",
+    "rank": 1
+  },
+  "Piano02_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "Fiber": 20,
+      "Processed_Wood": 10
+    },
+    "name": "Upright Piano",
+    "rank": 1
+  },
+  "PipeClay01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Cement": 5
+    },
+    "name": "Earthen Pipe",
+    "rank": 1
+  },
+  "Plant01_Plant": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Wood": 10
+    },
+    "name": "Houseplant",
+    "rank": 1
+  },
+  "Plant02_Plant": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Wood": 10
+    },
+    "name": "Houseplant and Chair",
+    "rank": 1
+  },
+  "Plant03_Plant": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Stone": 10
+    },
+    "name": "Tabletop Houseplant",
+    "rank": 1
+  },
+  "Plant04_Plant": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Stone": 5
+    },
+    "name": "Potted Houseplant",
+    "rank": 1
+  },
+  "PlayerBed_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_Medical",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Bed"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Wood": 20,
+      "Wool": 1
+    },
+    "name": "Shoddy Bed",
+    "rank": 1
+  },
+  "PlayerBed_03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Infra_Medical",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Bed"
+    },
+    "ingredients": {
+      "Cloth": 10,
+      "Fiber": 20,
+      "MachineParts": 10,
+      "Wood": 50
+    },
+    "name": "Fine Bed",
+    "rank": 1
+  },
+  "Police_Banner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 20,
+      "Fiber": 10,
+      "IronIngot": 10
+    },
+    "name": "PIDF Vertical Banner",
+    "rank": 1
+  },
+  "Police_Flag": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth": 20,
+      "Fiber": 10,
+      "IronIngot": 20
+    },
+    "name": "PIDF Standard",
+    "rank": 1
+  },
+  "PotatoSeeds": {
+    "base": true,
+    "category": null,
+    "ingredients": {},
+    "name": "Potato Seeds",
+    "rank": 1
+  },
+  "QuartzPit": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "PalCrystal_Ex": 10,
+      "Pal_crystal_S": 30,
+      "Quartz": 100,
+      "Stone": 70
+    },
+    "name": "Pure Quartz Quarry",
+    "rank": 1
+  },
+  "Refrigerator": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chest"
+    },
+    "ingredients": {
+      "Bio_Coolant": 10,
+      "IronIngot": 50,
+      "MachineParts2": 5,
+      "Polymer": 20
+    },
+    "name": "Refrigerator",
+    "rank": 1
+  },
+  "RepairBench": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "Stone": 10,
+      "Wood": 10
+    },
+    "name": "Repair Bench",
+    "rank": 1
+  },
+  "Rug01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Carpet"
+    },
+    "ingredients": {
+      "Cloth": 3,
+      "Venom": 1
+    },
+    "name": "Antique Carpet",
+    "rank": 1
+  },
+  "Rug02_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Carpet"
+    },
+    "ingredients": {
+      "Cloth": 2,
+      "FireOrgan": 1
+    },
+    "name": "Antique Red Carpet",
+    "rank": 1
+  },
+  "Rug03_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Carpet"
+    },
+    "ingredients": {
+      "Cloth": 2,
+      "PalOil": 1
+    },
+    "name": "Antique Green Carpet",
+    "rank": 1
+  },
+  "Rug04_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Carpet"
+    },
+    "ingredients": {
+      "Cloth": 1,
+      "FireOrgan": 1
+    },
+    "name": "Antique Long Carpet",
+    "rank": 1
+  },
+  "Rug_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Carpet"
+    },
+    "ingredients": {
+      "Wood": 1
+    },
+    "name": "Fur rug",
+    "rank": 1
+  },
+  "SF_Chair": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Polymer": 10
+    },
+    "name": "Laboratory Chair",
+    "rank": 1
+  },
+  "SF_Desk": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "Polymer": 15
+    },
+    "name": "Laboratory Desk",
+    "rank": 1
+  },
+  "SF_DiagonalWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Diagonal Wall",
+    "rank": 1
+  },
+  "SF_DoorWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Wall and Door",
+    "rank": 1
+  },
+  "SF_Fence": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 2
+    },
+    "name": "Clean Fence",
+    "rank": 1
+  },
+  "SF_PyramidRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Pyramid Roof",
+    "rank": 1
+  },
+  "SF_SlantedRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Slanted Roof",
+    "rank": 1
+  },
+  "SF_SlopedRoofCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Slanted Triangular Roof",
+    "rank": 1
+  },
+  "SF_SlopedRoofCornerReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Slanted Corner Roof (Inverted)",
+    "rank": 1
+  },
+  "SF_TriangleFoundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Triangular Foundation",
+    "rank": 1
+  },
+  "SF_TriangleRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Triangular Roof",
+    "rank": 1
+  },
+  "SF_TriangleStairsCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Corner Roof",
+    "rank": 1
+  },
+  "SF_TriangleWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Triangular Wall",
+    "rank": 1
+  },
+  "SF_TriangleWallReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Triangular Wall (Inverted)",
+    "rank": 1
+  },
+  "SF_WallGate": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Pal Passage Entrance",
+    "rank": 1
+  },
+  "SF_WindowWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Wall and Window",
+    "rank": 1
+  },
+  "SF_foundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Foundation",
+    "rank": 1
+  },
+  "SF_pillars": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "SF_pillars",
+    "rank": 1
+  },
+  "SF_roof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Roof",
+    "rank": 1
+  },
+  "SF_stair": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Stairs",
+    "rank": 1
+  },
+  "SF_wall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Clean"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Clean Wall",
+    "rank": 1
+  },
+  "SanityDecrease1": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "Corrosive_Solvent": 10,
+      "IronIngot": 40,
+      "MachineParts2": 20,
+      "Pal_crystal_S": 20
+    },
+    "name": "Alpha Wave Generator",
+    "rank": 1
+  },
+  "Scientist_Banner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth2": 20,
+      "Fiber": 10,
+      "IronIngot": 10
+    },
+    "name": "PAL Genetic Research Unit Vertical Banner",
+    "rank": 1
+  },
+  "Scientist_Flag": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth2": 20,
+      "Fiber": 10,
+      "IronIngot": 20
+    },
+    "name": "PAL Genetic Research Unit Standard",
+    "rank": 1
+  },
+  "Seika": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Houseplants"
+    },
+    "ingredients": {
+      "Poppy": 1,
+      "Wood_Fine": 10
+    },
+    "name": "Flower Arrangement",
+    "rank": 1
+  },
+  "Shelf01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "MachineParts": 1
+    },
+    "name": "Iron Shelf",
+    "rank": 1
+  },
+  "Shelf01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "MachineParts": 2,
+      "Wood": 40
+    },
+    "name": "Antique Bookshelf",
+    "rank": 1
+  },
+  "Shelf01_Wall_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "Wood": 5
+    },
+    "name": "Iron Wall Shelf",
+    "rank": 1
+  },
+  "Shelf01_Wall_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "Berries": 3,
+      "Stone": 5,
+      "Wood": 20
+    },
+    "name": "Antique Wall Cabinet",
+    "rank": 1
+  },
+  "Shelf02_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "MachineParts": 2
+    },
+    "name": "Long Iron Shelf",
+    "rank": 1
+  },
+  "Shelf02_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "MachineParts": 5,
+      "Wood": 70
+    },
+    "name": "Antique Wardrobe",
+    "rank": 1
+  },
+  "Shelf03_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "CopperIngot": 30,
+      "MachineParts": 3
+    },
+    "name": "Orange Locker",
+    "rank": 1
+  },
+  "Shelf03_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "Wood": 30
+    },
+    "name": "Antique Chest",
+    "rank": 1
+  },
+  "Shelf04_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "CopperIngot": 30,
+      "MachineParts": 3
+    },
+    "name": "Locker",
+    "rank": 1
+  },
+  "Shelf04_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "CopperIngot": 3,
+      "Wood": 10
+    },
+    "name": "Antique Side Chest",
+    "rank": 1
+  },
+  "Shelf05_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "Fiber": 10,
+      "Wood": 30
+    },
+    "name": "Antique Cabinet",
+    "rank": 1
+  },
+  "Shelf06_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "Fiber": 10,
+      "Wood": 40
+    },
+    "name": "Antique Long Cabinet",
+    "rank": 1
+  },
+  "Shelf07_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "CopperIngot": 3,
+      "Fiber": 10,
+      "Wood": 40
+    },
+    "name": "Large Antique Cabinet",
+    "rank": 1
+  },
+  "Shelf_Cask_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "Stone": 10,
+      "Wood": 70
+    },
+    "name": "Wooden Barrel Shelf",
+    "rank": 1
+  },
+  "Shelf_Hang01_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "Stone": 5,
+      "Wood": 20
+    },
+    "name": "Wooden Wall Shelf",
+    "rank": 1
+  },
+  "Shelf_Hang02_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallDecoration"
+    },
+    "ingredients": {
+      "Stone": 5,
+      "Wood": 5
+    },
+    "name": "Wooden Decorative Wall Shelf",
+    "rank": 1
+  },
+  "Shelf_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "Stone": 2,
+      "Wood": 40
+    },
+    "name": "Wooden Shelf",
+    "rank": 1
+  },
+  "Shishiodoshi": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "PalFluid": 3,
+      "Wood_Fine": 10
+    },
+    "name": "Deer Scare",
+    "rank": 1
+  },
+  "Shrine_Lantern": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "ElectricOrgan": 3,
+      "Stone": 10
+    },
+    "name": "Red Wooden Lantern",
+    "rank": 1
+  },
+  "SignExit_Ceiling_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallDecoration"
+    },
+    "ingredients": {
+      "ElectricOrgan": 1,
+      "Polymer": 1
+    },
+    "name": "Emergency Exit Ceiling Sign",
+    "rank": 1
+  },
+  "SignExit_Wall_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallDecoration"
+    },
+    "ingredients": {
+      "ElectricOrgan": 1,
+      "Polymer": 1
+    },
+    "name": "Emergency Exit Wall Sign",
+    "rank": 1
+  },
+  "Signboard": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Wood": 10
+    },
+    "name": "Sign",
+    "rank": 1
+  },
+  "Silo": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "Cement": 10,
+      "Fiber": 30,
+      "Stone": 20,
+      "Wood": 30
+    },
+    "name": "Silo",
+    "rank": 1
+  },
+  "SkinChange": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Pal",
+      "typeB": "EPalBuildObjectTypeB::Pal_Modify",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalOther"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 10,
+      "Stone": 10
+    },
+    "name": "Pal Dressing Facility",
+    "rank": 1
+  },
+  "SkyIslandOrePit": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "PalCrystal_Ex": 10,
+      "SkyIslandOre": 100,
+      "Stone": 70
+    },
+    "name": "Soralite Quarry",
+    "rank": 1
+  },
+  "SkyIsland_Banner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth2": 20,
+      "Fiber": 10,
+      "IronIngot": 10
+    },
+    "name": "Azure Covenant Banner",
+    "rank": 1
+  },
+  "SkyIsland_Flag": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Flag"
+    },
+    "ingredients": {
+      "Cloth2": 20,
+      "Fiber": 10,
+      "IronIngot": 20
+    },
+    "name": "Azure Covenant Flag",
+    "rank": 1
+  },
+  "Snowman": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "Cloth": 5,
+      "IceOrgan": 5,
+      "Wood": 10
+    },
+    "name": "Snowman",
+    "rank": 1
+  },
+  "Sofa01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Cloth": 1,
+      "Leather": 2,
+      "Wood": 10
+    },
+    "name": "Leather Armchair",
+    "rank": 1
+  },
+  "Sofa01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Cloth": 2,
+      "FireOrgan": 1,
+      "Wood": 10
+    },
+    "name": "Antique Armchair",
+    "rank": 1
+  },
+  "Sofa02_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Leather": 3,
+      "Wood": 20
+    },
+    "name": "Leather Couch",
+    "rank": 1
+  },
+  "Sofa02_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Cloth": 3,
+      "FireOrgan": 2,
+      "Wood": 20
+    },
+    "name": "Antique Couch",
+    "rank": 1
+  },
+  "Sofa03_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Cloth": 1,
+      "FireOrgan": 1,
+      "Wood": 10
+    },
+    "name": "Antique Ottoman",
+    "rank": 1
+  },
+  "Spa": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Health"
+    },
+    "ingredients": {
+      "PalFluid": 3,
+      "Pal_crystal_S": 7,
+      "Stone": 15,
+      "Wood": 20
+    },
+    "name": "Hot Spring",
+    "rank": 1
+  },
+  "Spa2": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Health"
+    },
+    "ingredients": {
+      "Bio_Coolant": 3,
+      "Cement": 10,
+      "Stone": 50,
+      "Wood": 50
+    },
+    "name": "High Quality Hot Spring",
+    "rank": 1
+  },
+  "Spa3": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Infrastructure",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Health"
+    },
+    "ingredients": {
+      "ManganeseIngot": 30,
+      "Pal_crystal_S": 20,
+      "Thermal_Core": 10,
+      "Wood_Fine": 20
+    },
+    "name": "Japanese-Style Hot Spring",
+    "rank": 1
+  },
+  "SphereFactory_Black_01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Pal_Capture",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalCaptureItem"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "MachineParts": 10,
+      "Pal_crystal_S": 10,
+      "Wood": 30
+    },
+    "name": "Sphere Workbench",
+    "rank": 1
+  },
+  "SphereFactory_Black_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Pal_Capture",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalCaptureItem"
+    },
+    "ingredients": {
+      "CopperIngot": 100,
+      "MachineParts": 20,
+      "Pal_crystal_S": 30,
+      "Processed_Wood": 5
+    },
+    "name": "Sphere Assembly Line",
+    "rank": 1
+  },
+  "SphereFactory_Black_03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Pal_Capture",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalCaptureItem"
+    },
+    "ingredients": {
+      "IronIngot": 100,
+      "MachineParts": 30,
+      "MachineParts2": 10,
+      "Pal_crystal_S": 50
+    },
+    "name": "Sphere Assembly Line II",
+    "rank": 1
+  },
+  "SphereFactory_Black_04": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Pal_Capture",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::PalCaptureItem"
+    },
+    "ingredients": {
+      "Bio_Battery": 10,
+      "Computer": 10,
+      "Plastic": 50,
+      "StainlessSteel": 50
+    },
+    "name": "Advanced Sphere Assembly Line",
+    "rank": 1
+  },
+  "StationDeforest2": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 10,
+      "Stone": 20,
+      "Wood": 50
+    },
+    "name": "Logging Site",
+    "rank": 1
+  },
+  "StationDeforest3": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "PalCrystal_Ex": 5,
+      "Pal_crystal_S": 20,
+      "Stone": 50,
+      "Wood_Fine": 100
+    },
+    "name": "Logging Site II",
+    "rank": 1
+  },
+  "StonePit": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 10,
+      "Stone": 50,
+      "Wood": 20
+    },
+    "name": "Stone Pit",
+    "rank": 1
+  },
+  "Stone_DiagonalWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Diagonal Wall",
+    "rank": 1
+  },
+  "Stone_DoorWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Door",
+    "rank": 1
+  },
+  "Stone_Fence": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Fence",
+    "rank": 1
+  },
+  "Stone_Gate": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Barieer"
+    },
+    "ingredients": {
+      "Stone": 10
+    },
+    "name": "Stone Gate",
+    "rank": 1
+  },
+  "Stone_PyramidRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Pyramid Roof",
+    "rank": 1
+  },
+  "Stone_SlantedRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Slanted Roof",
+    "rank": 1
+  },
+  "Stone_SlopedRoofCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Slanted Triangular Roof",
+    "rank": 1
+  },
+  "Stone_SlopedRoofCornerReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Slanted Corner Roof (Inverted)",
+    "rank": 1
+  },
+  "Stone_TriangleFoundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Triangular Foundation",
+    "rank": 1
+  },
+  "Stone_TriangleRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Triangular Roof",
+    "rank": 1
+  },
+  "Stone_TriangleStairsCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Corner Roof",
+    "rank": 1
+  },
+  "Stone_TriangleWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Triangular Wall",
+    "rank": 1
+  },
+  "Stone_TriangleWallReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Triangular Wall (Inverted)",
+    "rank": 1
+  },
+  "Stone_WallGate": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Pal Passage Entrance",
+    "rank": 1
+  },
+  "Stone_WindowWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Wall and Window",
+    "rank": 1
+  },
+  "Stone_foundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Foundation",
+    "rank": 1
+  },
+  "Stone_pillar": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone_pillar",
+    "rank": 1
+  },
+  "Stone_roof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Roof",
+    "rank": 1
+  },
+  "Stone_stair": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Stairs",
+    "rank": 1
+  },
+  "Stone_wall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Stone"
+    },
+    "ingredients": {
+      "Stone": 3
+    },
+    "name": "Stone Wall",
+    "rank": 1
+  },
+  "Stool01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "CopperIngot": 3
+    },
+    "name": "Iron Stool",
+    "rank": 1
+  },
+  "Stool01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Wood": 10
+    },
+    "name": "Antique Stool",
+    "rank": 1
+  },
+  "Stool_High_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Wood": 8
+    },
+    "name": "Wooden Bar Stool",
+    "rank": 1
+  },
+  "Stool_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Wood": 5
+    },
+    "name": "Wooden Stool",
+    "rank": 1
+  },
+  "Stove01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Charcoal": 5,
+      "CopperIngot": 20
+    },
+    "name": "Antique Stove",
+    "rank": 1
+  },
+  "Stump": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "Stone": 30,
+      "Wood": 50
+    },
+    "name": "Stump and Axe",
+    "rank": 1
+  },
+  "SulfurPit": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Resource",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Deforest_Mining"
+    },
+    "ingredients": {
+      "PalCrystal_Ex": 10,
+      "Pal_crystal_S": 30,
+      "Stone": 70,
+      "Sulfur": 100
+    },
+    "name": "Sulfur Quarry",
+    "rank": 1
+  },
+  "TableCircular01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "CopperIngot": 5
+    },
+    "name": "Round Iron Table",
+    "rank": 1
+  },
+  "TableCircular01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "Fiber": 5,
+      "Stone": 2,
+      "Wood": 20
+    },
+    "name": "Antique Round Table",
+    "rank": 1
+  },
+  "TableCircular_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "Berries": 5,
+      "Wood": 20
+    },
+    "name": "Round Table",
+    "rank": 1
+  },
+  "TableCircular_Wood_None": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Tidy Round Table",
+    "rank": 1
+  },
+  "TableDresser01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Fiber": 20,
+      "Processed_Wood": 20,
+      "Stone": 30
+    },
+    "name": "Antique Dresser",
+    "rank": 1
+  },
+  "TableSide01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "CopperIngot": 2,
+      "Processed_Wood": 1
+    },
+    "name": "Ironwood Side Table",
+    "rank": 1
+  },
+  "TableSink01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Cloth": 1,
+      "Pal_crystal_S": 2,
+      "Stone": 10,
+      "Wood": 30
+    },
+    "name": "Antique Washstand",
+    "rank": 1
+  },
+  "TableSquare01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "Berries": 2,
+      "CopperIngot": 5,
+      "Processed_Wood": 2
+    },
+    "name": "Ironwood Table",
+    "rank": 1
+  },
+  "TableSquare02_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "CopperIngot": 2,
+      "Processed_Wood": 2
+    },
+    "name": "Ironwood Low Table",
+    "rank": 1
+  },
+  "TableSquare_Wood": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "Berries": 5,
+      "Wood": 20
+    },
+    "name": "Square Table",
+    "rank": 1
+  },
+  "TableSquare_Wood_None": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Desk"
+    },
+    "ingredients": {
+      "Wood": 20
+    },
+    "name": "Tidy Square Table",
+    "rank": 1
+  },
+  "Tansu": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Storage",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::StorageFurniture"
+    },
+    "ingredients": {
+      "Stone": 5,
+      "Wood_Fine": 15
+    },
+    "name": "Japanese-Style Chest",
+    "rank": 1
+  },
+  "Television01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "MachineParts2": 1,
+      "Wood": 20
+    },
+    "name": "Old TV",
+    "rank": 1
+  },
+  "Tire01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "PalFluid": 2,
+      "PalOil": 2
+    },
+    "name": "Tire",
+    "rank": 1
+  },
+  "Toilet01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 2,
+      "Stone": 20,
+      "Wood": 10
+    },
+    "name": "Antique Toilet",
+    "rank": 1
+  },
+  "ToiletHolder01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 1,
+      "Fiber": 3
+    },
+    "name": "Antique Toilet Paper Holder",
+    "rank": 1
+  },
+  "ToolBoxV1": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "CopperIngot": 10,
+      "MachineParts": 15,
+      "Wood": 50
+    },
+    "name": "Large Toolbox",
+    "rank": 1
+  },
+  "Torch": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Freestanding"
+    },
+    "ingredients": {
+      "Stone": 2,
+      "Wood": 5
+    },
+    "name": "Mounted Torch",
+    "rank": 1
+  },
+  "Toro": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Stone": 15
+    },
+    "name": "Stone Lantern",
+    "rank": 1
+  },
+  "TowlRack01_Stone": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Cloth": 2,
+      "CopperIngot": 1
+    },
+    "name": "Antique Towel Rack",
+    "rank": 1
+  },
+  "TrafficBarricade01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5
+    },
+    "name": "Barricade",
+    "rank": 1
+  },
+  "TrafficBarricade02_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 3,
+      "Polymer": 1
+    },
+    "name": "Orange Barricade",
+    "rank": 1
+  },
+  "TrafficBarricade03_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "FireOrgan": 1
+    },
+    "name": "Red Iron Barricade",
+    "rank": 1
+  },
+  "TrafficBarricade04_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5
+    },
+    "name": "White Iron Barricade",
+    "rank": 1
+  },
+  "TrafficBarricade05_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5
+    },
+    "name": "Iron Fence",
+    "rank": 1
+  },
+  "TrafficCone01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Traffic Cone",
+    "rank": 1
+  },
+  "TrafficCone02_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Polymer": 2
+    },
+    "name": "Fat Traffic Cone",
+    "rank": 1
+  },
+  "TrafficCone03_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Polymer": 1
+    },
+    "name": "Skinny Traffic Cone",
+    "rank": 1
+  },
+  "TrafficLight01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 20,
+      "ElectricOrgan": 2
+    },
+    "name": "Traffic Light",
+    "rank": 1
+  },
+  "TrafficSign01_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5
+    },
+    "name": "No Pals Beyond Sign",
+    "rank": 1
+  },
+  "TrafficSign02_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5
+    },
+    "name": "Stop Sign",
+    "rank": 1
+  },
+  "TrafficSign03_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5
+    },
+    "name": "Beware of Eikthyrdeer Sign",
+    "rank": 1
+  },
+  "TrafficSign04_Iron": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5
+    },
+    "name": "Beware of Mammorest Sign",
+    "rank": 1
+  },
+  "TransmissionTower": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "Bio_Battery": 2,
+      "CopperIngot": 20,
+      "MachineParts2": 5
+    },
+    "name": "Electric Pylon",
+    "rank": 1
+  },
+  "Trap_LegHold": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "CopperIngot": 5
+    },
+    "name": "Bear Trap (Small)",
+    "rank": 1
+  },
+  "Trap_LegHold_Big": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "CopperIngot": 20
+    },
+    "name": "Bear Trap (Large)",
+    "rank": 1
+  },
+  "Trap_MineAttack": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "FireOrgan": 2
+    },
+    "name": "Mine",
+    "rank": 1
+  },
+  "Trap_MineElecShock": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "ElectricOrgan": 2
+    },
+    "name": "Electric Mine",
+    "rank": 1
+  },
+  "Trap_MineFreeze": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "IceOrgan": 2
+    },
+    "name": "Ice Mine",
+    "rank": 1
+  },
+  "Trap_MovingPanel": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "Pal_crystal_S": 50
+    },
+    "name": "Moving Panels",
+    "rank": 1
+  },
+  "Trap_Noose": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Infra_Defense",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Interception"
+    },
+    "ingredients": {
+      "Stone": 5,
+      "Wood": 10
+    },
+    "name": "Hanging Trap",
+    "rank": 1
+  },
+  "WallSignboard": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Wood": 10
+    },
+    "name": "Wall-Mounted Sign",
+    "rank": 1
+  },
+  "WallTorch": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallHanging"
+    },
+    "ingredients": {
+      "Stone": 2,
+      "Wood": 5
+    },
+    "name": "Wall Torch",
+    "rank": 1
+  },
+  "WallTorch02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Light",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::WallHanging"
+    },
+    "ingredients": {
+      "FireOrgan": 2,
+      "Stone": 2,
+      "Wood": 5
+    },
+    "name": "Majestic Wall Torch",
+    "rank": 1
+  },
+  "WeaponFactory_Dirty_01": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Weapon"
+    },
+    "ingredients": {
+      "CopperIngot": 15,
+      "MachineParts": 10,
+      "Processed_Wood": 10
+    },
+    "name": "Weapon Workbench",
+    "rank": 1
+  },
+  "WeaponFactory_Dirty_02": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Weapon"
+    },
+    "ingredients": {
+      "CopperIngot": 100,
+      "MachineParts": 20,
+      "PalOil": 10,
+      "Processed_Wood": 20
+    },
+    "name": "Weapon Assembly Line",
+    "rank": 1
+  },
+  "WeaponFactory_Dirty_03": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Weapon"
+    },
+    "ingredients": {
+      "Bio_Battery": 5,
+      "Corrosive_Solvent": 5,
+      "IronIngot": 100,
+      "MachineParts2": 10
+    },
+    "name": "Weapon Assembly Line II",
+    "rank": 1
+  },
+  "WeaponFactory_Dirty_04": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Weapon"
+    },
+    "ingredients": {
+      "Corrosive_Solvent": 30,
+      "ManganeseIngot": 50,
+      "Thermal_Core": 10
+    },
+    "name": "Advanced Weapon Assembly Line",
+    "rank": 1
+  },
+  "WheatSeeds": {
+    "base": true,
+    "category": null,
+    "ingredients": {},
+    "name": "Wheat Seeds",
+    "rank": 1
+  },
+  "Wire_Fence": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "CopperIngot": 5,
+      "Stone": 10
+    },
+    "name": "Wire Fence",
+    "rank": 1
+  },
+  "WoodCreator": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Other"
+    },
+    "ingredients": {
+      "Stone": 5,
+      "Wood": 15
+    },
+    "name": "en Text",
+    "rank": 1
+  },
+  "Wood_Fence": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 3
+    },
+    "name": "Wooden Fence",
+    "rank": 1
+  },
+  "Wood_Gate": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Defense",
+      "typeB": "EPalBuildObjectTypeB::Other",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Barieer"
+    },
+    "ingredients": {
+      "Wood": 10
+    },
+    "name": "Wooden Gate",
+    "rank": 1
+  },
+  "Wood_SlantedRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Slanted Roof",
+    "rank": 1
+  },
+  "Wood_TriangleWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Triangular Wall",
+    "rank": 1
+  },
+  "Wood_TriangleWallReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Triangular Wall (Inverted)",
+    "rank": 1
+  },
+  "Wood_WindowWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Wall and Window",
+    "rank": 1
+  },
+  "WoodenBarricade": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "Fiber": 10,
+      "Wood": 10
+    },
+    "name": "Wooden Barricade",
+    "rank": 1
+  },
+  "Wooden_DiagonalWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Diagonal Wall",
+    "rank": 1
+  },
+  "Wooden_DoorWall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Door",
+    "rank": 1
+  },
+  "Wooden_PyramidRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Pyramid Roof",
+    "rank": 1
+  },
+  "Wooden_SlopedRoofCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Slanted Triangular Roof",
+    "rank": 1
+  },
+  "Wooden_SlopedRoofCornerReverse": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Slanted Corner Roof (Inverted)",
+    "rank": 1
+  },
+  "Wooden_TriangleFoundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Triangular Foundation",
+    "rank": 1
+  },
+  "Wooden_TriangleRoof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Triangular Roof",
+    "rank": 1
+  },
+  "Wooden_TriangleStairsCorner": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Corner Roof",
+    "rank": 1
+  },
+  "Wooden_WallGate": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Pal Passage Entrance",
+    "rank": 1
+  },
+  "Wooden_foundation": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Foundation",
+    "rank": 1
+  },
+  "Wooden_ladder": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 10
+    },
+    "name": "Ladder",
+    "rank": 1
+  },
+  "Wooden_pillar": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden_pillar",
+    "rank": 1
+  },
+  "Wooden_roof": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Roof",
+    "rank": 1
+  },
+  "Wooden_stair": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Stairs",
+    "rank": 1
+  },
+  "Wooden_wall": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Foundation",
+      "typeB": "EPalBuildObjectTypeB::Found_Basic",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Wood"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Wooden Wall",
+    "rank": 1
+  },
+  "WorkBench": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "Wood": 2
+    },
+    "name": "Primitive Workbench",
+    "rank": 1
+  },
+  "WorkBench_SkillUnlock": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Product",
+      "typeB": "EPalBuildObjectTypeB::Prod_Craft",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Product_Repair"
+    },
+    "ingredients": {
+      "Cloth": 2,
+      "Pal_crystal_S": 10,
+      "Wood": 30
+    },
+    "name": "Pal Gear Workbench",
+    "rank": 1
+  },
+  "WorkSpeedIncrease1": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Other",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::EfficiencEnhancement"
+    },
+    "ingredients": {
+      "Bio_Battery": 5,
+      "MachineParts2": 30,
+      "StealIngot": 40
+    },
+    "name": "Beta Wave Generator",
+    "rank": 1
+  },
+  "YakushimaBoss002_Relic": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Ornament"
+    },
+    "ingredients": {
+      "YakushimaIngot001": 100
+    },
+    "name": "Moon Lord Statue",
+    "rank": 1
+  },
+  "Zabuton": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Cloth": 3,
+      "Fiber": 10
+    },
+    "name": "Japanese Floor Cushion",
+    "rank": 1
+  },
+  "Zaisu": {
+    "base": false,
+    "category": {
+      "typeA": "EPalBuildObjectTypeA::Furniture",
+      "typeB": "EPalBuildObjectTypeB::Infra_Environment",
+      "uiDisplay": "EPalBuildObjectTypeForUIDisplay::Chair"
+    },
+    "ingredients": {
+      "Cloth": 3,
+      "Fiber": 10,
+      "Wood_Fine": 15
+    },
+    "name": "Japanese Floor Chair",
+    "rank": 1
+  }
+}
