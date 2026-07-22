@@ -1,25 +1,30 @@
 import { useMemo } from 'react';
 import { formatQuantity } from '../lib/format';
-import type { ItemDatabase, QuantityMap } from '../lib/types';
+import { resolveName } from '../lib/i18n';
+import type { ItemDatabase, Language, QuantityMap } from '../lib/types';
 
 interface QuantityListProps {
   db: ItemDatabase;
+  lang: Language;
   title: string;
   quantities: QuantityMap;
   emptyMessage: string;
 }
 
-export function QuantityList({ db, title, quantities, emptyMessage }: QuantityListProps) {
+export function QuantityList({ db, lang, title, quantities, emptyMessage }: QuantityListProps) {
   const rows = useMemo(
     () =>
       Object.entries(quantities)
-        .map(([itemId, quantity]) => ({
-          itemId,
-          name: db[itemId]?.name ?? itemId,
-          quantity: formatQuantity(quantity),
-        }))
+        .map(([itemId, quantity]) => {
+          const item = db[itemId];
+          return {
+            itemId,
+            name: item ? resolveName(item.name, lang, itemId) : itemId,
+            quantity: formatQuantity(quantity),
+          };
+        })
         .sort((a, b) => b.quantity - a.quantity),
-    [db, quantities],
+    [db, lang, quantities],
   );
 
   return (

@@ -1,7 +1,16 @@
 export interface BuildingCategory {
-  typeA: string;
-  typeB: string;
-  uiDisplay: string;
+  typeA: string | null;
+  typeB: string | null;
+  /** Buildings only - items have no equivalent field in the source data. */
+  uiDisplay?: string;
+}
+
+export type Language = 'en' | 'ptBR';
+
+/** Display name per language, as produced by the scripts/build_*.py data pipeline. */
+export interface LocalizedName {
+  en: string | null;
+  ptBR: string | null;
 }
 
 /**
@@ -11,12 +20,16 @@ export interface BuildingCategory {
  * data sets can be merged into one lookup for the DAG walk in craftingGraph.ts.
  */
 export interface Item {
-  name: string;
+  name: LocalizedName;
   base: boolean;
   ingredients: Record<string, number>;
   workbench?: string | null;
   category?: BuildingCategory | null;
   rank?: number;
+  /** Items only. */
+  description?: LocalizedName;
+  price?: number | null;
+  rarity?: number | null;
 }
 
 export type ItemDatabase = Record<string, Item>;

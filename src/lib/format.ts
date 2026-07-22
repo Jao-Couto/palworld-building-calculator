@@ -8,3 +8,8 @@
 export function formatQuantity(quantity: number): number {
   return Math.ceil(quantity - 1e-9);
 }
+
+/** "EPalBuildObjectTypeForUIDisplay::Product_Repair" -> "Product Repair" */
+export function formatEnumTail(value: string): string {
+  return value.split('::').pop()?.replaceAll('_', ' ') ?? value;
+}

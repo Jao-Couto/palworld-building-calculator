@@ -2,7 +2,7 @@
 
 Combines:
 - DT_BuildObjectDataTable_Common (buildable structure -> category/rank/materials)
-- DT_MapObjectNameText_Common (en) (structure -> display name)
+- DT_MapObjectNameText_Common (en, pt-BR) (structure -> display name)
 - DT_ItemDataTable_Common (used only to validate material ids)
 
 Output shape mirrors src/data/items.json's Item type (name/base/ingredients),
@@ -24,8 +24,10 @@ ROOT = Path("data/Pal/Content")
 PAL = ROOT / "Pal"
 ITEM_DT = PAL / "DataTable/Item/DT_ItemDataTable_Common.json"
 BUILDOBJECT_DT = PAL / "DataTable/MapObject/Building/DT_BuildObjectDataTable_Common.json"
-BUILDING_NAMES_DT = ROOT / "L10N/en/Pal/DataTable/Text/DT_MapObjectNameText_Common.json"
-ITEM_NAMES_DT = ROOT / "L10N/en/Pal/DataTable/Text/DT_ItemNameText_Common.json"
+BUILDING_NAMES_DT_EN = ROOT / "L10N/en/Pal/DataTable/Text/DT_MapObjectNameText_Common.json"
+BUILDING_NAMES_DT_PT_BR = ROOT / "L10N/pt-BR/Pal/DataTable/Text/DT_MapObjectNameText_Common.json"
+ITEM_NAMES_DT_EN = ROOT / "L10N/en/Pal/DataTable/Text/DT_ItemNameText_Common.json"
+ITEM_NAMES_DT_PT_BR = ROOT / "L10N/pt-BR/Pal/DataTable/Text/DT_ItemNameText_Common.json"
 
 OUTPUT_PATH = Path("src/data/buildings.json")
 
@@ -40,8 +42,10 @@ def load_json(path):
 def main():
     items = load_json(ITEM_DT)[0]["Rows"]
     buildings = load_json(BUILDOBJECT_DT)[0]["Rows"]
-    building_names = load_json(BUILDING_NAMES_DT)[0]["Rows"]
-    item_names = load_json(ITEM_NAMES_DT)[0]["Rows"]
+    building_names_en = load_json(BUILDING_NAMES_DT_EN)[0]["Rows"]
+    building_names_pt = load_json(BUILDING_NAMES_DT_PT_BR)[0]["Rows"]
+    item_names_en = load_json(ITEM_NAMES_DT_EN)[0]["Rows"]
+    item_names_pt = load_json(ITEM_NAMES_DT_PT_BR)[0]["Rows"]
 
     # A handful of Material_Id values in the raw data have wrong casing
     # (e.g. "cloth" instead of "Cloth") - resolve case-insensitively instead
@@ -54,16 +58,30 @@ def main():
         return items_by_lower.get(raw_id.lower())
 
     def building_name(building_id):
-        row = building_names.get(f"MAPOBJECT_NAME_{building_id}")
+        name = {
+          "en": None,
+          "ptBR": None,
+        }
+        row = building_names_en.get(f"MAPOBJECT_NAME_{building_id}")
         if row:
-            return row["TextData"]["LocalizedString"]
-        return building_id
+            name["en"] = row["TextData"]["LocalizedString"]
+        row = building_names_pt.get(f"MAPOBJECT_NAME_{building_id}")
+        if row:
+            name["ptBR"] = row["TextData"]["LocalizedString"]
+        return name
 
     def item_name(item_id):
-        row = item_names.get(f"ITEM_NAME_{item_id}")
+        name = {
+          "en": None,
+          "ptBR": None,
+        }
+        row = item_names_en.get(f"ITEM_NAME_{item_id}")
         if row:
-            return row["TextData"]["LocalizedString"]
-        return item_id
+            name["en"] = row["TextData"]["LocalizedString"]
+        row = item_names_pt.get(f"ITEM_NAME_{item_id}")
+        if row:
+            name["ptBR"] = row["TextData"]["LocalizedString"]
+        return name
 
     output = {}
     skipped_unknown_id = []

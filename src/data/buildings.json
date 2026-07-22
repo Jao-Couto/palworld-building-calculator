@@ -10,7 +10,10 @@
       "Pal_crystal_S": 20,
       "Stone": 100
     },
-    "name": "Summoning Altar",
+    "name": {
+      "en": "Summoning Altar",
+      "ptBR": "Altar de Invocação"
+    },
     "rank": 1
   },
   "AncientBlastFurnace": {
@@ -26,7 +29,10 @@
       "ManganeseIngot": 100,
       "Thermal_Core": 20
     },
-    "name": "Ancient Furnace",
+    "name": {
+      "en": "Ancient Furnace",
+      "ptBR": "Forno da Civilização Antiga"
+    },
     "rank": 1
   },
   "AncientCookingStove": {
@@ -42,7 +48,10 @@
       "SkyislandIngot": 80,
       "Thermal_Core": 30
     },
-    "name": "Ancient Kitchen",
+    "name": {
+      "en": "Ancient Kitchen",
+      "ptBR": "Cozinha da Civilização Antiga"
+    },
     "rank": 1
   },
   "AncientElectricGenerator": {
@@ -57,7 +66,10 @@
       "ElectricOrgan": 200,
       "WorldTreeIngot": 100
     },
-    "name": "Ancient Power Generator",
+    "name": {
+      "en": "Ancient Power Generator",
+      "ptBR": "Gerador Elétrico da Civilização Antiga"
+    },
     "rank": 1
   },
   "AncientFarmBlock": {
@@ -73,7 +85,10 @@
       "WorldTreeHolyWater": 50,
       "WorldTreeIngot": 50
     },
-    "name": "Ancient Farm",
+    "name": {
+      "en": "Ancient Farm",
+      "ptBR": "Dispositivo de Plantio da Civilização Antiga"
+    },
     "rank": 1
   },
   "AncientMultiProduct": {
@@ -87,7 +102,10 @@
       "AncientParts2": 10,
       "WorldTreeIngot": 50
     },
-    "name": "Ancient Material Synthesizer",
+    "name": {
+      "en": "Ancient Material Synthesizer",
+      "ptBR": "Gerador de Materiais da Civilização Antiga"
+    },
     "rank": 1
   },
   "AncientRelicRecycler": {
@@ -103,7 +121,10 @@
       "Wood_WorldTree": 50,
       "WorldTreeIngot": 50
     },
-    "name": "Ancient Relic Recycler",
+    "name": {
+      "en": "Ancient Relic Recycler",
+      "ptBR": "Conversor de Relíquias Antigas"
+    },
     "rank": 1
   },
   "AncientWorkBench": {
@@ -118,7 +139,10 @@
       "Bio_Battery": 20,
       "SkyislandIngot": 50
     },
-    "name": "Ancient Workbench",
+    "name": {
+      "en": "Ancient Workbench",
+      "ptBR": "Bancada da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_AirConditioner": {
@@ -134,7 +158,10 @@
       "Thermal_Core": 5,
       "WorldTreeIngot": 30
     },
-    "name": "Ancient Air Conditioner",
+    "name": {
+      "en": "Ancient Air Conditioner",
+      "ptBR": "Condicionador de Ar da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_Clinic": {
@@ -150,7 +177,10 @@
       "SkyislandIngot": 50,
       "WorldTreeHolyWater": 45
     },
-    "name": "Ancient Clinic",
+    "name": {
+      "en": "Ancient Clinic",
+      "ptBR": "Clínica da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_DiagonalWall": {
@@ -163,7 +193,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Diagonal Wall",
+    "name": {
+      "en": "Ancient Diagonal Wall",
+      "ptBR": "Parede Diagonal da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_DoorWall": {
@@ -176,7 +209,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Wall and Door",
+    "name": {
+      "en": "Ancient Wall and Door",
+      "ptBR": "Parede com Porta da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_Fence": {
@@ -189,7 +225,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Fence",
+    "name": {
+      "en": "Ancient Fence",
+      "ptBR": "Cerca da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_MedicalPalBed": {
@@ -204,7 +243,10 @@
       "Wood_WorldTree": 3,
       "WorldTreeHolyWater": 2
     },
-    "name": "Ancient Pal Bed",
+    "name": {
+      "en": "Ancient Pal Bed",
+      "ptBR": "Cama para Pals da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_Pillars": {
@@ -217,7 +259,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Pillar",
+    "name": {
+      "en": "Ancient Pillar",
+      "ptBR": "Pilar da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_PyramidRoof": {
@@ -230,7 +275,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Pyramid Roof",
+    "name": {
+      "en": "Ancient Pyramid Roof",
+      "ptBR": "Telhado de Pirâmide da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_SlantedRoof": {
@@ -243,7 +291,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Slanted Roof",
+    "name": {
+      "en": "Ancient Slanted Roof",
+      "ptBR": "Telhado Inclinado da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_SlopedRoofCorner": {
@@ -256,7 +307,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Slanted Triangular Roof",
+    "name": {
+      "en": "Ancient Slanted Triangular Roof",
+      "ptBR": "Telhado Inclinado Triangular da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_SlopedRoofCornerReverse": {
@@ -269,7 +323,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Slanted Triangular Roof (Inverted)",
+    "name": {
+      "en": "Ancient Slanted Triangular Roof (Inverted)",
+      "ptBR": "Telhado Inclinado Triangular da Civilização Antiga (Invertido)"
+    },
     "rank": 1
   },
   "Ancient_Spa": {
@@ -285,7 +342,10 @@
       "WorldTreeHolyWater": 10,
       "WorldTreeIngot": 100
     },
-    "name": "Ancient Hot Spring",
+    "name": {
+      "en": "Ancient Hot Spring",
+      "ptBR": "Água Termal da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_TriangleFoundation": {
@@ -298,7 +358,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Triangular Foundation",
+    "name": {
+      "en": "Ancient Triangular Foundation",
+      "ptBR": "Fundação Triangular da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_TriangleRoof": {
@@ -311,7 +374,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Triangular Roof",
+    "name": {
+      "en": "Ancient Triangular Roof",
+      "ptBR": "Telhado Triangular da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_TriangleStairsCorner": {
@@ -324,7 +390,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Corner Roof",
+    "name": {
+      "en": "Ancient Corner Roof",
+      "ptBR": "Telhado de Quina da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_TriangleWall": {
@@ -337,7 +406,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Triangular Wall",
+    "name": {
+      "en": "Ancient Triangular Wall",
+      "ptBR": "Parede Triangular da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_TriangleWallReverse": {
@@ -350,7 +422,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Triangular Wall (Inverted)",
+    "name": {
+      "en": "Ancient Triangular Wall (Inverted)",
+      "ptBR": "Parede Triangular da Civilização Antiga (Invertida)"
+    },
     "rank": 1
   },
   "Ancient_WallGate": {
@@ -363,7 +438,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Pal Passage Entrance",
+    "name": {
+      "en": "Ancient Pal Passage Entrance",
+      "ptBR": "Passagem para Pals da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_WindowWall": {
@@ -376,7 +454,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Wall and Window",
+    "name": {
+      "en": "Ancient Wall and Window",
+      "ptBR": "Parede com Janela da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_foundation": {
@@ -389,7 +470,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Foundation",
+    "name": {
+      "en": "Ancient Foundation",
+      "ptBR": "Fundação da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_roof": {
@@ -402,7 +486,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Roof",
+    "name": {
+      "en": "Ancient Roof",
+      "ptBR": "Telhado da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_stair": {
@@ -415,7 +502,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Stairs",
+    "name": {
+      "en": "Ancient Stairs",
+      "ptBR": "Escada da Civilização Antiga"
+    },
     "rank": 1
   },
   "Ancient_wall": {
@@ -428,7 +518,10 @@
     "ingredients": {
       "SkyislandIngot": 2
     },
-    "name": "Ancient Wall",
+    "name": {
+      "en": "Ancient Wall",
+      "ptBR": "Parede da Civilização Antiga"
+    },
     "rank": 1
   },
   "Andon": {
@@ -442,7 +535,10 @@
       "FireOrgan": 3,
       "Wood_Fine": 10
     },
-    "name": "Japanese Paper Lantern",
+    "name": {
+      "en": "Japanese Paper Lantern",
+      "ptBR": "Lanterna de papel"
+    },
     "rank": 1
   },
   "ArcadeVideoGame": {
@@ -455,7 +551,10 @@
     "ingredients": {
       "CopperIngot": 30
     },
-    "name": "Arcade Game Cabinet",
+    "name": {
+      "en": "Arcade Game Cabinet",
+      "ptBR": "Máquina de Fliperama"
+    },
     "rank": 1
   },
   "Banyan_Big": {
@@ -469,7 +568,10 @@
       "Fiber": 10,
       "Wood": 10
     },
-    "name": "Banyan_Big",
+    "name": {
+      "en": null,
+      "ptBR": null
+    },
     "rank": 1
   },
   "Barrel01_Iron": {
@@ -483,7 +585,10 @@
       "CopperIngot": 10,
       "PalFluid": 1
     },
-    "name": "Red Metal Barrel",
+    "name": {
+      "en": "Red Metal Barrel",
+      "ptBR": "Tonel Vermelho"
+    },
     "rank": 1
   },
   "Barrel02_Iron": {
@@ -497,7 +602,10 @@
       "CopperIngot": 10,
       "PalFluid": 1
     },
-    "name": "Blue Metal Barrel",
+    "name": {
+      "en": "Blue Metal Barrel",
+      "ptBR": "Tonel Azul"
+    },
     "rank": 1
   },
   "Barrel03_Iron": {
@@ -511,7 +619,10 @@
       "CopperIngot": 10,
       "PalFluid": 1
     },
-    "name": "Green Metal Barrel",
+    "name": {
+      "en": "Green Metal Barrel",
+      "ptBR": "Tonel Verde"
+    },
     "rank": 1
   },
   "Barrel_Wood": {
@@ -525,7 +636,10 @@
       "Stone": 5,
       "Wood": 30
     },
-    "name": "Wooden Barrel",
+    "name": {
+      "en": "Wooden Barrel",
+      "ptBR": "Barril de Madeira"
+    },
     "rank": 1
   },
   "BaseCampBattleDirector": {
@@ -539,7 +653,10 @@
       "Pal_crystal_S": 5,
       "Stone": 20
     },
-    "name": "Alarm Bell",
+    "name": {
+      "en": "Alarm Bell",
+      "ptBR": "Sino de Alarme"
+    },
     "rank": 1
   },
   "BaseCampItemDispenser": {
@@ -554,7 +671,10 @@
       "Pal_crystal_S": 30,
       "StealIngot": 100
     },
-    "name": "Item Retrieval Machine",
+    "name": {
+      "en": "Item Retrieval Machine",
+      "ptBR": "Distribuidor de Itens"
+    },
     "rank": 1
   },
   "BaseCampWorkHard": {
@@ -568,7 +688,10 @@
       "Stone": 10,
       "Wood": 30
     },
-    "name": "Monitoring Stand",
+    "name": {
+      "en": "Monitoring Stand",
+      "ptBR": "Plataforma de Monitoramento"
+    },
     "rank": 1
   },
   "BaseCampWorkHard02": {
@@ -582,7 +705,10 @@
       "Cement": 30,
       "CopperIngot": 100
     },
-    "name": "High Quality Monitoring Stand",
+    "name": {
+      "en": "High Quality Monitoring Stand",
+      "ptBR": "Plataforma de Monitoramento Requintada"
+    },
     "rank": 1
   },
   "BaseCampWorkHard03": {
@@ -596,7 +722,10 @@
       "AncientParts2": 5,
       "SkyislandIngot": 100
     },
-    "name": "Ancient Monitoring Stand",
+    "name": {
+      "en": "Ancient Monitoring Stand",
+      "ptBR": "Plataforma de Monitoramento da Civilização Antiga"
+    },
     "rank": 1
   },
   "BaseCampWorkerExtraStation": {
@@ -610,7 +739,10 @@
       "CopperIngot": 20,
       "Pal_crystal_S": 30
     },
-    "name": "Palbox Control Device",
+    "name": {
+      "en": "Palbox Control Device",
+      "ptBR": "Terminal para Operar Caixa de Pals"
+    },
     "rank": 1
   },
   "BathTub_Stone": {
@@ -625,7 +757,10 @@
       "CopperIngot": 1,
       "Stone": 20
     },
-    "name": "Antique Bathtub",
+    "name": {
+      "en": "Antique Bathtub",
+      "ptBR": "Banheira Antiga"
+    },
     "rank": 1
   },
   "Believer_Banner": {
@@ -640,7 +775,10 @@
       "CopperIngot": 10,
       "Fiber": 10
     },
-    "name": "Free Pal Alliance Vertical Banner",
+    "name": {
+      "en": "Free Pal Alliance Vertical Banner",
+      "ptBR": "Faixa Vertical da Associação de Proteção aos Pals"
+    },
     "rank": 1
   },
   "Believer_Flag": {
@@ -655,7 +793,10 @@
       "Fiber": 10,
       "Wood": 20
     },
-    "name": "Free Pal Alliance Standard",
+    "name": {
+      "en": "Free Pal Alliance Standard",
+      "ptBR": "Estandarte da Associação de Proteção aos Pals"
+    },
     "rank": 1
   },
   "Bench_Wood": {
@@ -668,14 +809,20 @@
     "ingredients": {
       "Wood": 10
     },
-    "name": "Wooden Bench",
+    "name": {
+      "en": "Wooden Bench",
+      "ptBR": "Banco de Madeira"
+    },
     "rank": 1
   },
   "BerrySeeds": {
     "base": true,
     "category": null,
     "ingredients": {},
-    "name": "Berry Seeds",
+    "name": {
+      "en": "Berry Seeds",
+      "ptBR": "Semente de Frutinha"
+    },
     "rank": 1
   },
   "BlastFurnace": {
@@ -690,7 +837,10 @@
       "Stone": 40,
       "Wood": 20
     },
-    "name": "Primitive Furnace",
+    "name": {
+      "en": "Primitive Furnace",
+      "ptBR": "Forno Primitivo"
+    },
     "rank": 1
   },
   "BlastFurnace2": {
@@ -706,7 +856,10 @@
       "FireOrgan": 15,
       "Stone": 100
     },
-    "name": "Improved Furnace",
+    "name": {
+      "en": "Improved Furnace",
+      "ptBR": "Forno Melhorado"
+    },
     "rank": 1
   },
   "BlastFurnace3": {
@@ -722,7 +875,10 @@
       "IronIngot": 50,
       "Polymer": 20
     },
-    "name": "Electric Furnace",
+    "name": {
+      "en": "Electric Furnace",
+      "ptBR": "Forno Elétrico"
+    },
     "rank": 1
   },
   "BlastFurnace4": {
@@ -738,7 +894,10 @@
       "Plastic": 150,
       "Polymer": 100
     },
-    "name": "Gigantic Furnace",
+    "name": {
+      "en": "Gigantic Furnace",
+      "ptBR": "Forno Gigantesco"
+    },
     "rank": 1
   },
   "Bonsai": {
@@ -752,7 +911,10 @@
       "Pal_crystal_S": 1,
       "Wood_Fine": 10
     },
-    "name": "Bonsai",
+    "name": {
+      "en": "Bonsai",
+      "ptBR": "Bonsai"
+    },
     "rank": 1
   },
   "Box01_Iron": {
@@ -766,7 +928,10 @@
       "CopperIngot": 10,
       "Wood": 20
     },
-    "name": "Small Container",
+    "name": {
+      "en": "Small Container",
+      "ptBR": "Contêiner Pequeno"
+    },
     "rank": 1
   },
   "Box01_Stone": {
@@ -779,7 +944,10 @@
     "ingredients": {
       "Fiber": 10
     },
-    "name": "Antique Braided Basket",
+    "name": {
+      "en": "Antique Braided Basket",
+      "ptBR": "Cesto Antigo"
+    },
     "rank": 1
   },
   "Box02_Iron": {
@@ -794,7 +962,10 @@
       "CopperIngot": 10,
       "Wood": 15
     },
-    "name": "Cloth Covered Container",
+    "name": {
+      "en": "Cloth Covered Container",
+      "ptBR": "Contêiner com Pano"
+    },
     "rank": 1
   },
   "Box_Wood": {
@@ -808,7 +979,10 @@
       "Stone": 5,
       "Wood": 30
     },
-    "name": "Wooden Box",
+    "name": {
+      "en": "Wooden Box",
+      "ptBR": "Caixa de Madeira"
+    },
     "rank": 1
   },
   "BreedFarm": {
@@ -823,7 +997,10 @@
       "Processed_Wood": 10,
       "Stone": 20
     },
-    "name": "Breeding Farm",
+    "name": {
+      "en": "Breeding Farm",
+      "ptBR": "Fazenda de Acasalamento"
+    },
     "rank": 1
   },
   "BuildableGoddessStatue": {
@@ -837,7 +1014,10 @@
       "Pal_crystal_S": 10,
       "Stone": 20
     },
-    "name": "Statue of Power",
+    "name": {
+      "en": "Statue of Power",
+      "ptBR": "Estátua da Força"
+    },
     "rank": 1
   },
   "Byobu": {
@@ -851,7 +1031,10 @@
       "Fiber": 10,
       "Wood_Fine": 10
     },
-    "name": "Folding Screen",
+    "name": {
+      "en": "Folding Screen",
+      "ptBR": "Biombo"
+    },
     "rank": 1
   },
   "CableCoil01_Iron": {
@@ -865,7 +1048,10 @@
       "CopperIngot": 10,
       "Wood": 20
     },
-    "name": "Cable Reel",
+    "name": {
+      "en": "Cable Reel",
+      "ptBR": "Carretel de Cabo"
+    },
     "rank": 1
   },
   "CampFire": {
@@ -878,7 +1064,10 @@
     "ingredients": {
       "Wood": 10
     },
-    "name": "Campfire",
+    "name": {
+      "en": "Campfire",
+      "ptBR": "Fogueira"
+    },
     "rank": 1
   },
   "CandleStand": {
@@ -892,14 +1081,20 @@
       "CopperIngot": 5,
       "FireOrgan": 2
     },
-    "name": "Majestic Candlestick",
+    "name": {
+      "en": "Majestic Candlestick",
+      "ptBR": "Castiçal Solene"
+    },
     "rank": 1
   },
   "CarrotSeeds": {
     "base": true,
     "category": null,
     "ingredients": {},
-    "name": "Carrot Seeds",
+    "name": {
+      "en": "Carrot Seeds",
+      "ptBR": "Semente de Cenoura"
+    },
     "rank": 1
   },
   "Cauldron": {
@@ -915,7 +1110,10 @@
       "PalOil": 3,
       "Stone": 20
     },
-    "name": "Witch Cauldron",
+    "name": {
+      "en": "Witch Cauldron",
+      "ptBR": "Caldeirão de Bruxa"
+    },
     "rank": 1
   },
   "CeilingLamp": {
@@ -930,7 +1128,10 @@
       "ElectricOrgan": 3,
       "MachineParts": 3
     },
-    "name": "Ceiling Lamp",
+    "name": {
+      "en": "Ceiling Lamp",
+      "ptBR": "Lâmpada de Teto"
+    },
     "rank": 1
   },
   "Chair01_Iron": {
@@ -944,7 +1145,10 @@
       "CopperIngot": 2,
       "Leather": 1
     },
-    "name": "Leather Chair",
+    "name": {
+      "en": "Leather Chair",
+      "ptBR": "Cadeira de Couro"
+    },
     "rank": 1
   },
   "Chair01_Pal": {
@@ -958,7 +1162,10 @@
       "CopperIngot": 2,
       "Leather": 2
     },
-    "name": "Frog Chair",
+    "name": {
+      "en": "Frog Chair",
+      "ptBR": "Cadeira Sapo"
+    },
     "rank": 1
   },
   "Chair01_Stone": {
@@ -971,7 +1178,10 @@
     "ingredients": {
       "Wood": 10
     },
-    "name": "Antique Wooden Chair",
+    "name": {
+      "en": "Antique Wooden Chair",
+      "ptBR": "Cadeira de Madeira Antiga"
+    },
     "rank": 1
   },
   "Chair01_Wood": {
@@ -984,7 +1194,10 @@
     "ingredients": {
       "Wood": 10
     },
-    "name": "Wooden Chair",
+    "name": {
+      "en": "Wooden Chair",
+      "ptBR": "Cadeira de Madeira"
+    },
     "rank": 1
   },
   "Chair02_Iron": {
@@ -997,7 +1210,10 @@
     "ingredients": {
       "CopperIngot": 3
     },
-    "name": "Iron Chair",
+    "name": {
+      "en": "Iron Chair",
+      "ptBR": "Cadeira de Ferro"
+    },
     "rank": 1
   },
   "Chair02_Stone": {
@@ -1011,7 +1227,10 @@
       "Venom": 1,
       "Wood": 10
     },
-    "name": "Antique Green Wooden Chair",
+    "name": {
+      "en": "Antique Green Wooden Chair",
+      "ptBR": "Cadeira Verde de Madeira Antiga"
+    },
     "rank": 1
   },
   "CharacterRankUp": {
@@ -1026,7 +1245,10 @@
       "PalCrystal_Ex": 5,
       "Pal_crystal_S": 20
     },
-    "name": "Pal Essence Condenser",
+    "name": {
+      "en": "Pal Essence Condenser",
+      "ptBR": "Casulo de Condensação de Pal"
+    },
     "rank": 1
   },
   "Clinic": {
@@ -1041,7 +1263,10 @@
       "MachineParts": 15,
       "Processed_Wood": 10
     },
-    "name": "Clinic",
+    "name": {
+      "en": "Clinic",
+      "ptBR": "Clínica"
+    },
     "rank": 1
   },
   "Clock01_Stone": {
@@ -1055,7 +1280,10 @@
       "CopperIngot": 5,
       "Wood": 30
     },
-    "name": "Antique Grandfather Clock",
+    "name": {
+      "en": "Antique Grandfather Clock",
+      "ptBR": "Relógio de Pêndulo Antigo"
+    },
     "rank": 1
   },
   "Clock01_Wall_Iron": {
@@ -1069,7 +1297,10 @@
       "CopperIngot": 5,
       "Pal_crystal_S": 3
     },
-    "name": "Wall Clock",
+    "name": {
+      "en": "Wall Clock",
+      "ptBR": "Relógio de Parede"
+    },
     "rank": 1
   },
   "CoalPit": {
@@ -1085,7 +1316,10 @@
       "Pal_crystal_S": 30,
       "Stone": 70
     },
-    "name": "Coal Quarry",
+    "name": {
+      "en": "Coal Quarry",
+      "ptBR": "Garimpo de Carvão"
+    },
     "rank": 1
   },
   "CompositeDesk": {
@@ -1100,7 +1334,10 @@
       "HighGrade_Processed_Wood": 10,
       "IronIngot": 20
     },
-    "name": "Drafting Table",
+    "name": {
+      "en": "Drafting Table",
+      "ptBR": "Mesa de Projetos"
+    },
     "rank": 1
   },
   "ConservationGroupBannerA": {
@@ -1115,7 +1352,10 @@
       "Fiber": 5,
       "Wood": 10
     },
-    "name": "Free Pal Alliance Flag",
+    "name": {
+      "en": "Free Pal Alliance Flag",
+      "ptBR": "Bandeira da Associação de Proteção aos Pals"
+    },
     "rank": 1
   },
   "ConservationGroupBannerB": {
@@ -1129,7 +1369,10 @@
       "Cloth": 10,
       "Fiber": 10
     },
-    "name": "Free Pal Alliance Horizontal Banner",
+    "name": {
+      "en": "Free Pal Alliance Horizontal Banner",
+      "ptBR": "Faixa da Associação de Proteção aos Pals"
+    },
     "rank": 1
   },
   "Container01_Iron": {
@@ -1142,7 +1385,10 @@
     "ingredients": {
       "CopperIngot": 100
     },
-    "name": "Large Container",
+    "name": {
+      "en": "Large Container",
+      "ptBR": "Contêiner Grande"
+    },
     "rank": 1
   },
   "CookingStove": {
@@ -1157,7 +1403,10 @@
       "FireOrgan": 3,
       "Processed_Wood": 5
     },
-    "name": "Cooking Pot",
+    "name": {
+      "en": "Cooking Pot",
+      "ptBR": "Panela"
+    },
     "rank": 1
   },
   "Cooler": {
@@ -1172,7 +1421,10 @@
       "IceOrgan": 5,
       "Stone": 20
     },
-    "name": "Cooler",
+    "name": {
+      "en": "Cooler",
+      "ptBR": "Resfriador a Gelo"
+    },
     "rank": 1
   },
   "CoolerBox": {
@@ -1187,7 +1439,10 @@
       "IceOrgan": 2,
       "Stone": 10
     },
-    "name": "Cooler Box",
+    "name": {
+      "en": "Cooler Box",
+      "ptBR": "Caixa Térmica"
+    },
     "rank": 1
   },
   "CoolerPalFoodBox": {
@@ -1202,7 +1457,10 @@
       "Plastic": 20,
       "StealIngot": 20
     },
-    "name": "Cold Food Box",
+    "name": {
+      "en": "Cold Food Box",
+      "ptBR": "Caixa de Ração Refrigerada"
+    },
     "rank": 1
   },
   "CopperPit": {
@@ -1218,7 +1476,10 @@
       "Pal_crystal_S": 20,
       "Stone": 50
     },
-    "name": "Ore Mining Site",
+    "name": {
+      "en": "Ore Mining Site",
+      "ptBR": "Garimpo de Metais"
+    },
     "rank": 1
   },
   "CopperPit_2": {
@@ -1234,7 +1495,10 @@
       "Pal_crystal_S": 40,
       "Stone": 100
     },
-    "name": "Ore Mining Site II",
+    "name": {
+      "en": "Ore Mining Site II",
+      "ptBR": "Garimpo de Metais II"
+    },
     "rank": 1
   },
   "Counter_Wood": {
@@ -1248,7 +1512,10 @@
       "Stone": 5,
       "Wood": 30
     },
-    "name": "Wooden Counter",
+    "name": {
+      "en": "Wooden Counter",
+      "ptBR": "Balcão de Madeira"
+    },
     "rank": 1
   },
   "Crusher": {
@@ -1263,7 +1530,10 @@
       "Stone": 20,
       "Wood": 50
     },
-    "name": "Crusher",
+    "name": {
+      "en": "Crusher",
+      "ptBR": "Triturador"
+    },
     "rank": 1
   },
   "CrystalPit": {
@@ -1278,7 +1548,10 @@
       "RainbowCrystal": 100,
       "Stone": 70
     },
-    "name": "Hexolite Quartz Mine",
+    "name": {
+      "en": "Hexolite Quartz Mine",
+      "ptBR": "Garimpo de Exoquartzo"
+    },
     "rank": 1
   },
   "Curtain01_Wall_Stone": {
@@ -1293,7 +1566,10 @@
       "CopperIngot": 1,
       "Wood": 10
     },
-    "name": "Antique Curtain",
+    "name": {
+      "en": "Antique Curtain",
+      "ptBR": "Cortina Antiga"
+    },
     "rank": 1
   },
   "DamagedScarecrow": {
@@ -1308,7 +1584,10 @@
       "Pal_crystal_S": 5,
       "Wood": 20
     },
-    "name": "Training Dummy",
+    "name": {
+      "en": "Training Dummy",
+      "ptBR": "Boneco de Pancada"
+    },
     "rank": 1
   },
   "DamagedScarecrow_Test": {
@@ -1323,7 +1602,10 @@
       "Pal_crystal_S": 5,
       "Wood": 20
     },
-    "name": "DamagedScarecrow_Test",
+    "name": {
+      "en": null,
+      "ptBR": null
+    },
     "rank": 1
   },
   "DarkIsland_Banner": {
@@ -1338,7 +1620,10 @@
       "Fiber": 10,
       "IronIngot": 10
     },
-    "name": "Feybreak Banner",
+    "name": {
+      "en": "Feybreak Banner",
+      "ptBR": "Faixa Vertical do Povo Decaído"
+    },
     "rank": 1
   },
   "DarkIsland_Flag": {
@@ -1353,7 +1638,10 @@
       "Fiber": 10,
       "IronIngot": 20
     },
-    "name": "Feybreak Flag",
+    "name": {
+      "en": "Feybreak Flag",
+      "ptBR": "Estandarte do Povo Decaído"
+    },
     "rank": 1
   },
   "Decal_PalSticker_PinkCat": {
@@ -1366,7 +1654,10 @@
     "ingredients": {
       "Wood": 1
     },
-    "name": "Tuppanyan sticker",
+    "name": {
+      "en": "Tuppanyan sticker",
+      "ptBR": "pt-BR_Text"
+    },
     "rank": 1
   },
   "DefenseBowGun": {
@@ -1382,7 +1673,10 @@
       "Processed_Wood": 3,
       "Stone": 15
     },
-    "name": "Mounted Crossbow",
+    "name": {
+      "en": "Mounted Crossbow",
+      "ptBR": "Besta Fixa"
+    },
     "rank": 1
   },
   "DefenseMachinegun": {
@@ -1397,7 +1691,10 @@
       "CopperIngot": 15,
       "MachineParts": 10
     },
-    "name": "Mounted Machine Gun",
+    "name": {
+      "en": "Mounted Machine Gun",
+      "ptBR": "Metralhadora Fixa"
+    },
     "rank": 1
   },
   "DefenseMachinegun_AutoTurret": {
@@ -1412,7 +1709,10 @@
       "CopperIngot": 30,
       "MachineParts": 10
     },
-    "name": "Ancient Turret",
+    "name": {
+      "en": "Ancient Turret",
+      "ptBR": "Torre da Civilização Antiga"
+    },
     "rank": 1
   },
   "DefenseMissile": {
@@ -1428,7 +1728,10 @@
       "Computer": 5,
       "IronIngot": 20
     },
-    "name": "Mounted Missile Launcher",
+    "name": {
+      "en": "Mounted Missile Launcher",
+      "ptBR": "Lança-Mísseis Fixo"
+    },
     "rank": 1
   },
   "DefenseWait": {
@@ -1442,7 +1745,10 @@
       "Stone": 10,
       "Wood": 10
     },
-    "name": "Sandbag",
+    "name": {
+      "en": "Sandbag",
+      "ptBR": "Saco de Areia"
+    },
     "rank": 1
   },
   "DefenseWall": {
@@ -1455,7 +1761,10 @@
     "ingredients": {
       "Stone": 10
     },
-    "name": "Stone Defensive Wall",
+    "name": {
+      "en": "Stone Defensive Wall",
+      "ptBR": "Barreira de Pedra"
+    },
     "rank": 1
   },
   "DefenseWall_Metal": {
@@ -1469,7 +1778,10 @@
       "Cement": 1,
       "CopperIngot": 10
     },
-    "name": "Metal Defensive Wall",
+    "name": {
+      "en": "Metal Defensive Wall",
+      "ptBR": "Barreira de Metal"
+    },
     "rank": 1
   },
   "DefenseWall_Wood": {
@@ -1482,7 +1794,10 @@
     "ingredients": {
       "Wood": 10
     },
-    "name": "Wooden Defensive Wall",
+    "name": {
+      "en": "Wooden Defensive Wall",
+      "ptBR": "Barreira de Madeira"
+    },
     "rank": 1
   },
   "Desk01_Iron": {
@@ -1496,7 +1811,10 @@
       "CopperIngot": 15,
       "Processed_Wood": 2
     },
-    "name": "Iron Desk",
+    "name": {
+      "en": "Iron Desk",
+      "ptBR": "Escrivaninha de Ferro"
+    },
     "rank": 1
   },
   "Desk01_Stone": {
@@ -1511,7 +1829,10 @@
       "Stone": 5,
       "Wood": 20
     },
-    "name": "Antique Desk",
+    "name": {
+      "en": "Antique Desk",
+      "ptBR": "Escrivaninha Antiga"
+    },
     "rank": 1
   },
   "DimensionPalStorage": {
@@ -1526,7 +1847,10 @@
       "PalCrystal_Ex": 5,
       "Pal_crystal_S": 40
     },
-    "name": "Dimensional Pal Storage",
+    "name": {
+      "en": "Dimensional Pal Storage",
+      "ptBR": "Armazenamento Dimensional de Pals"
+    },
     "rank": 1
   },
   "DismantlingConveyor": {
@@ -1542,7 +1866,10 @@
       "Plastic": 30,
       "StealIngot": 100
     },
-    "name": "Pal Disassembly Conveyor",
+    "name": {
+      "en": "Pal Disassembly Conveyor",
+      "ptBR": "Transportador para Talho de Pal"
+    },
     "rank": 1
   },
   "DisplayCharacter": {
@@ -1557,7 +1884,10 @@
       "Stone": 20,
       "Wood": 10
     },
-    "name": "Viewing Cage",
+    "name": {
+      "en": "Viewing Cage",
+      "ptBR": "Gaiola para Apreciação"
+    },
     "rank": 1
   },
   "ElectricCooler": {
@@ -1572,7 +1902,10 @@
       "IronIngot": 30,
       "MachineParts2": 10
     },
-    "name": "Electric Cooler",
+    "name": {
+      "en": "Electric Cooler",
+      "ptBR": "Resfriador Elétrico"
+    },
     "rank": 1
   },
   "ElectricGenerator": {
@@ -1586,7 +1919,10 @@
       "CopperIngot": 50,
       "ElectricOrgan": 20
     },
-    "name": "Power Generator",
+    "name": {
+      "en": "Power Generator",
+      "ptBR": "Gerador Elétrico"
+    },
     "rank": 1
   },
   "ElectricGenerator_Large": {
@@ -1600,7 +1936,10 @@
       "ElectricOrgan": 200,
       "StealIngot": 200
     },
-    "name": "Large Power Generator",
+    "name": {
+      "en": "Large Power Generator",
+      "ptBR": "Gerador Elétrico Grande"
+    },
     "rank": 1
   },
   "ElectricHatchingPalEgg": {
@@ -1616,7 +1955,10 @@
       "MachineParts2": 15,
       "PalCrystal_Ex": 5
     },
-    "name": "Electric Egg Incubator",
+    "name": {
+      "en": "Electric Egg Incubator",
+      "ptBR": "Incubadora de Ovos Elétrica"
+    },
     "rank": 1
   },
   "ElectricHeater": {
@@ -1632,7 +1974,10 @@
       "IronIngot": 30,
       "MachineParts2": 10
     },
-    "name": "Electric Heater",
+    "name": {
+      "en": "Electric Heater",
+      "ptBR": "Aquecedor Elétrico"
+    },
     "rank": 1
   },
   "ElectricKitchen": {
@@ -1648,7 +1993,10 @@
       "IronIngot": 30,
       "MachineParts2": 5
     },
-    "name": "Electric Kitchen",
+    "name": {
+      "en": "Electric Kitchen",
+      "ptBR": "Cozinha Elétrica"
+    },
     "rank": 1
   },
   "EnergyStorage_Electric": {
@@ -1664,7 +2012,10 @@
       "Corrosive_Solvent": 5,
       "ElectricOrgan": 20
     },
-    "name": "Accumulator",
+    "name": {
+      "en": "Accumulator",
+      "ptBR": "Capacitor"
+    },
     "rank": 1
   },
   "Expedition": {
@@ -1680,7 +2031,10 @@
       "Processed_Wood": 10,
       "Stone": 100
     },
-    "name": "Pal Expedition Station",
+    "name": {
+      "en": "Pal Expedition Station",
+      "ptBR": "Escritório de Expedição de Pals"
+    },
     "rank": 1
   },
   "Factory_Hard_01": {
@@ -1695,7 +2049,10 @@
       "MachineParts": 10,
       "Wood": 20
     },
-    "name": "High-Quality Workbench",
+    "name": {
+      "en": "High-Quality Workbench",
+      "ptBR": "Bancada de Alta Qualidade"
+    },
     "rank": 1
   },
   "Factory_Hard_02": {
@@ -1711,7 +2068,10 @@
       "MachineParts": 20,
       "Processed_Wood": 5
     },
-    "name": "Production Assembly Line",
+    "name": {
+      "en": "Production Assembly Line",
+      "ptBR": "Fábrica de Linha"
+    },
     "rank": 1
   },
   "Factory_Hard_03": {
@@ -1727,7 +2087,10 @@
       "IronIngot": 100,
       "MachineParts2": 10
     },
-    "name": "Production Assembly Line II",
+    "name": {
+      "en": "Production Assembly Line II",
+      "ptBR": "Fábrica de Linha II"
+    },
     "rank": 1
   },
   "Factory_Hard_04": {
@@ -1743,7 +2106,10 @@
       "ManganeseIngot": 50,
       "StainlessSteel": 50
     },
-    "name": "Advanced Workshop",
+    "name": {
+      "en": "Advanced Workshop",
+      "ptBR": "Fábrica de Civilização Avançada"
+    },
     "rank": 1
   },
   "Factory_Money": {
@@ -1759,7 +2125,10 @@
       "PalCrystal_Ex": 20,
       "SkyislandIngot": 100
     },
-    "name": "Gold Coin Assembly Line",
+    "name": {
+      "en": "Gold Coin Assembly Line",
+      "ptBR": "Fábrica de Dinheiro"
+    },
     "rank": 1
   },
   "FarmBlockV2_Berries": {
@@ -1774,7 +2143,10 @@
       "Stone": 10,
       "Wood": 10
     },
-    "name": "Berry Plantation",
+    "name": {
+      "en": "Berry Plantation",
+      "ptBR": "Plantação de Frutinhas"
+    },
     "rank": 1
   },
   "FarmBlockV2_Carrot": {
@@ -1790,7 +2162,10 @@
       "Stone": 20,
       "Wood": 30
     },
-    "name": "Carrot Plantation",
+    "name": {
+      "en": "Carrot Plantation",
+      "ptBR": "Plantação de Cenouras"
+    },
     "rank": 1
   },
   "FarmBlockV2_Lettuce": {
@@ -1806,7 +2181,10 @@
       "Stone": 70,
       "Wood": 100
     },
-    "name": "Lettuce Plantation",
+    "name": {
+      "en": "Lettuce Plantation",
+      "ptBR": "Plantação de Alface"
+    },
     "rank": 1
   },
   "FarmBlockV2_Onion": {
@@ -1822,7 +2200,10 @@
       "Stone": 20,
       "Wood": 30
     },
-    "name": "Onion Plantation",
+    "name": {
+      "en": "Onion Plantation",
+      "ptBR": "Plantação de Cebolas"
+    },
     "rank": 1
   },
   "FarmBlockV2_Potato": {
@@ -1838,7 +2219,10 @@
       "Stone": 20,
       "Wood": 30
     },
-    "name": "Potato Plantation",
+    "name": {
+      "en": "Potato Plantation",
+      "ptBR": "Plantação de Batatas"
+    },
     "rank": 1
   },
   "FarmBlockV2_tomato": {
@@ -1854,7 +2238,10 @@
       "TomatoSeeds": 3,
       "Wood": 70
     },
-    "name": "Tomato Plantation",
+    "name": {
+      "en": "Tomato Plantation",
+      "ptBR": "Plantação de Tomate"
+    },
     "rank": 1
   },
   "FarmBlockV2_wheet": {
@@ -1869,7 +2256,10 @@
       "WheatSeeds": 3,
       "Wood": 15
     },
-    "name": "Wheat Plantation",
+    "name": {
+      "en": "Wheat Plantation",
+      "ptBR": "Plantação de Trigo"
+    },
     "rank": 1
   },
   "Farm_SkillFruits": {
@@ -1884,7 +2274,10 @@
       "SkyIslandOre": 150,
       "Wood_WorldTree": 200
     },
-    "name": "Skillfruit Orchard",
+    "name": {
+      "en": "Skillfruit Orchard",
+      "ptBR": "Plantação de Frutos de Técnica"
+    },
     "rank": 1
   },
   "FastTravelPoint": {
@@ -1898,7 +2291,10 @@
       "Pal_crystal_S": 5,
       "Stone": 10
     },
-    "name": "Great Eagle Statue",
+    "name": {
+      "en": "Great Eagle Statue",
+      "ptBR": "Estátua da Águia Gigante"
+    },
     "rank": 1
   },
   "FireCult_Banner": {
@@ -1913,7 +2309,10 @@
       "CopperIngot": 10,
       "Fiber": 10
     },
-    "name": "Brothers of the Eternal Pyre Vertical Banner",
+    "name": {
+      "en": "Brothers of the Eternal Pyre Vertical Banner",
+      "ptBR": "Faixa Vertical dos Amigos da Chama Eterna"
+    },
     "rank": 1
   },
   "FireCult_Flag": {
@@ -1928,7 +2327,10 @@
       "CopperIngot": 20,
       "Fiber": 10
     },
-    "name": "Brothers of the Eternal Pyre Standard",
+    "name": {
+      "en": "Brothers of the Eternal Pyre Standard",
+      "ptBR": "Estandarte dos Amigos da Chama Eterna"
+    },
     "rank": 1
   },
   "FireStand": {
@@ -1943,7 +2345,10 @@
       "CopperIngot": 5,
       "FireOrgan": 2
     },
-    "name": "Ceremonial Candlestick",
+    "name": {
+      "en": "Ceremonial Candlestick",
+      "ptBR": "Castiçal para Cerimônias"
+    },
     "rank": 1
   },
   "FishingPond1": {
@@ -1958,7 +2363,10 @@
       "Cement": 30,
       "Processed_Wood": 15
     },
-    "name": "Fishing Pond",
+    "name": {
+      "en": "Fishing Pond",
+      "ptBR": "Tanque de Pesca"
+    },
     "rank": 1
   },
   "FishingPond2": {
@@ -1974,7 +2382,10 @@
       "PalOil": 20,
       "Stone": 30
     },
-    "name": "Large Fishing Pond",
+    "name": {
+      "en": "Large Fishing Pond",
+      "ptBR": "Grande Tanque de Pesca"
+    },
     "rank": 1
   },
   "FlourMill": {
@@ -1989,7 +2400,10 @@
       "Processed_Wood": 10,
       "Stone": 40
     },
-    "name": "Mill",
+    "name": {
+      "en": "Mill",
+      "ptBR": "Moenda"
+    },
     "rank": 1
   },
   "FlowerBed": {
@@ -2005,7 +2419,10 @@
       "Stone": 50,
       "Wood": 30
     },
-    "name": "Flower Bed",
+    "name": {
+      "en": "Flower Bed",
+      "ptBR": "Canteiro de Flores"
+    },
     "rank": 1
   },
   "Fountain": {
@@ -2020,7 +2437,10 @@
       "PalFluid": 8,
       "Stone": 50
     },
-    "name": "Water Fountain",
+    "name": {
+      "en": "Water Fountain",
+      "ptBR": "Chafariz"
+    },
     "rank": 1
   },
   "Fudukue": {
@@ -2033,7 +2453,10 @@
     "ingredients": {
       "Wood_Fine": 10
     },
-    "name": "Japanese Writing Table",
+    "name": {
+      "en": "Japanese Writing Table",
+      "ptBR": "Escrivaninha"
+    },
     "rank": 1
   },
   "FurnitureBush01_Flower": {
@@ -2046,7 +2469,10 @@
     "ingredients": {
       "Fiber": 20
     },
-    "name": "Faux Flowering Bush A",
+    "name": {
+      "en": "Faux Flowering Bush A",
+      "ptBR": "Arbusto Artificial com Flores A"
+    },
     "rank": 1
   },
   "FurnitureBush01_Green": {
@@ -2059,7 +2485,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Bush",
+    "name": {
+      "en": "Faux Bush",
+      "ptBR": "Arbusto Artificial"
+    },
     "rank": 1
   },
   "FurnitureBush01_Snow": {
@@ -2072,7 +2501,10 @@
     "ingredients": {
       "Fiber": 20
     },
-    "name": "Faux White Bush",
+    "name": {
+      "en": "Faux White Bush",
+      "ptBR": "Arbusto Artificial Branco"
+    },
     "rank": 1
   },
   "FurnitureBush01_Tropical": {
@@ -2085,7 +2517,10 @@
     "ingredients": {
       "Fiber": 20
     },
-    "name": "Faux Tropical Bush",
+    "name": {
+      "en": "Faux Tropical Bush",
+      "ptBR": "Arbusto Tropical Artificial"
+    },
     "rank": 1
   },
   "FurnitureBush01_Yellow": {
@@ -2098,7 +2533,10 @@
     "ingredients": {
       "Fiber": 20
     },
-    "name": "Faux Golden Bush",
+    "name": {
+      "en": "Faux Golden Bush",
+      "ptBR": "Arbusto Artificial de Folhas Amarelas"
+    },
     "rank": 1
   },
   "FurnitureBush02_Flower": {
@@ -2111,7 +2549,10 @@
     "ingredients": {
       "Fiber": 20
     },
-    "name": "Faux Flowering Bush B",
+    "name": {
+      "en": "Faux Flowering Bush B",
+      "ptBR": "Arbusto Artificial com Flores B"
+    },
     "rank": 1
   },
   "FurnitureStone01": {
@@ -2124,7 +2565,10 @@
     "ingredients": {
       "Stone": 20
     },
-    "name": "Faux Rock",
+    "name": {
+      "en": "Faux Rock",
+      "ptBR": "Rocha Artificial"
+    },
     "rank": 1
   },
   "FurnitureTree01_Bamboo": {
@@ -2137,7 +2581,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Bamboo A",
+    "name": {
+      "en": "Faux Bamboo A",
+      "ptBR": "Bambu Artificial A"
+    },
     "rank": 1
   },
   "FurnitureTree01_Cherry": {
@@ -2150,7 +2597,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Cherry Blossoms A",
+    "name": {
+      "en": "Faux Cherry Blossoms A",
+      "ptBR": "Cerejeira Artificial A"
+    },
     "rank": 1
   },
   "FurnitureTree01_Desert": {
@@ -2163,7 +2613,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Desert Greenery A",
+    "name": {
+      "en": "Faux Desert Greenery A",
+      "ptBR": "Árvore Artificial de Deserto A"
+    },
     "rank": 1
   },
   "FurnitureTree01_Green": {
@@ -2176,7 +2629,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Greenery A",
+    "name": {
+      "en": "Faux Greenery A",
+      "ptBR": "Árvore Artificial A"
+    },
     "rank": 1
   },
   "FurnitureTree01_Red": {
@@ -2189,7 +2645,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Crimson Foliage A",
+    "name": {
+      "en": "Faux Crimson Foliage A",
+      "ptBR": "Árvore Artificial de Folhas Vermelhas A"
+    },
     "rank": 1
   },
   "FurnitureTree01_Snow": {
@@ -2202,7 +2661,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Snowy Greenery A",
+    "name": {
+      "en": "Faux Snowy Greenery A",
+      "ptBR": "Árvore Artificial Coberta de Neve A"
+    },
     "rank": 1
   },
   "FurnitureTree01_Tropical": {
@@ -2215,7 +2677,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Tropical Greenery A",
+    "name": {
+      "en": "Faux Tropical Greenery A",
+      "ptBR": "Árvore Tropical Artificial A"
+    },
     "rank": 1
   },
   "FurnitureTree01_Yellow": {
@@ -2228,7 +2693,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Golden Foliage A",
+    "name": {
+      "en": "Faux Golden Foliage A",
+      "ptBR": "Árvore Artificial de Folhas Amarelas A"
+    },
     "rank": 1
   },
   "FurnitureTree02_Bamboo": {
@@ -2241,7 +2709,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Bamboo B",
+    "name": {
+      "en": "Faux Bamboo B",
+      "ptBR": "Bambu Artificial B"
+    },
     "rank": 1
   },
   "FurnitureTree02_Cherry": {
@@ -2254,7 +2725,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Cherry Blossoms B",
+    "name": {
+      "en": "Faux Cherry Blossoms B",
+      "ptBR": "Cerejeira Artificial B"
+    },
     "rank": 1
   },
   "FurnitureTree02_Desert": {
@@ -2267,7 +2741,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Desert Greenery B",
+    "name": {
+      "en": "Faux Desert Greenery B",
+      "ptBR": "Árvore Artificial de Deserto B"
+    },
     "rank": 1
   },
   "FurnitureTree02_Green": {
@@ -2280,7 +2757,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Greenery B",
+    "name": {
+      "en": "Faux Greenery B",
+      "ptBR": "Árvore Artificial B"
+    },
     "rank": 1
   },
   "FurnitureTree02_Red": {
@@ -2293,7 +2773,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Crimson Foliage B",
+    "name": {
+      "en": "Faux Crimson Foliage B",
+      "ptBR": "Árvore Artificial de Folhas Vermelhas B"
+    },
     "rank": 1
   },
   "FurnitureTree02_Snow": {
@@ -2306,7 +2789,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Snowy Greenery B",
+    "name": {
+      "en": "Faux Snowy Greenery B",
+      "ptBR": "Árvore Artificial Coberta de Neve B"
+    },
     "rank": 1
   },
   "FurnitureTree02_Tropical": {
@@ -2319,7 +2805,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Tropical Greenery B",
+    "name": {
+      "en": "Faux Tropical Greenery B",
+      "ptBR": "Árvore Tropical Artificial B"
+    },
     "rank": 1
   },
   "FurnitureTree02_Yellow": {
@@ -2332,7 +2821,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Golden Foliage B",
+    "name": {
+      "en": "Faux Golden Foliage B",
+      "ptBR": "Árvore Artificial de Folhas Amarelas B"
+    },
     "rank": 1
   },
   "FurnitureTree03_Bamboo": {
@@ -2345,7 +2837,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Bamboo C",
+    "name": {
+      "en": "Faux Bamboo C",
+      "ptBR": "Bambu Artificial C"
+    },
     "rank": 1
   },
   "FurnitureTree03_Cherry": {
@@ -2358,7 +2853,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Cherry Blossoms C",
+    "name": {
+      "en": "Faux Cherry Blossoms C",
+      "ptBR": "Cerejeira Artificial C"
+    },
     "rank": 1
   },
   "FurnitureTree03_Desert": {
@@ -2371,7 +2869,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Desert Greenery C",
+    "name": {
+      "en": "Faux Desert Greenery C",
+      "ptBR": "Árvore Artificial de Deserto C"
+    },
     "rank": 1
   },
   "FurnitureTree03_Green": {
@@ -2384,7 +2885,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Greenery C",
+    "name": {
+      "en": "Faux Greenery C",
+      "ptBR": "Árvore Artificial C"
+    },
     "rank": 1
   },
   "FurnitureTree03_Red": {
@@ -2397,7 +2901,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Crimson Foliage C",
+    "name": {
+      "en": "Faux Crimson Foliage C",
+      "ptBR": "Árvore Artificial de Folhas Vermelhas C"
+    },
     "rank": 1
   },
   "FurnitureTree03_Snow": {
@@ -2410,7 +2917,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Snowy Greenery C",
+    "name": {
+      "en": "Faux Snowy Greenery C",
+      "ptBR": "Árvore Artificial Coberta de Neve C"
+    },
     "rank": 1
   },
   "FurnitureTree03_Tropical": {
@@ -2423,7 +2933,10 @@
     "ingredients": {
       "Wood_Fine": 20
     },
-    "name": "Faux Tropical Greenery C",
+    "name": {
+      "en": "Faux Tropical Greenery C",
+      "ptBR": "Árvore Tropical Artificial C"
+    },
     "rank": 1
   },
   "FurnitureTree03_Yellow": {
@@ -2436,7 +2949,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Faux Golden Foliage C",
+    "name": {
+      "en": "Faux Golden Foliage C",
+      "ptBR": "Árvore Artificial de Folhas Amarelas C"
+    },
     "rank": 1
   },
   "GarbageBag_Iron": {
@@ -2451,7 +2967,10 @@
       "Stone": 5,
       "Wood": 5
     },
-    "name": "Garbage Bag",
+    "name": {
+      "en": "Garbage Bag",
+      "ptBR": "Saco de Lixo"
+    },
     "rank": 1
   },
   "Glass_DiagonalWall": {
@@ -2465,7 +2984,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Diagonal Wall",
+    "name": {
+      "en": "Glass Diagonal Wall",
+      "ptBR": "Parede Diagonal de Vidro"
+    },
     "rank": 1
   },
   "Glass_DoorWall": {
@@ -2479,7 +3001,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Wall and Door",
+    "name": {
+      "en": "Glass Wall and Door",
+      "ptBR": "Parede com Porta de Vidro"
+    },
     "rank": 1
   },
   "Glass_Fence": {
@@ -2493,7 +3018,10 @@
       "Pal_crystal_S": 1,
       "Stone": 3
     },
-    "name": "Glass Fence",
+    "name": {
+      "en": "Glass Fence",
+      "ptBR": "Cerca de Vidro"
+    },
     "rank": 1
   },
   "Glass_PyramidRoof": {
@@ -2507,7 +3035,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Pyramid Roof",
+    "name": {
+      "en": "Glass Pyramid Roof",
+      "ptBR": "Telhado de Pirâmide de Vidro"
+    },
     "rank": 1
   },
   "Glass_SlantedRoof": {
@@ -2521,7 +3052,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Slanted Roof",
+    "name": {
+      "en": "Glass Slanted Roof",
+      "ptBR": "Telhado Inclinado de Vidro"
+    },
     "rank": 1
   },
   "Glass_SlopedRoofCorner": {
@@ -2535,7 +3069,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Slanted Triangular Roof",
+    "name": {
+      "en": "Glass Slanted Triangular Roof",
+      "ptBR": "Telhado Inclinado Triangular de Vidro"
+    },
     "rank": 1
   },
   "Glass_SlopedRoofCornerReverse": {
@@ -2549,7 +3086,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Slanted Corner Roof (Inverted)",
+    "name": {
+      "en": "Glass Slanted Corner Roof (Inverted)",
+      "ptBR": "Telhado Inclinado Triangular de Vidro (Invertido)"
+    },
     "rank": 1
   },
   "Glass_TriangleFoundation": {
@@ -2563,7 +3103,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Triangular Foundation",
+    "name": {
+      "en": "Glass Triangular Foundation",
+      "ptBR": "Fundação Triangular de Vidro"
+    },
     "rank": 1
   },
   "Glass_TriangleRoof": {
@@ -2577,7 +3120,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Triangular Roof",
+    "name": {
+      "en": "Glass Triangular Roof",
+      "ptBR": "Telhado Triangular de Vidro"
+    },
     "rank": 1
   },
   "Glass_TriangleStairsCorner": {
@@ -2591,7 +3137,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Corner Roof",
+    "name": {
+      "en": "Glass Corner Roof",
+      "ptBR": "Telhado de Quina de Vidro"
+    },
     "rank": 1
   },
   "Glass_TriangleWall": {
@@ -2605,7 +3154,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Triangular Wall",
+    "name": {
+      "en": "Glass Triangular Wall",
+      "ptBR": "Parede Triangular de Vidro"
+    },
     "rank": 1
   },
   "Glass_TriangleWallReverse": {
@@ -2619,7 +3171,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Triangular Wall (Inverted)",
+    "name": {
+      "en": "Glass Triangular Wall (Inverted)",
+      "ptBR": "Parede Triangular de Vidro (Invertida)"
+    },
     "rank": 1
   },
   "Glass_WallGate": {
@@ -2633,7 +3188,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Pal Passage Entrance",
+    "name": {
+      "en": "Glass Pal Passage Entrance",
+      "ptBR": "Passagem para Pals de Vidro"
+    },
     "rank": 1
   },
   "Glass_WindowWall": {
@@ -2647,7 +3205,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Wall and Window",
+    "name": {
+      "en": "Glass Wall and Window",
+      "ptBR": "Parede com Janela de Vidro"
+    },
     "rank": 1
   },
   "Glass_foundation": {
@@ -2661,7 +3222,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Foundation",
+    "name": {
+      "en": "Glass Foundation",
+      "ptBR": "Fundação de Vidro"
+    },
     "rank": 1
   },
   "Glass_pillars": {
@@ -2675,7 +3239,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass_pillars",
+    "name": {
+      "en": null,
+      "ptBR": null
+    },
     "rank": 1
   },
   "Glass_roof": {
@@ -2689,7 +3256,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Roof",
+    "name": {
+      "en": "Glass Roof",
+      "ptBR": "Telhado de Vidro"
+    },
     "rank": 1
   },
   "Glass_stair": {
@@ -2703,7 +3273,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Stairs",
+    "name": {
+      "en": "Glass Stairs",
+      "ptBR": "Escada de Vidro"
+    },
     "rank": 1
   },
   "Glass_wall": {
@@ -2717,7 +3290,10 @@
       "Pal_crystal_S": 2,
       "Stone": 1
     },
-    "name": "Glass Wall",
+    "name": {
+      "en": "Glass Wall",
+      "ptBR": "Parede de Vidro"
+    },
     "rank": 1
   },
   "GlobalPalStorage": {
@@ -2732,7 +3308,10 @@
       "Stone": 15,
       "Wood": 5
     },
-    "name": "Global Palbox",
+    "name": {
+      "en": "Global Palbox",
+      "ptBR": "Caixa Global de Pals"
+    },
     "rank": 1
   },
   "Globe01_Stone": {
@@ -2746,7 +3325,10 @@
       "CopperIngot": 1,
       "Wood": 50
     },
-    "name": "Antique Globe",
+    "name": {
+      "en": "Antique Globe",
+      "ptBR": "Globo Terrestre Antigo"
+    },
     "rank": 1
   },
   "GoalSoccer_Iron": {
@@ -2760,7 +3342,10 @@
       "CopperIngot": 20,
       "Fiber": 20
     },
-    "name": "Soccer Goal",
+    "name": {
+      "en": "Soccer Goal",
+      "ptBR": "Rede de Futebol"
+    },
     "rank": 1
   },
   "GuardianDogStatue": {
@@ -2773,7 +3358,10 @@
     "ingredients": {
       "Stone": 70
     },
-    "name": "Yakumo Statue",
+    "name": {
+      "en": "Yakumo Statue",
+      "ptBR": "Estátua de Yakumo"
+    },
     "rank": 1
   },
   "GuildChest": {
@@ -2788,7 +3376,10 @@
       "PalCrystal_Ex": 10,
       "Pal_crystal_S": 100
     },
-    "name": "Guild Chest",
+    "name": {
+      "en": "Guild Chest",
+      "ptBR": "Baú de Guilda"
+    },
     "rank": 1
   },
   "HatchingPalEgg": {
@@ -2804,7 +3395,10 @@
       "Pal_crystal_S": 10,
       "Stone": 30
     },
-    "name": "Egg Incubator",
+    "name": {
+      "en": "Egg Incubator",
+      "ptBR": "Incubadora de Ovos"
+    },
     "rank": 1
   },
   "Headstone": {
@@ -2817,7 +3411,10 @@
     "ingredients": {
       "Stone": 10
     },
-    "name": "Tombstone",
+    "name": {
+      "en": "Tombstone",
+      "ptBR": "Lápide"
+    },
     "rank": 1
   },
   "Heater": {
@@ -2832,7 +3429,10 @@
       "CopperIngot": 20,
       "FireOrgan": 5
     },
-    "name": "Heater",
+    "name": {
+      "en": "Heater",
+      "ptBR": "Aquecedor a Fogo"
+    },
     "rank": 1
   },
   "HugeKitchen": {
@@ -2848,7 +3448,10 @@
       "Charcoal": 200,
       "HighGrade_Processed_Wood": 25
     },
-    "name": "Large-Scale Stone Oven",
+    "name": {
+      "en": "Large-Scale Stone Oven",
+      "ptBR": "Cozinha Grande"
+    },
     "rank": 1
   },
   "Hunter_Banner": {
@@ -2863,7 +3466,10 @@
       "CopperIngot": 10,
       "Fiber": 10
     },
-    "name": "Rayne Syndicate Vertical Banner",
+    "name": {
+      "en": "Rayne Syndicate Vertical Banner",
+      "ptBR": "Faixa Vertical dos Caçadores Clandestinos"
+    },
     "rank": 1
   },
   "Hunter_Flag": {
@@ -2878,7 +3484,10 @@
       "CopperIngot": 20,
       "Fiber": 10
     },
-    "name": "Rayne Syndicate Standard",
+    "name": {
+      "en": "Rayne Syndicate Standard",
+      "ptBR": "Estandarte dos Caçadores Clandestinos"
+    },
     "rank": 1
   },
   "Hunter_GangFlag": {
@@ -2892,7 +3501,10 @@
       "Cloth": 2,
       "Wood": 10
     },
-    "name": "Rayne Syndicate Flag",
+    "name": {
+      "en": "Rayne Syndicate Flag",
+      "ptBR": "Bandeira dos Caçadores Clandestinos"
+    },
     "rank": 1
   },
   "IceCrusher": {
@@ -2908,7 +3520,10 @@
       "Plastic": 30,
       "StealIngot": 50
     },
-    "name": "Cryogenic Crusher",
+    "name": {
+      "en": "Cryogenic Crusher",
+      "ptBR": "Triturador de Gelo"
+    },
     "rank": 1
   },
   "IceHorseStatue": {
@@ -2921,7 +3536,10 @@
     "ingredients": {
       "Stone": 100
     },
-    "name": "Frostallion Statue",
+    "name": {
+      "en": "Frostallion Statue",
+      "ptBR": "Estátua de Frostallion"
+    },
     "rank": 1
   },
   "Iron_DiagonalWall": {
@@ -2935,7 +3553,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Diagonal Wall",
+    "name": {
+      "en": "Metal Diagonal Wall",
+      "ptBR": "Parede Diagonal de Metal"
+    },
     "rank": 1
   },
   "Iron_Fence": {
@@ -2948,7 +3569,10 @@
     "ingredients": {
       "CopperIngot": 3
     },
-    "name": "Metal Fence",
+    "name": {
+      "en": "Metal Fence",
+      "ptBR": "Cerca de Metal"
+    },
     "rank": 1
   },
   "Iron_PyramidRoof": {
@@ -2962,7 +3586,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Pyramid Roof",
+    "name": {
+      "en": "Metal Pyramid Roof",
+      "ptBR": "Telhado de Pirâmide de Metal"
+    },
     "rank": 1
   },
   "Iron_SlopedRoofCorner": {
@@ -2976,7 +3603,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Slanted Triangular Roof",
+    "name": {
+      "en": "Metal Slanted Triangular Roof",
+      "ptBR": "Telhado Inclinado Triangular de Metal"
+    },
     "rank": 1
   },
   "Iron_SlopedRoofCornerReverse": {
@@ -2990,7 +3620,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Slanted Corner Roof (Inverted)",
+    "name": {
+      "en": "Metal Slanted Corner Roof (Inverted)",
+      "ptBR": "Telhado Inclinado Triangular de Metal (Invertido)"
+    },
     "rank": 1
   },
   "Iron_TriangleFoundation": {
@@ -3004,7 +3637,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Triangular Foundation",
+    "name": {
+      "en": "Metal Triangular Foundation",
+      "ptBR": "Fundação Triangular de Metal"
+    },
     "rank": 1
   },
   "Iron_TriangleRoof": {
@@ -3018,7 +3654,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Triangular Roof",
+    "name": {
+      "en": "Metal Triangular Roof",
+      "ptBR": "Telhado Triangular de Metal"
+    },
     "rank": 1
   },
   "Iron_TriangleStairsCorner": {
@@ -3032,7 +3671,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Corner Roof",
+    "name": {
+      "en": "Metal Corner Roof",
+      "ptBR": "Telhado de Quina de Metal"
+    },
     "rank": 1
   },
   "Iron_TriangleWallReverse": {
@@ -3046,7 +3688,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Triangular Wall (Inverted)",
+    "name": {
+      "en": "Metal Triangular Wall (Inverted)",
+      "ptBR": "Parede Triangular de Metal (Invertida)"
+    },
     "rank": 1
   },
   "Iron_WallGate": {
@@ -3060,7 +3705,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Pal Passage Entrance",
+    "name": {
+      "en": "Metal Pal Passage Entrance",
+      "ptBR": "Passagem para Pals de Metal"
+    },
     "rank": 1
   },
   "Irori": {
@@ -3075,7 +3723,10 @@
       "CopperIngot": 3,
       "Wood_Fine": 10
     },
-    "name": "Japanese Hearth",
+    "name": {
+      "en": "Japanese Hearth",
+      "ptBR": "Lareira de chão"
+    },
     "rank": 1
   },
   "ItemBooth": {
@@ -3090,7 +3741,10 @@
       "CopperIngot": 20,
       "Processed_Wood": 4
     },
-    "name": "Flea Market (Items)",
+    "name": {
+      "en": "Flea Market (Items)",
+      "ptBR": "Mercado de Pulgas (Itens)"
+    },
     "rank": 1
   },
   "ItemChest": {
@@ -3104,7 +3758,10 @@
       "Stone": 5,
       "Wood": 15
     },
-    "name": "Wooden Chest",
+    "name": {
+      "en": "Wooden Chest",
+      "ptBR": "Baú de Madeira"
+    },
     "rank": 1
   },
   "ItemChest_02": {
@@ -3118,7 +3775,10 @@
       "CopperIngot": 5,
       "Wood": 10
     },
-    "name": "Metal Chest",
+    "name": {
+      "en": "Metal Chest",
+      "ptBR": "Baú de Metal"
+    },
     "rank": 1
   },
   "ItemChest_03": {
@@ -3133,7 +3793,10 @@
       "MachineParts": 10,
       "Wood_Fine": 10
     },
-    "name": "Refined Metal Chest",
+    "name": {
+      "en": "Refined Metal Chest",
+      "ptBR": "Baú de Metal Refinado"
+    },
     "rank": 1
   },
   "ItemChest_04": {
@@ -3148,7 +3811,10 @@
       "Computer": 2,
       "StainlessSteel": 20
     },
-    "name": "Advanced Chest",
+    "name": {
+      "en": "Advanced Chest",
+      "ptBR": "Baú de Civilização Avançada"
+    },
     "rank": 1
   },
   "Ivy01": {
@@ -3161,7 +3827,10 @@
     "ingredients": {
       "Fiber": 10
     },
-    "name": "Big Wall Ivy",
+    "name": {
+      "en": "Big Wall Ivy",
+      "ptBR": "Trepadeira Grande de Parede"
+    },
     "rank": 1
   },
   "Ivy02": {
@@ -3174,7 +3843,10 @@
     "ingredients": {
       "Fiber": 5
     },
-    "name": "Small Wall Ivy",
+    "name": {
+      "en": "Small Wall Ivy",
+      "ptBR": "Trepadeira Pequena de Parede"
+    },
     "rank": 1
   },
   "Ivy03": {
@@ -3187,7 +3859,10 @@
     "ingredients": {
       "Fiber": 5
     },
-    "name": "Horizontal Wall Ivy",
+    "name": {
+      "en": "Horizontal Wall Ivy",
+      "ptBR": "Trepadeira Horizontal de Parede"
+    },
     "rank": 1
   },
   "JapaneseStyle_DiagonalWall": {
@@ -3200,7 +3875,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Diagonal Wall",
+    "name": {
+      "en": "Japanese-Style Diagonal Wall",
+      "ptBR": "Parede Diagonal Japonesa"
+    },
     "rank": 1
   },
   "JapaneseStyle_DoorWall_01": {
@@ -3213,7 +3891,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Door A",
+    "name": {
+      "en": "Japanese-Style Door A",
+      "ptBR": "Parede com Porta Japonesa A"
+    },
     "rank": 1
   },
   "JapaneseStyle_DoorWall_02": {
@@ -3226,7 +3907,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Door B",
+    "name": {
+      "en": "Japanese-Style Door B",
+      "ptBR": "Parede com Porta Japonesa B"
+    },
     "rank": 1
   },
   "JapaneseStyle_DoorWall_03": {
@@ -3239,7 +3923,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Door C",
+    "name": {
+      "en": "Japanese-Style Door C",
+      "ptBR": "Parede com Porta Japonesa C"
+    },
     "rank": 1
   },
   "JapaneseStyle_Fence": {
@@ -3252,7 +3939,10 @@
     "ingredients": {
       "Wood_Fine": 5
     },
-    "name": "Japanese-Style Fence",
+    "name": {
+      "en": "Japanese-Style Fence",
+      "ptBR": "Cerca Japonesa"
+    },
     "rank": 1
   },
   "JapaneseStyle_Pillar": {
@@ -3265,7 +3955,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Pillar",
+    "name": {
+      "en": "Japanese-Style Pillar",
+      "ptBR": "Pilar Japonês"
+    },
     "rank": 1
   },
   "JapaneseStyle_PyramidRoof": {
@@ -3278,7 +3971,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Pyramid Roof",
+    "name": {
+      "en": "Japanese-Style Pyramid Roof",
+      "ptBR": "Telhado de Pirâmide Japonês"
+    },
     "rank": 1
   },
   "JapaneseStyle_SlantedRoof": {
@@ -3291,7 +3987,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Slanted Roof",
+    "name": {
+      "en": "Japanese-Style Slanted Roof",
+      "ptBR": "Telhado Inclinado Japonês"
+    },
     "rank": 1
   },
   "JapaneseStyle_SlopedRoofCorner": {
@@ -3304,7 +4003,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Slanted Triangular Roof",
+    "name": {
+      "en": "Japanese-Style Slanted Triangular Roof",
+      "ptBR": "Telhado Inclinado Triangular Japonês"
+    },
     "rank": 1
   },
   "JapaneseStyle_SlopedRoofCornerReverse": {
@@ -3317,7 +4019,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Slanted Corner Roof (Inverted)",
+    "name": {
+      "en": "Japanese-Style Slanted Corner Roof (Inverted)",
+      "ptBR": "Telhado Inclinado Triangular Japonês (Invertido)"
+    },
     "rank": 1
   },
   "JapaneseStyle_TriangleFoundation": {
@@ -3330,7 +4035,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Triangular Foundation",
+    "name": {
+      "en": "Japanese-Style Triangular Foundation",
+      "ptBR": "Fundação Triangular Japonesa"
+    },
     "rank": 1
   },
   "JapaneseStyle_TriangleRoof_01": {
@@ -3343,7 +4051,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Triangular Roof A",
+    "name": {
+      "en": "Japanese-Style Triangular Roof A",
+      "ptBR": "Telhado Triangular Japonês A"
+    },
     "rank": 1
   },
   "JapaneseStyle_TriangleRoof_02": {
@@ -3356,7 +4067,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Triangular Roof B",
+    "name": {
+      "en": "Japanese-Style Triangular Roof B",
+      "ptBR": "Telhado Triangular Japonês B"
+    },
     "rank": 1
   },
   "JapaneseStyle_TriangleStairsCorner_01": {
@@ -3369,7 +4083,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Corner Roof",
+    "name": {
+      "en": "Japanese-Style Corner Roof",
+      "ptBR": "Telhado de Quina Japonês"
+    },
     "rank": 1
   },
   "JapaneseStyle_TriangleStairsCorner_02": {
@@ -3382,7 +4099,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "en Text",
+    "name": {
+      "en": "en Text",
+      "ptBR": "pt-BR_Text"
+    },
     "rank": 1
   },
   "JapaneseStyle_TriangleWall": {
@@ -3395,7 +4115,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Triangular Wall",
+    "name": {
+      "en": "Japanese-Style Triangular Wall",
+      "ptBR": "Parede Triangular Japonesa"
+    },
     "rank": 1
   },
   "JapaneseStyle_TriangleWallReverse": {
@@ -3408,7 +4131,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Triangular Wall (Inverted)",
+    "name": {
+      "en": "Japanese-Style Triangular Wall (Inverted)",
+      "ptBR": "Parede Triangular Japonesa (Invertida)"
+    },
     "rank": 1
   },
   "JapaneseStyle_WallGate": {
@@ -3421,7 +4147,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Pal Passage Entrance",
+    "name": {
+      "en": "Japanese-Style Pal Passage Entrance",
+      "ptBR": "Passagem para Pals Japonesa"
+    },
     "rank": 1
   },
   "JapaneseStyle_WindowWall": {
@@ -3434,7 +4163,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Wall and Window",
+    "name": {
+      "en": "Japanese-Style Wall and Window",
+      "ptBR": "Parede com Janela Japonesa"
+    },
     "rank": 1
   },
   "JapaneseStyle_foundation": {
@@ -3447,7 +4179,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Foundation",
+    "name": {
+      "en": "Japanese-Style Foundation",
+      "ptBR": "Fundação Japonesa"
+    },
     "rank": 1
   },
   "JapaneseStyle_roof_01": {
@@ -3460,7 +4195,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Roof A",
+    "name": {
+      "en": "Japanese-Style Roof A",
+      "ptBR": "Telhado Japonês A"
+    },
     "rank": 1
   },
   "JapaneseStyle_roof_02": {
@@ -3473,7 +4211,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Roof B",
+    "name": {
+      "en": "Japanese-Style Roof B",
+      "ptBR": "Telhado Japonês B"
+    },
     "rank": 1
   },
   "JapaneseStyle_stair": {
@@ -3486,7 +4227,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Stairs",
+    "name": {
+      "en": "Japanese-Style Stairs",
+      "ptBR": "Escada Japonesa"
+    },
     "rank": 1
   },
   "JapaneseStyle_wall_01": {
@@ -3499,7 +4243,10 @@
     "ingredients": {
       "Wood_Fine": 4
     },
-    "name": "Japanese-Style Wall",
+    "name": {
+      "en": "Japanese-Style Wall",
+      "ptBR": "Parede Japonesa"
+    },
     "rank": 1
   },
   "JetDragonStatue": {
@@ -3512,7 +4259,10 @@
     "ingredients": {
       "Stone": 100
     },
-    "name": "Jetragon Statue",
+    "name": {
+      "en": "Jetragon Statue",
+      "ptBR": "Estátua de Jetragon"
+    },
     "rank": 1
   },
   "Kakejiku": {
@@ -3526,7 +4276,10 @@
       "Fiber": 10,
       "Wood_Fine": 10
     },
-    "name": "Hanging Scroll",
+    "name": {
+      "en": "Hanging Scroll",
+      "ptBR": "Pergaminho de parede"
+    },
     "rank": 1
   },
   "Koro": {
@@ -3540,7 +4293,10 @@
       "CopperIngot": 3,
       "Wood": 5
     },
-    "name": "Incense Burner",
+    "name": {
+      "en": "Incense Burner",
+      "ptBR": "Incensário"
+    },
     "rank": 1
   },
   "Lab": {
@@ -3554,7 +4310,10 @@
       "CopperIngot": 30,
       "Pal_crystal_S": 30
     },
-    "name": "Pal Labor Research Lab",
+    "name": {
+      "en": "Pal Labor Research Lab",
+      "ptBR": "Laboratório de Pesquisa de Trabalho de Pals"
+    },
     "rank": 1
   },
   "Lamp": {
@@ -3570,7 +4329,10 @@
       "MachineParts": 3,
       "Wood": 20
     },
-    "name": "Lamp",
+    "name": {
+      "en": "Lamp",
+      "ptBR": "Lâmpada Fixa"
+    },
     "rank": 1
   },
   "LanternTop": {
@@ -3584,7 +4346,10 @@
       "CopperIngot": 5,
       "ElectricOrgan": 2
     },
-    "name": "Paper Lantern",
+    "name": {
+      "en": "Paper Lantern",
+      "ptBR": "Lanterna de Papel Portátil"
+    },
     "rank": 1
   },
   "LargeCeilingLamp": {
@@ -3600,7 +4365,10 @@
       "MachineParts": 5,
       "MachineParts2": 5
     },
-    "name": "Large Ceiling Lamp",
+    "name": {
+      "en": "Large Ceiling Lamp",
+      "ptBR": "Lâmpada Grande de Teto"
+    },
     "rank": 1
   },
   "LargeLamp": {
@@ -3616,14 +4384,20 @@
       "MachineParts": 5,
       "MachineParts2": 5
     },
-    "name": "Large Mounted Lamp",
+    "name": {
+      "en": "Large Mounted Lamp",
+      "ptBR": "Lâmpada Grande Fixa"
+    },
     "rank": 1
   },
   "LettuceSeeds": {
     "base": true,
     "category": null,
     "ingredients": {},
-    "name": "Lettuce Seeds",
+    "name": {
+      "en": "Lettuce Seeds",
+      "ptBR": "Semente de Alface"
+    },
     "rank": 1
   },
   "Light_CandleSticks_Top": {
@@ -3638,7 +4412,10 @@
       "ElectricOrgan": 3,
       "MachineParts": 3
     },
-    "name": "Chandelier",
+    "name": {
+      "en": "Chandelier",
+      "ptBR": "Lustre"
+    },
     "rank": 1
   },
   "Light_CandleSticks_Wall": {
@@ -3653,7 +4430,10 @@
       "ElectricOrgan": 2,
       "MachineParts": 2
     },
-    "name": "Wall Lamp",
+    "name": {
+      "en": "Wall Lamp",
+      "ptBR": "Luminária de Parede"
+    },
     "rank": 1
   },
   "Light_FirePlace01": {
@@ -3667,7 +4447,10 @@
       "Stone": 15,
       "Wood": 30
     },
-    "name": "Brick Fireplace",
+    "name": {
+      "en": "Brick Fireplace",
+      "ptBR": "Lareira"
+    },
     "rank": 1
   },
   "Light_FirePlace02": {
@@ -3681,7 +4464,10 @@
       "Stone": 30,
       "Wood": 15
     },
-    "name": "Fireplace",
+    "name": {
+      "en": "Fireplace",
+      "ptBR": "Aquecedor"
+    },
     "rank": 1
   },
   "Light_FloorLamp01": {
@@ -3696,7 +4482,10 @@
       "MachineParts": 3,
       "Wood": 30
     },
-    "name": "Antique Brown Floor Lamp",
+    "name": {
+      "en": "Antique Brown Floor Lamp",
+      "ptBR": "Abajur Marrom Antigo"
+    },
     "rank": 1
   },
   "Light_FloorLamp02": {
@@ -3711,7 +4500,10 @@
       "MachineParts": 3,
       "Wood": 30
     },
-    "name": "Antique Red Floor Lamp",
+    "name": {
+      "en": "Antique Red Floor Lamp",
+      "ptBR": "Abajur Vermelho Antigo"
+    },
     "rank": 1
   },
   "Light_LightPole01": {
@@ -3726,7 +4518,10 @@
       "ElectricOrgan": 3,
       "MachineParts": 3
     },
-    "name": "Simple Street Lamp",
+    "name": {
+      "en": "Simple Street Lamp",
+      "ptBR": "Poste de Luz Simples"
+    },
     "rank": 1
   },
   "Light_LightPole02": {
@@ -3741,7 +4536,10 @@
       "ElectricOrgan": 3,
       "MachineParts": 3
     },
-    "name": "Double Street Lamp",
+    "name": {
+      "en": "Double Street Lamp",
+      "ptBR": "Poste de Luz Duplo"
+    },
     "rank": 1
   },
   "Light_LightPole03": {
@@ -3756,7 +4554,10 @@
       "ElectricOrgan": 3,
       "MachineParts": 3
     },
-    "name": "Retro Street Lamp",
+    "name": {
+      "en": "Retro Street Lamp",
+      "ptBR": "Poste de Luz Retrô"
+    },
     "rank": 1
   },
   "Light_LightPole04": {
@@ -3771,7 +4572,10 @@
       "ElectricOrgan": 3,
       "MachineParts": 3
     },
-    "name": "Stylish Street Lamp",
+    "name": {
+      "en": "Stylish Street Lamp",
+      "ptBR": "Poste de Luz Chique"
+    },
     "rank": 1
   },
   "LilyQueenStatue": {
@@ -3784,7 +4588,10 @@
     "ingredients": {
       "Stone": 100
     },
-    "name": "Lyleen Statue",
+    "name": {
+      "en": "Lyleen Statue",
+      "ptBR": "Estátua de Lyleen"
+    },
     "rank": 1
   },
   "MachineGame01_Iron": {
@@ -3798,7 +4605,10 @@
       "Cloth": 5,
       "CopperIngot": 30
     },
-    "name": "Claw Machine",
+    "name": {
+      "en": "Claw Machine",
+      "ptBR": "Máquina de Garra"
+    },
     "rank": 1
   },
   "MachineVending01_Iron": {
@@ -3812,7 +4622,10 @@
       "CopperIngot": 30,
       "IceOrgan": 2
     },
-    "name": "Cola Vending Machine",
+    "name": {
+      "en": "Cola Vending Machine",
+      "ptBR": "Máquina Automática de Refrigerante"
+    },
     "rank": 1
   },
   "ManualElectricGenerator": {
@@ -3826,7 +4639,10 @@
       "ElectricOrgan": 5,
       "Processed_Wood": 5
     },
-    "name": "Human-Powered Generator",
+    "name": {
+      "en": "Human-Powered Generator",
+      "ptBR": "Gerador Elétrico Manual"
+    },
     "rank": 1
   },
   "MedicalPalBed_02": {
@@ -3840,7 +4656,10 @@
       "Fiber": 5,
       "Wood": 10
     },
-    "name": "Straw Pal Bed",
+    "name": {
+      "en": "Straw Pal Bed",
+      "ptBR": "Cama de Palha para Pals"
+    },
     "rank": 1
   },
   "MedicalPalBed_03": {
@@ -3856,7 +4675,10 @@
       "MachineParts": 5,
       "Processed_Wood": 3
     },
-    "name": "Fluffy Pal Bed",
+    "name": {
+      "en": "Fluffy Pal Bed",
+      "ptBR": "Cama Macia para Pals"
+    },
     "rank": 1
   },
   "MedicalPalBed_04": {
@@ -3872,7 +4694,10 @@
       "MachineParts": 20,
       "Wood_Fine": 5
     },
-    "name": "Large Pal Bed",
+    "name": {
+      "en": "Large Pal Bed",
+      "ptBR": "Cama Grande para Pals"
+    },
     "rank": 1
   },
   "MedicalPalBed_05": {
@@ -3887,7 +4712,10 @@
       "Computer": 3,
       "StealIngot": 10
     },
-    "name": "Pal Pod",
+    "name": {
+      "en": "Pal Pod",
+      "ptBR": "Cápsula de Pals de Civilização Avançada"
+    },
     "rank": 1
   },
   "MedicineFacility_01": {
@@ -3902,7 +4730,10 @@
       "Pal_crystal_S": 10,
       "Wood": 30
     },
-    "name": "Medieval Medicine Workbench",
+    "name": {
+      "en": "Medieval Medicine Workbench",
+      "ptBR": "Boticário Medieval"
+    },
     "rank": 1
   },
   "MedicineFacility_02": {
@@ -3917,7 +4748,10 @@
       "IronIngot": 40,
       "MachineParts2": 10
     },
-    "name": "Electric Medicine Workbench",
+    "name": {
+      "en": "Electric Medicine Workbench",
+      "ptBR": "Produção de Remédios Elétrica"
+    },
     "rank": 1
   },
   "MedicineFacility_03": {
@@ -3932,7 +4766,10 @@
       "Plastic": 50,
       "StainlessSteel": 50
     },
-    "name": "Advanced Medicine Workbench",
+    "name": {
+      "en": "Advanced Medicine Workbench",
+      "ptBR": "Produção de Remédios de Civilização Avançada"
+    },
     "rank": 1
   },
   "Metal_DoorWall": {
@@ -3946,7 +4783,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Door",
+    "name": {
+      "en": "Metal Door",
+      "ptBR": "Porta de Metal"
+    },
     "rank": 1
   },
   "Metal_Gate": {
@@ -3960,7 +4800,10 @@
       "Cement": 1,
       "CopperIngot": 10
     },
-    "name": "Iron Gate",
+    "name": {
+      "en": "Iron Gate",
+      "ptBR": "Portão de Metal"
+    },
     "rank": 1
   },
   "Metal_SlantedRoof": {
@@ -3974,7 +4817,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Slanted Roof",
+    "name": {
+      "en": "Metal Slanted Roof",
+      "ptBR": "Telhado Inclinado de Metal"
+    },
     "rank": 1
   },
   "Metal_TriangleWall": {
@@ -3988,7 +4834,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Triangular Wall",
+    "name": {
+      "en": "Metal Triangular Wall",
+      "ptBR": "Parede Triangular de Metal"
+    },
     "rank": 1
   },
   "Metal_WindowWall": {
@@ -4002,7 +4851,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Wall and Window",
+    "name": {
+      "en": "Metal Wall and Window",
+      "ptBR": "Parede com Janela de Metal"
+    },
     "rank": 1
   },
   "Metal_foundation": {
@@ -4016,7 +4868,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Foundation",
+    "name": {
+      "en": "Metal Foundation",
+      "ptBR": "Fundação de Metal"
+    },
     "rank": 1
   },
   "Metal_pillars": {
@@ -4030,7 +4885,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal_pillars",
+    "name": {
+      "en": null,
+      "ptBR": null
+    },
     "rank": 1
   },
   "Metal_roof": {
@@ -4044,7 +4902,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Roof",
+    "name": {
+      "en": "Metal Roof",
+      "ptBR": "Telhado de Metal"
+    },
     "rank": 1
   },
   "Metal_stair": {
@@ -4058,7 +4919,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Stairs",
+    "name": {
+      "en": "Metal Stairs",
+      "ptBR": "Escada de Metal"
+    },
     "rank": 1
   },
   "Metal_wall": {
@@ -4072,7 +4936,10 @@
       "CopperIngot": 1,
       "Stone": 2
     },
-    "name": "Metal Wall",
+    "name": {
+      "en": "Metal Wall",
+      "ptBR": "Muro de Metal"
+    },
     "rank": 1
   },
   "MiningTool": {
@@ -4087,7 +4954,10 @@
       "Stone": 50,
       "Wood": 20
     },
-    "name": "Mining Cart",
+    "name": {
+      "en": "Mining Cart",
+      "ptBR": "Vagoneta de Garimpo"
+    },
     "rank": 1
   },
   "Mirror01_Stone": {
@@ -4102,7 +4972,10 @@
       "Stone": 10,
       "Wood": 10
     },
-    "name": "Antique Oval Mirror",
+    "name": {
+      "en": "Antique Oval Mirror",
+      "ptBR": "Espelho Oval Antigo"
+    },
     "rank": 1
   },
   "Mirror01_Wall_Stone": {
@@ -4117,7 +4990,10 @@
       "Stone": 10,
       "Wood": 10
     },
-    "name": "Antique Wall Mirror",
+    "name": {
+      "en": "Antique Wall Mirror",
+      "ptBR": "Espelho de Parede Antigo"
+    },
     "rank": 1
   },
   "Mirror02_Stone": {
@@ -4132,7 +5008,10 @@
       "Stone": 8,
       "Wood": 10
     },
-    "name": "Antique Mirror",
+    "name": {
+      "en": "Antique Mirror",
+      "ptBR": "Espelho Antigo"
+    },
     "rank": 1
   },
   "MonsterFarm": {
@@ -4147,7 +5026,10 @@
       "Stone": 20,
       "Wood": 30
     },
-    "name": "Ranch",
+    "name": {
+      "en": "Ranch",
+      "ptBR": "Fazenda de Criação"
+    },
     "rank": 1
   },
   "MultiElectricHatchingPalEgg": {
@@ -4163,7 +5045,10 @@
       "PalCrystal_Ex": 30,
       "StainlessSteel": 100
     },
-    "name": "Large-Scale Electric Egg Incubator",
+    "name": {
+      "en": "Large-Scale Electric Egg Incubator",
+      "ptBR": "Incubadora de Ovos Elétrica Grande"
+    },
     "rank": 1
   },
   "MultiElectricHatchingPalEggWithBreed": {
@@ -4179,7 +5064,10 @@
       "PalCrystal_Ex": 30,
       "WorldTreeIngot": 100
     },
-    "name": "Ancient Hatchery",
+    "name": {
+      "en": "Ancient Hatchery",
+      "ptBR": "Reprodutor da Civilização Antiga"
+    },
     "rank": 1
   },
   "MultiHatchingPalEgg": {
@@ -4195,7 +5083,10 @@
       "PalCrystal_Ex": 20,
       "StealIngot": 50
     },
-    "name": "Large Incubator",
+    "name": {
+      "en": "Large Incubator",
+      "ptBR": "Máquina Incubadora de Ovos Grande"
+    },
     "rank": 1
   },
   "Ninja_Banner": {
@@ -4210,7 +5101,10 @@
       "Fiber": 10,
       "IronIngot": 10
     },
-    "name": "Moonflower Vertical Banner",
+    "name": {
+      "en": "Moonflower Vertical Banner",
+      "ptBR": "Faixa Vertical do Bando das Flores e da Lua"
+    },
     "rank": 1
   },
   "Ninja_Flag": {
@@ -4225,7 +5119,10 @@
       "Fiber": 10,
       "IronIngot": 20
     },
-    "name": "Moonflower Standard",
+    "name": {
+      "en": "Moonflower Standard",
+      "ptBR": "Estandarte do Bando das Flores e da Lua"
+    },
     "rank": 1
   },
   "OilPump": {
@@ -4239,7 +5136,10 @@
       "MachineParts2": 50,
       "StealIngot": 250
     },
-    "name": "Crude Oil Extractor",
+    "name": {
+      "en": "Crude Oil Extractor",
+      "ptBR": "Extrator de Petróleo"
+    },
     "rank": 1
   },
   "OilPump02": {
@@ -4255,7 +5155,10 @@
       "PalCrystal_Ex": 10,
       "StealIngot": 300
     },
-    "name": "High-Pressure Crude Oil Extractor",
+    "name": {
+      "en": "High-Pressure Crude Oil Extractor",
+      "ptBR": "Extrator de Petróleo de Alta Pressão"
+    },
     "rank": 1
   },
   "OlympicCauldron": {
@@ -4270,7 +5173,10 @@
       "FireOrgan": 5,
       "Wood": 30
     },
-    "name": "Flame Cauldron",
+    "name": {
+      "en": "Flame Cauldron",
+      "ptBR": "Pira da Chama Sagrada"
+    },
     "rank": 1
   },
   "OperatingTable": {
@@ -4285,7 +5191,10 @@
       "Corrosive_Solvent": 10,
       "IronIngot": 30
     },
-    "name": "Pal Surgery Table",
+    "name": {
+      "en": "Pal Surgery Table",
+      "ptBR": "Mesa de Operação de Pals"
+    },
     "rank": 1
   },
   "PalBooth": {
@@ -4300,7 +5209,10 @@
       "Pal_crystal_S": 5,
       "Processed_Wood": 4
     },
-    "name": "Flea Market (Pals)",
+    "name": {
+      "en": "Flea Market (Pals)",
+      "ptBR": "Mercado de Pulgas (Pals)"
+    },
     "rank": 1
   },
   "PalBoxV2": {
@@ -4315,7 +5227,10 @@
       "Stone": 3,
       "Wood": 8
     },
-    "name": "Palbox",
+    "name": {
+      "en": "Palbox",
+      "ptBR": "Caixa de Pal"
+    },
     "rank": 1
   },
   "PalCage": {
@@ -4329,7 +5244,10 @@
       "Fiber": 10,
       "Wood": 10
     },
-    "name": "Aerial Cage",
+    "name": {
+      "en": "Aerial Cage",
+      "ptBR": "Jaula Vazia"
+    },
     "rank": 1
   },
   "PalFoodBox": {
@@ -4342,7 +5260,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Feed Box",
+    "name": {
+      "en": "Feed Box",
+      "ptBR": "Ração"
+    },
     "rank": 1
   },
   "PalMedicineBox": {
@@ -4357,7 +5278,10 @@
       "CopperIngot": 20,
       "Processed_Wood": 3
     },
-    "name": "Medicine Rack",
+    "name": {
+      "en": "Medicine Rack",
+      "ptBR": "Armário de Remédios"
+    },
     "rank": 1
   },
   "Partition_Stone": {
@@ -4370,7 +5294,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Antique Partition",
+    "name": {
+      "en": "Antique Partition",
+      "ptBR": "Partição Antiga"
+    },
     "rank": 1
   },
   "Piano01_Stone": {
@@ -4385,7 +5312,10 @@
       "Fiber": 20,
       "Processed_Wood": 10
     },
-    "name": "Grand Piano",
+    "name": {
+      "en": "Grand Piano",
+      "ptBR": "Piano de Cauda"
+    },
     "rank": 1
   },
   "Piano02_Stone": {
@@ -4400,7 +5330,10 @@
       "Fiber": 20,
       "Processed_Wood": 10
     },
-    "name": "Upright Piano",
+    "name": {
+      "en": "Upright Piano",
+      "ptBR": "Piano Vertical"
+    },
     "rank": 1
   },
   "PipeClay01_Iron": {
@@ -4413,7 +5346,10 @@
     "ingredients": {
       "Cement": 5
     },
-    "name": "Earthen Pipe",
+    "name": {
+      "en": "Earthen Pipe",
+      "ptBR": "Cano de Cerâmica"
+    },
     "rank": 1
   },
   "Plant01_Plant": {
@@ -4427,7 +5363,10 @@
       "Fiber": 5,
       "Wood": 10
     },
-    "name": "Houseplant",
+    "name": {
+      "en": "Houseplant",
+      "ptBR": "Planta Ornamental"
+    },
     "rank": 1
   },
   "Plant02_Plant": {
@@ -4441,7 +5380,10 @@
       "Fiber": 5,
       "Wood": 10
     },
-    "name": "Houseplant and Chair",
+    "name": {
+      "en": "Houseplant and Chair",
+      "ptBR": "Planta Ornamental com Banco"
+    },
     "rank": 1
   },
   "Plant03_Plant": {
@@ -4455,7 +5397,10 @@
       "Fiber": 5,
       "Stone": 10
     },
-    "name": "Tabletop Houseplant",
+    "name": {
+      "en": "Tabletop Houseplant",
+      "ptBR": "Planta Ornamental de Mesa"
+    },
     "rank": 1
   },
   "Plant04_Plant": {
@@ -4469,7 +5414,10 @@
       "Fiber": 5,
       "Stone": 5
     },
-    "name": "Potted Houseplant",
+    "name": {
+      "en": "Potted Houseplant",
+      "ptBR": "Planta Ornamental de Vaso"
+    },
     "rank": 1
   },
   "PlayerBed_02": {
@@ -4484,7 +5432,10 @@
       "Wood": 20,
       "Wool": 1
     },
-    "name": "Shoddy Bed",
+    "name": {
+      "en": "Shoddy Bed",
+      "ptBR": "Cama Simples"
+    },
     "rank": 1
   },
   "PlayerBed_03": {
@@ -4500,7 +5451,10 @@
       "MachineParts": 10,
       "Wood": 50
     },
-    "name": "Fine Bed",
+    "name": {
+      "en": "Fine Bed",
+      "ptBR": "Cama de Luxo"
+    },
     "rank": 1
   },
   "Police_Banner": {
@@ -4515,7 +5469,10 @@
       "Fiber": 10,
       "IronIngot": 10
     },
-    "name": "PIDF Vertical Banner",
+    "name": {
+      "en": "PIDF Vertical Banner",
+      "ptBR": "Faixa Vertical da Milícia Popular"
+    },
     "rank": 1
   },
   "Police_Flag": {
@@ -4530,14 +5487,20 @@
       "Fiber": 10,
       "IronIngot": 20
     },
-    "name": "PIDF Standard",
+    "name": {
+      "en": "PIDF Standard",
+      "ptBR": "Estandarte da Milícia Popular"
+    },
     "rank": 1
   },
   "PotatoSeeds": {
     "base": true,
     "category": null,
     "ingredients": {},
-    "name": "Potato Seeds",
+    "name": {
+      "en": "Potato Seeds",
+      "ptBR": "Batata-Semente"
+    },
     "rank": 1
   },
   "QuartzPit": {
@@ -4553,7 +5516,10 @@
       "Quartz": 100,
       "Stone": 70
     },
-    "name": "Pure Quartz Quarry",
+    "name": {
+      "en": "Pure Quartz Quarry",
+      "ptBR": "Garimpo de Quartzo Puro"
+    },
     "rank": 1
   },
   "Refrigerator": {
@@ -4569,7 +5535,10 @@
       "MachineParts2": 5,
       "Polymer": 20
     },
-    "name": "Refrigerator",
+    "name": {
+      "en": "Refrigerator",
+      "ptBR": "Refrigerador"
+    },
     "rank": 1
   },
   "RepairBench": {
@@ -4583,7 +5552,10 @@
       "Stone": 10,
       "Wood": 10
     },
-    "name": "Repair Bench",
+    "name": {
+      "en": "Repair Bench",
+      "ptBR": "Bancada de Conserto"
+    },
     "rank": 1
   },
   "Rug01_Stone": {
@@ -4597,7 +5569,10 @@
       "Cloth": 3,
       "Venom": 1
     },
-    "name": "Antique Carpet",
+    "name": {
+      "en": "Antique Carpet",
+      "ptBR": "Tapete Antigo"
+    },
     "rank": 1
   },
   "Rug02_Stone": {
@@ -4611,7 +5586,10 @@
       "Cloth": 2,
       "FireOrgan": 1
     },
-    "name": "Antique Red Carpet",
+    "name": {
+      "en": "Antique Red Carpet",
+      "ptBR": "Tapete Vermelho Antigo"
+    },
     "rank": 1
   },
   "Rug03_Stone": {
@@ -4625,7 +5603,10 @@
       "Cloth": 2,
       "PalOil": 1
     },
-    "name": "Antique Green Carpet",
+    "name": {
+      "en": "Antique Green Carpet",
+      "ptBR": "Tapete Verde Antigo"
+    },
     "rank": 1
   },
   "Rug04_Stone": {
@@ -4639,7 +5620,10 @@
       "Cloth": 1,
       "FireOrgan": 1
     },
-    "name": "Antique Long Carpet",
+    "name": {
+      "en": "Antique Long Carpet",
+      "ptBR": "Tapete Comprido Antigo"
+    },
     "rank": 1
   },
   "Rug_Wood": {
@@ -4652,7 +5636,10 @@
     "ingredients": {
       "Wood": 1
     },
-    "name": "Fur rug",
+    "name": {
+      "en": "Fur rug",
+      "ptBR": "pt-BR_Text"
+    },
     "rank": 1
   },
   "SF_Chair": {
@@ -4665,7 +5652,10 @@
     "ingredients": {
       "Polymer": 10
     },
-    "name": "Laboratory Chair",
+    "name": {
+      "en": "Laboratory Chair",
+      "ptBR": "Cadeira de Laboratório"
+    },
     "rank": 1
   },
   "SF_Desk": {
@@ -4678,7 +5668,10 @@
     "ingredients": {
       "Polymer": 15
     },
-    "name": "Laboratory Desk",
+    "name": {
+      "en": "Laboratory Desk",
+      "ptBR": "Escrivaninha de Laboratório"
+    },
     "rank": 1
   },
   "SF_DiagonalWall": {
@@ -4691,7 +5684,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Diagonal Wall",
+    "name": {
+      "en": "Clean Diagonal Wall",
+      "ptBR": "Parede Diagonal Despojada"
+    },
     "rank": 1
   },
   "SF_DoorWall": {
@@ -4704,7 +5700,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Wall and Door",
+    "name": {
+      "en": "Clean Wall and Door",
+      "ptBR": "Parede com Porta Despojada"
+    },
     "rank": 1
   },
   "SF_Fence": {
@@ -4717,7 +5716,10 @@
     "ingredients": {
       "Polymer": 2
     },
-    "name": "Clean Fence",
+    "name": {
+      "en": "Clean Fence",
+      "ptBR": "Cerca Despojada"
+    },
     "rank": 1
   },
   "SF_PyramidRoof": {
@@ -4730,7 +5732,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Pyramid Roof",
+    "name": {
+      "en": "Clean Pyramid Roof",
+      "ptBR": "Telhado de Pirâmide Despojado"
+    },
     "rank": 1
   },
   "SF_SlantedRoof": {
@@ -4743,7 +5748,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Slanted Roof",
+    "name": {
+      "en": "Clean Slanted Roof",
+      "ptBR": "Telhado Inclinado Despojado"
+    },
     "rank": 1
   },
   "SF_SlopedRoofCorner": {
@@ -4756,7 +5764,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Slanted Triangular Roof",
+    "name": {
+      "en": "Clean Slanted Triangular Roof",
+      "ptBR": "Telhado Inclinado Triangular Despojado"
+    },
     "rank": 1
   },
   "SF_SlopedRoofCornerReverse": {
@@ -4769,7 +5780,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Slanted Corner Roof (Inverted)",
+    "name": {
+      "en": "Clean Slanted Corner Roof (Inverted)",
+      "ptBR": "Telhado Inclinado Triangular Despojado (Invertido)"
+    },
     "rank": 1
   },
   "SF_TriangleFoundation": {
@@ -4782,7 +5796,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Triangular Foundation",
+    "name": {
+      "en": "Clean Triangular Foundation",
+      "ptBR": "Fundação Triangular Despojada"
+    },
     "rank": 1
   },
   "SF_TriangleRoof": {
@@ -4795,7 +5812,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Triangular Roof",
+    "name": {
+      "en": "Clean Triangular Roof",
+      "ptBR": "Telhado Triangular Despojado"
+    },
     "rank": 1
   },
   "SF_TriangleStairsCorner": {
@@ -4808,7 +5828,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Corner Roof",
+    "name": {
+      "en": "Clean Corner Roof",
+      "ptBR": "Telhado de Quina Despojado"
+    },
     "rank": 1
   },
   "SF_TriangleWall": {
@@ -4821,7 +5844,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Triangular Wall",
+    "name": {
+      "en": "Clean Triangular Wall",
+      "ptBR": "Parede Triangular Despojada"
+    },
     "rank": 1
   },
   "SF_TriangleWallReverse": {
@@ -4834,7 +5860,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Triangular Wall (Inverted)",
+    "name": {
+      "en": "Clean Triangular Wall (Inverted)",
+      "ptBR": "Parede Triangular Despojada (Invertida)"
+    },
     "rank": 1
   },
   "SF_WallGate": {
@@ -4847,7 +5876,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Pal Passage Entrance",
+    "name": {
+      "en": "Clean Pal Passage Entrance",
+      "ptBR": "Passagem para Pals Despojada"
+    },
     "rank": 1
   },
   "SF_WindowWall": {
@@ -4860,7 +5892,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Wall and Window",
+    "name": {
+      "en": "Clean Wall and Window",
+      "ptBR": "Parede com Janela Despojada"
+    },
     "rank": 1
   },
   "SF_foundation": {
@@ -4873,7 +5908,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Foundation",
+    "name": {
+      "en": "Clean Foundation",
+      "ptBR": "Fundação Despojada"
+    },
     "rank": 1
   },
   "SF_pillars": {
@@ -4886,7 +5924,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "SF_pillars",
+    "name": {
+      "en": null,
+      "ptBR": null
+    },
     "rank": 1
   },
   "SF_roof": {
@@ -4899,7 +5940,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Roof",
+    "name": {
+      "en": "Clean Roof",
+      "ptBR": "Telhado Despojado"
+    },
     "rank": 1
   },
   "SF_stair": {
@@ -4912,7 +5956,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Stairs",
+    "name": {
+      "en": "Clean Stairs",
+      "ptBR": "Escada Despojada"
+    },
     "rank": 1
   },
   "SF_wall": {
@@ -4925,7 +5972,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Clean Wall",
+    "name": {
+      "en": "Clean Wall",
+      "ptBR": "Parede Despojada"
+    },
     "rank": 1
   },
   "SanityDecrease1": {
@@ -4941,7 +5991,10 @@
       "MachineParts2": 20,
       "Pal_crystal_S": 20
     },
-    "name": "Alpha Wave Generator",
+    "name": {
+      "en": "Alpha Wave Generator",
+      "ptBR": "Emissor de Ondas Alfa"
+    },
     "rank": 1
   },
   "Scientist_Banner": {
@@ -4956,7 +6009,10 @@
       "Fiber": 10,
       "IronIngot": 10
     },
-    "name": "PAL Genetic Research Unit Vertical Banner",
+    "name": {
+      "en": "PAL Genetic Research Unit Vertical Banner",
+      "ptBR": "Faixa Vertical da Unidade de Pesquisas Genéticas"
+    },
     "rank": 1
   },
   "Scientist_Flag": {
@@ -4971,7 +6027,10 @@
       "Fiber": 10,
       "IronIngot": 20
     },
-    "name": "PAL Genetic Research Unit Standard",
+    "name": {
+      "en": "PAL Genetic Research Unit Standard",
+      "ptBR": "Estandarte da Unidade de Pesquisas Genéticas"
+    },
     "rank": 1
   },
   "Seika": {
@@ -4985,7 +6044,10 @@
       "Poppy": 1,
       "Wood_Fine": 10
     },
-    "name": "Flower Arrangement",
+    "name": {
+      "en": "Flower Arrangement",
+      "ptBR": "Arranjo floral"
+    },
     "rank": 1
   },
   "Shelf01_Iron": {
@@ -4999,7 +6061,10 @@
       "CopperIngot": 20,
       "MachineParts": 1
     },
-    "name": "Iron Shelf",
+    "name": {
+      "en": "Iron Shelf",
+      "ptBR": "Prateleira Metálica"
+    },
     "rank": 1
   },
   "Shelf01_Stone": {
@@ -5013,7 +6078,10 @@
       "MachineParts": 2,
       "Wood": 40
     },
-    "name": "Antique Bookshelf",
+    "name": {
+      "en": "Antique Bookshelf",
+      "ptBR": "Estante Antiga"
+    },
     "rank": 1
   },
   "Shelf01_Wall_Iron": {
@@ -5027,7 +6095,10 @@
       "CopperIngot": 10,
       "Wood": 5
     },
-    "name": "Iron Wall Shelf",
+    "name": {
+      "en": "Iron Wall Shelf",
+      "ptBR": "Prateleira de Parede de Ferro"
+    },
     "rank": 1
   },
   "Shelf01_Wall_Stone": {
@@ -5042,7 +6113,10 @@
       "Stone": 5,
       "Wood": 20
     },
-    "name": "Antique Wall Cabinet",
+    "name": {
+      "en": "Antique Wall Cabinet",
+      "ptBR": "Cômoda de Parede Antiga"
+    },
     "rank": 1
   },
   "Shelf02_Iron": {
@@ -5056,7 +6130,10 @@
       "CopperIngot": 20,
       "MachineParts": 2
     },
-    "name": "Long Iron Shelf",
+    "name": {
+      "en": "Long Iron Shelf",
+      "ptBR": "Prateleira Metálica Horizontal"
+    },
     "rank": 1
   },
   "Shelf02_Stone": {
@@ -5070,7 +6147,10 @@
       "MachineParts": 5,
       "Wood": 70
     },
-    "name": "Antique Wardrobe",
+    "name": {
+      "en": "Antique Wardrobe",
+      "ptBR": "Guarda-Roupa Antigo"
+    },
     "rank": 1
   },
   "Shelf03_Iron": {
@@ -5084,7 +6164,10 @@
       "CopperIngot": 30,
       "MachineParts": 3
     },
-    "name": "Orange Locker",
+    "name": {
+      "en": "Orange Locker",
+      "ptBR": "Armário Laranja"
+    },
     "rank": 1
   },
   "Shelf03_Stone": {
@@ -5098,7 +6181,10 @@
       "CopperIngot": 10,
       "Wood": 30
     },
-    "name": "Antique Chest",
+    "name": {
+      "en": "Antique Chest",
+      "ptBR": "Armário Antigo"
+    },
     "rank": 1
   },
   "Shelf04_Iron": {
@@ -5112,7 +6198,10 @@
       "CopperIngot": 30,
       "MachineParts": 3
     },
-    "name": "Locker",
+    "name": {
+      "en": "Locker",
+      "ptBR": "Armário"
+    },
     "rank": 1
   },
   "Shelf04_Stone": {
@@ -5126,7 +6215,10 @@
       "CopperIngot": 3,
       "Wood": 10
     },
-    "name": "Antique Side Chest",
+    "name": {
+      "en": "Antique Side Chest",
+      "ptBR": "Mesa de Cabeceira Antiga"
+    },
     "rank": 1
   },
   "Shelf05_Stone": {
@@ -5140,7 +6232,10 @@
       "Fiber": 10,
       "Wood": 30
     },
-    "name": "Antique Cabinet",
+    "name": {
+      "en": "Antique Cabinet",
+      "ptBR": "Cômoda Antiga"
+    },
     "rank": 1
   },
   "Shelf06_Stone": {
@@ -5154,7 +6249,10 @@
       "Fiber": 10,
       "Wood": 40
     },
-    "name": "Antique Long Cabinet",
+    "name": {
+      "en": "Antique Long Cabinet",
+      "ptBR": "Cômoda Larga e Baixa Antiga"
+    },
     "rank": 1
   },
   "Shelf07_Stone": {
@@ -5169,7 +6267,10 @@
       "Fiber": 10,
       "Wood": 40
     },
-    "name": "Large Antique Cabinet",
+    "name": {
+      "en": "Large Antique Cabinet",
+      "ptBR": "Cômoda Grande Antiga"
+    },
     "rank": 1
   },
   "Shelf_Cask_Wood": {
@@ -5183,7 +6284,10 @@
       "Stone": 10,
       "Wood": 70
     },
-    "name": "Wooden Barrel Shelf",
+    "name": {
+      "en": "Wooden Barrel Shelf",
+      "ptBR": "Barril com Prateleira de Madeira"
+    },
     "rank": 1
   },
   "Shelf_Hang01_Wood": {
@@ -5197,7 +6301,10 @@
       "Stone": 5,
       "Wood": 20
     },
-    "name": "Wooden Wall Shelf",
+    "name": {
+      "en": "Wooden Wall Shelf",
+      "ptBR": "Prateleira de Parede de Madeira"
+    },
     "rank": 1
   },
   "Shelf_Hang02_Wood": {
@@ -5211,7 +6318,10 @@
       "Stone": 5,
       "Wood": 5
     },
-    "name": "Wooden Decorative Wall Shelf",
+    "name": {
+      "en": "Wooden Decorative Wall Shelf",
+      "ptBR": "Prateleira de Parede Decorativa de Madeira"
+    },
     "rank": 1
   },
   "Shelf_Wood": {
@@ -5225,7 +6335,10 @@
       "Stone": 2,
       "Wood": 40
     },
-    "name": "Wooden Shelf",
+    "name": {
+      "en": "Wooden Shelf",
+      "ptBR": "Prateleira de Madeira"
+    },
     "rank": 1
   },
   "Shishiodoshi": {
@@ -5239,7 +6352,10 @@
       "PalFluid": 3,
       "Wood_Fine": 10
     },
-    "name": "Deer Scare",
+    "name": {
+      "en": "Deer Scare",
+      "ptBR": "Fonte de água de bambu"
+    },
     "rank": 1
   },
   "Shrine_Lantern": {
@@ -5254,7 +6370,10 @@
       "ElectricOrgan": 3,
       "Stone": 10
     },
-    "name": "Red Wooden Lantern",
+    "name": {
+      "en": "Red Wooden Lantern",
+      "ptBR": "Lanterna de Santuário"
+    },
     "rank": 1
   },
   "SignExit_Ceiling_Iron": {
@@ -5268,7 +6387,10 @@
       "ElectricOrgan": 1,
       "Polymer": 1
     },
-    "name": "Emergency Exit Ceiling Sign",
+    "name": {
+      "en": "Emergency Exit Ceiling Sign",
+      "ptBR": "Placa de Saída de Emergência para Teto"
+    },
     "rank": 1
   },
   "SignExit_Wall_Iron": {
@@ -5282,7 +6404,10 @@
       "ElectricOrgan": 1,
       "Polymer": 1
     },
-    "name": "Emergency Exit Wall Sign",
+    "name": {
+      "en": "Emergency Exit Wall Sign",
+      "ptBR": "Placa de Saída de Emergência para Parede"
+    },
     "rank": 1
   },
   "Signboard": {
@@ -5295,7 +6420,10 @@
     "ingredients": {
       "Wood": 10
     },
-    "name": "Sign",
+    "name": {
+      "en": "Sign",
+      "ptBR": "Placa"
+    },
     "rank": 1
   },
   "Silo": {
@@ -5311,7 +6439,10 @@
       "Stone": 20,
       "Wood": 30
     },
-    "name": "Silo",
+    "name": {
+      "en": "Silo",
+      "ptBR": "Silo"
+    },
     "rank": 1
   },
   "SkinChange": {
@@ -5325,7 +6456,10 @@
       "Pal_crystal_S": 10,
       "Stone": 10
     },
-    "name": "Pal Dressing Facility",
+    "name": {
+      "en": "Pal Dressing Facility",
+      "ptBR": "Dispositivo de Enfeite de Pal"
+    },
     "rank": 1
   },
   "SkyIslandOrePit": {
@@ -5340,7 +6474,10 @@
       "SkyIslandOre": 100,
       "Stone": 70
     },
-    "name": "Soralite Quarry",
+    "name": {
+      "en": "Soralite Quarry",
+      "ptBR": "Garimpo de Soralite"
+    },
     "rank": 1
   },
   "SkyIsland_Banner": {
@@ -5355,7 +6492,10 @@
       "Fiber": 10,
       "IronIngot": 10
     },
-    "name": "Azure Covenant Banner",
+    "name": {
+      "en": "Azure Covenant Banner",
+      "ptBR": "Faixa Vertical da Aliança Celeste"
+    },
     "rank": 1
   },
   "SkyIsland_Flag": {
@@ -5370,7 +6510,10 @@
       "Fiber": 10,
       "IronIngot": 20
     },
-    "name": "Azure Covenant Flag",
+    "name": {
+      "en": "Azure Covenant Flag",
+      "ptBR": "Estandarte da Aliança Celeste"
+    },
     "rank": 1
   },
   "Snowman": {
@@ -5385,7 +6528,10 @@
       "IceOrgan": 5,
       "Wood": 10
     },
-    "name": "Snowman",
+    "name": {
+      "en": "Snowman",
+      "ptBR": "Boneco de Neve"
+    },
     "rank": 1
   },
   "Sofa01_Iron": {
@@ -5400,7 +6546,10 @@
       "Leather": 2,
       "Wood": 10
     },
-    "name": "Leather Armchair",
+    "name": {
+      "en": "Leather Armchair",
+      "ptBR": "Poltrona de Couro"
+    },
     "rank": 1
   },
   "Sofa01_Stone": {
@@ -5415,7 +6564,10 @@
       "FireOrgan": 1,
       "Wood": 10
     },
-    "name": "Antique Armchair",
+    "name": {
+      "en": "Antique Armchair",
+      "ptBR": "Poltrona Antiga"
+    },
     "rank": 1
   },
   "Sofa02_Iron": {
@@ -5429,7 +6581,10 @@
       "Leather": 3,
       "Wood": 20
     },
-    "name": "Leather Couch",
+    "name": {
+      "en": "Leather Couch",
+      "ptBR": "Sofá de Couro para Duas Pessoas"
+    },
     "rank": 1
   },
   "Sofa02_Stone": {
@@ -5444,7 +6599,10 @@
       "FireOrgan": 2,
       "Wood": 20
     },
-    "name": "Antique Couch",
+    "name": {
+      "en": "Antique Couch",
+      "ptBR": "Sofá Antigo para Duas Pessoas"
+    },
     "rank": 1
   },
   "Sofa03_Stone": {
@@ -5459,7 +6617,10 @@
       "FireOrgan": 1,
       "Wood": 10
     },
-    "name": "Antique Ottoman",
+    "name": {
+      "en": "Antique Ottoman",
+      "ptBR": "Divã Antigo"
+    },
     "rank": 1
   },
   "Spa": {
@@ -5475,7 +6636,10 @@
       "Stone": 15,
       "Wood": 20
     },
-    "name": "Hot Spring",
+    "name": {
+      "en": "Hot Spring",
+      "ptBR": "Águas Termais"
+    },
     "rank": 1
   },
   "Spa2": {
@@ -5491,7 +6655,10 @@
       "Stone": 50,
       "Wood": 50
     },
-    "name": "High Quality Hot Spring",
+    "name": {
+      "en": "High Quality Hot Spring",
+      "ptBR": "Águas Termais de Luxo"
+    },
     "rank": 1
   },
   "Spa3": {
@@ -5507,7 +6674,10 @@
       "Thermal_Core": 10,
       "Wood_Fine": 20
     },
-    "name": "Japanese-Style Hot Spring",
+    "name": {
+      "en": "Japanese-Style Hot Spring",
+      "ptBR": "Águas Termais Japonesas"
+    },
     "rank": 1
   },
   "SphereFactory_Black_01": {
@@ -5523,7 +6693,10 @@
       "Pal_crystal_S": 10,
       "Wood": 30
     },
-    "name": "Sphere Workbench",
+    "name": {
+      "en": "Sphere Workbench",
+      "ptBR": "Oficina de Esferas"
+    },
     "rank": 1
   },
   "SphereFactory_Black_02": {
@@ -5539,7 +6712,10 @@
       "Pal_crystal_S": 30,
       "Processed_Wood": 5
     },
-    "name": "Sphere Assembly Line",
+    "name": {
+      "en": "Sphere Assembly Line",
+      "ptBR": "Fábrica de Linha de Esferas"
+    },
     "rank": 1
   },
   "SphereFactory_Black_03": {
@@ -5555,7 +6731,10 @@
       "MachineParts2": 10,
       "Pal_crystal_S": 50
     },
-    "name": "Sphere Assembly Line II",
+    "name": {
+      "en": "Sphere Assembly Line II",
+      "ptBR": "Fábrica de Linha de Esferas II"
+    },
     "rank": 1
   },
   "SphereFactory_Black_04": {
@@ -5571,7 +6750,10 @@
       "Plastic": 50,
       "StainlessSteel": 50
     },
-    "name": "Advanced Sphere Assembly Line",
+    "name": {
+      "en": "Advanced Sphere Assembly Line",
+      "ptBR": "Fábrica de Esferas de Civilização Avançada"
+    },
     "rank": 1
   },
   "StationDeforest2": {
@@ -5586,7 +6768,10 @@
       "Stone": 20,
       "Wood": 50
     },
-    "name": "Logging Site",
+    "name": {
+      "en": "Logging Site",
+      "ptBR": "Madeireira"
+    },
     "rank": 1
   },
   "StationDeforest3": {
@@ -5602,7 +6787,10 @@
       "Stone": 50,
       "Wood_Fine": 100
     },
-    "name": "Logging Site II",
+    "name": {
+      "en": "Logging Site II",
+      "ptBR": "Madeireira II"
+    },
     "rank": 1
   },
   "StonePit": {
@@ -5617,7 +6805,10 @@
       "Stone": 50,
       "Wood": 20
     },
-    "name": "Stone Pit",
+    "name": {
+      "en": "Stone Pit",
+      "ptBR": "Pedreira"
+    },
     "rank": 1
   },
   "Stone_DiagonalWall": {
@@ -5630,7 +6821,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Diagonal Wall",
+    "name": {
+      "en": "Stone Diagonal Wall",
+      "ptBR": "Parede Diagonal de Pedra"
+    },
     "rank": 1
   },
   "Stone_DoorWall": {
@@ -5643,7 +6837,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Door",
+    "name": {
+      "en": "Stone Door",
+      "ptBR": "Porta de Pedra"
+    },
     "rank": 1
   },
   "Stone_Fence": {
@@ -5656,7 +6853,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Fence",
+    "name": {
+      "en": "Stone Fence",
+      "ptBR": "Cerca de Pedra"
+    },
     "rank": 1
   },
   "Stone_Gate": {
@@ -5669,7 +6869,10 @@
     "ingredients": {
       "Stone": 10
     },
-    "name": "Stone Gate",
+    "name": {
+      "en": "Stone Gate",
+      "ptBR": "Portão de Pedra"
+    },
     "rank": 1
   },
   "Stone_PyramidRoof": {
@@ -5682,7 +6885,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Pyramid Roof",
+    "name": {
+      "en": "Stone Pyramid Roof",
+      "ptBR": "Telhado de Pirâmide de Pedra"
+    },
     "rank": 1
   },
   "Stone_SlantedRoof": {
@@ -5695,7 +6901,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Slanted Roof",
+    "name": {
+      "en": "Stone Slanted Roof",
+      "ptBR": "Telhado Inclinado de Pedra"
+    },
     "rank": 1
   },
   "Stone_SlopedRoofCorner": {
@@ -5708,7 +6917,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Slanted Triangular Roof",
+    "name": {
+      "en": "Stone Slanted Triangular Roof",
+      "ptBR": "Telhado Inclinado Triangular de Pedra"
+    },
     "rank": 1
   },
   "Stone_SlopedRoofCornerReverse": {
@@ -5721,7 +6933,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Slanted Corner Roof (Inverted)",
+    "name": {
+      "en": "Stone Slanted Corner Roof (Inverted)",
+      "ptBR": "Telhado Inclinado Triangular de Pedra (Invertido)"
+    },
     "rank": 1
   },
   "Stone_TriangleFoundation": {
@@ -5734,7 +6949,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Triangular Foundation",
+    "name": {
+      "en": "Stone Triangular Foundation",
+      "ptBR": "Fundação Triangular de Pedra"
+    },
     "rank": 1
   },
   "Stone_TriangleRoof": {
@@ -5747,7 +6965,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Triangular Roof",
+    "name": {
+      "en": "Stone Triangular Roof",
+      "ptBR": "Telhado Triangular de Pedra"
+    },
     "rank": 1
   },
   "Stone_TriangleStairsCorner": {
@@ -5760,7 +6981,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Corner Roof",
+    "name": {
+      "en": "Stone Corner Roof",
+      "ptBR": "Telhado de Quina de Pedra"
+    },
     "rank": 1
   },
   "Stone_TriangleWall": {
@@ -5773,7 +6997,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Triangular Wall",
+    "name": {
+      "en": "Stone Triangular Wall",
+      "ptBR": "Parede Triangular de Pedra"
+    },
     "rank": 1
   },
   "Stone_TriangleWallReverse": {
@@ -5786,7 +7013,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Triangular Wall (Inverted)",
+    "name": {
+      "en": "Stone Triangular Wall (Inverted)",
+      "ptBR": "Parede Triangular de Pedra (Invertida)"
+    },
     "rank": 1
   },
   "Stone_WallGate": {
@@ -5799,7 +7029,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Pal Passage Entrance",
+    "name": {
+      "en": "Stone Pal Passage Entrance",
+      "ptBR": "Passagem para Pals de Pedra"
+    },
     "rank": 1
   },
   "Stone_WindowWall": {
@@ -5812,7 +7045,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Wall and Window",
+    "name": {
+      "en": "Stone Wall and Window",
+      "ptBR": "Parede com Janela de Pedra"
+    },
     "rank": 1
   },
   "Stone_foundation": {
@@ -5825,7 +7061,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Foundation",
+    "name": {
+      "en": "Stone Foundation",
+      "ptBR": "Fundação de Pedra"
+    },
     "rank": 1
   },
   "Stone_pillar": {
@@ -5838,7 +7077,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone_pillar",
+    "name": {
+      "en": null,
+      "ptBR": null
+    },
     "rank": 1
   },
   "Stone_roof": {
@@ -5851,7 +7093,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Roof",
+    "name": {
+      "en": "Stone Roof",
+      "ptBR": "Telhado de Pedra"
+    },
     "rank": 1
   },
   "Stone_stair": {
@@ -5864,7 +7109,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Stairs",
+    "name": {
+      "en": "Stone Stairs",
+      "ptBR": "Escada de Pedra"
+    },
     "rank": 1
   },
   "Stone_wall": {
@@ -5877,7 +7125,10 @@
     "ingredients": {
       "Stone": 3
     },
-    "name": "Stone Wall",
+    "name": {
+      "en": "Stone Wall",
+      "ptBR": "Muro de Pedra"
+    },
     "rank": 1
   },
   "Stool01_Iron": {
@@ -5890,7 +7141,10 @@
     "ingredients": {
       "CopperIngot": 3
     },
-    "name": "Iron Stool",
+    "name": {
+      "en": "Iron Stool",
+      "ptBR": "Banqueta de Ferro"
+    },
     "rank": 1
   },
   "Stool01_Stone": {
@@ -5903,7 +7157,10 @@
     "ingredients": {
       "Wood": 10
     },
-    "name": "Antique Stool",
+    "name": {
+      "en": "Antique Stool",
+      "ptBR": "Banqueta Antiga"
+    },
     "rank": 1
   },
   "Stool_High_Wood": {
@@ -5916,7 +7173,10 @@
     "ingredients": {
       "Wood": 8
     },
-    "name": "Wooden Bar Stool",
+    "name": {
+      "en": "Wooden Bar Stool",
+      "ptBR": "Banqueta Alta de Madeira"
+    },
     "rank": 1
   },
   "Stool_Wood": {
@@ -5929,7 +7189,10 @@
     "ingredients": {
       "Wood": 5
     },
-    "name": "Wooden Stool",
+    "name": {
+      "en": "Wooden Stool",
+      "ptBR": "Banqueta de Madeira"
+    },
     "rank": 1
   },
   "Stove01_Stone": {
@@ -5943,7 +7206,10 @@
       "Charcoal": 5,
       "CopperIngot": 20
     },
-    "name": "Antique Stove",
+    "name": {
+      "en": "Antique Stove",
+      "ptBR": "Aquecedor Antigo"
+    },
     "rank": 1
   },
   "Stump": {
@@ -5958,7 +7224,10 @@
       "Stone": 30,
       "Wood": 50
     },
-    "name": "Stump and Axe",
+    "name": {
+      "en": "Stump and Axe",
+      "ptBR": "Toco e Machado"
+    },
     "rank": 1
   },
   "SulfurPit": {
@@ -5974,7 +7243,10 @@
       "Stone": 70,
       "Sulfur": 100
     },
-    "name": "Sulfur Quarry",
+    "name": {
+      "en": "Sulfur Quarry",
+      "ptBR": "Garimpo de Enxofre"
+    },
     "rank": 1
   },
   "TableCircular01_Iron": {
@@ -5987,7 +7259,10 @@
     "ingredients": {
       "CopperIngot": 5
     },
-    "name": "Round Iron Table",
+    "name": {
+      "en": "Round Iron Table",
+      "ptBR": "Mesa Redonda de Ferro"
+    },
     "rank": 1
   },
   "TableCircular01_Stone": {
@@ -6002,7 +7277,10 @@
       "Stone": 2,
       "Wood": 20
     },
-    "name": "Antique Round Table",
+    "name": {
+      "en": "Antique Round Table",
+      "ptBR": "Mesa Redonda Antiga"
+    },
     "rank": 1
   },
   "TableCircular_Wood": {
@@ -6016,7 +7294,10 @@
       "Berries": 5,
       "Wood": 20
     },
-    "name": "Round Table",
+    "name": {
+      "en": "Round Table",
+      "ptBR": "Mesa Redonda"
+    },
     "rank": 1
   },
   "TableCircular_Wood_None": {
@@ -6029,7 +7310,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Tidy Round Table",
+    "name": {
+      "en": "Tidy Round Table",
+      "ptBR": "Mesa Redonda Arrumada"
+    },
     "rank": 1
   },
   "TableDresser01_Stone": {
@@ -6044,7 +7328,10 @@
       "Processed_Wood": 20,
       "Stone": 30
     },
-    "name": "Antique Dresser",
+    "name": {
+      "en": "Antique Dresser",
+      "ptBR": "Penteadeira Antiga"
+    },
     "rank": 1
   },
   "TableSide01_Iron": {
@@ -6058,7 +7345,10 @@
       "CopperIngot": 2,
       "Processed_Wood": 1
     },
-    "name": "Ironwood Side Table",
+    "name": {
+      "en": "Ironwood Side Table",
+      "ptBR": "Mesa de Canto de Pau-Ferro"
+    },
     "rank": 1
   },
   "TableSink01_Stone": {
@@ -6074,7 +7364,10 @@
       "Stone": 10,
       "Wood": 30
     },
-    "name": "Antique Washstand",
+    "name": {
+      "en": "Antique Washstand",
+      "ptBR": "Pia de Banheiro Antiga"
+    },
     "rank": 1
   },
   "TableSquare01_Iron": {
@@ -6089,7 +7382,10 @@
       "CopperIngot": 5,
       "Processed_Wood": 2
     },
-    "name": "Ironwood Table",
+    "name": {
+      "en": "Ironwood Table",
+      "ptBR": "Mesa de Pau-Ferro"
+    },
     "rank": 1
   },
   "TableSquare02_Iron": {
@@ -6103,7 +7399,10 @@
       "CopperIngot": 2,
       "Processed_Wood": 2
     },
-    "name": "Ironwood Low Table",
+    "name": {
+      "en": "Ironwood Low Table",
+      "ptBR": "Mesa Baixa de Pau-Ferro"
+    },
     "rank": 1
   },
   "TableSquare_Wood": {
@@ -6117,7 +7416,10 @@
       "Berries": 5,
       "Wood": 20
     },
-    "name": "Square Table",
+    "name": {
+      "en": "Square Table",
+      "ptBR": "Mesa Quadrada"
+    },
     "rank": 1
   },
   "TableSquare_Wood_None": {
@@ -6130,7 +7432,10 @@
     "ingredients": {
       "Wood": 20
     },
-    "name": "Tidy Square Table",
+    "name": {
+      "en": "Tidy Square Table",
+      "ptBR": "Mesa Quadrada Arrumada"
+    },
     "rank": 1
   },
   "Tansu": {
@@ -6144,7 +7449,10 @@
       "Stone": 5,
       "Wood_Fine": 15
     },
-    "name": "Japanese-Style Chest",
+    "name": {
+      "en": "Japanese-Style Chest",
+      "ptBR": "Armário"
+    },
     "rank": 1
   },
   "Television01_Iron": {
@@ -6158,7 +7466,10 @@
       "MachineParts2": 1,
       "Wood": 20
     },
-    "name": "Old TV",
+    "name": {
+      "en": "Old TV",
+      "ptBR": "Televisão Antiga"
+    },
     "rank": 1
   },
   "Tire01_Iron": {
@@ -6172,7 +7483,10 @@
       "PalFluid": 2,
       "PalOil": 2
     },
-    "name": "Tire",
+    "name": {
+      "en": "Tire",
+      "ptBR": "Pneu"
+    },
     "rank": 1
   },
   "Toilet01_Stone": {
@@ -6187,7 +7501,10 @@
       "Stone": 20,
       "Wood": 10
     },
-    "name": "Antique Toilet",
+    "name": {
+      "en": "Antique Toilet",
+      "ptBR": "Vaso Sanitário Antigo"
+    },
     "rank": 1
   },
   "ToiletHolder01_Stone": {
@@ -6201,7 +7518,10 @@
       "CopperIngot": 1,
       "Fiber": 3
     },
-    "name": "Antique Toilet Paper Holder",
+    "name": {
+      "en": "Antique Toilet Paper Holder",
+      "ptBR": "Porta-Papel Higiênico Antigo"
+    },
     "rank": 1
   },
   "ToolBoxV1": {
@@ -6216,7 +7536,10 @@
       "MachineParts": 15,
       "Wood": 50
     },
-    "name": "Large Toolbox",
+    "name": {
+      "en": "Large Toolbox",
+      "ptBR": "Caixa de Ferramentas Grande"
+    },
     "rank": 1
   },
   "Torch": {
@@ -6230,7 +7553,10 @@
       "Stone": 2,
       "Wood": 5
     },
-    "name": "Mounted Torch",
+    "name": {
+      "en": "Mounted Torch",
+      "ptBR": "Tocha Fixa"
+    },
     "rank": 1
   },
   "Toro": {
@@ -6243,7 +7569,10 @@
     "ingredients": {
       "Stone": 15
     },
-    "name": "Stone Lantern",
+    "name": {
+      "en": "Stone Lantern",
+      "ptBR": "Lanterna de pedra"
+    },
     "rank": 1
   },
   "TowlRack01_Stone": {
@@ -6257,7 +7586,10 @@
       "Cloth": 2,
       "CopperIngot": 1
     },
-    "name": "Antique Towel Rack",
+    "name": {
+      "en": "Antique Towel Rack",
+      "ptBR": "Porta-Toalha Antigo"
+    },
     "rank": 1
   },
   "TrafficBarricade01_Iron": {
@@ -6270,7 +7602,10 @@
     "ingredients": {
       "CopperIngot": 5
     },
-    "name": "Barricade",
+    "name": {
+      "en": "Barricade",
+      "ptBR": "Barricada"
+    },
     "rank": 1
   },
   "TrafficBarricade02_Iron": {
@@ -6284,7 +7619,10 @@
       "CopperIngot": 3,
       "Polymer": 1
     },
-    "name": "Orange Barricade",
+    "name": {
+      "en": "Orange Barricade",
+      "ptBR": "Barricada Laranja"
+    },
     "rank": 1
   },
   "TrafficBarricade03_Iron": {
@@ -6298,7 +7636,10 @@
       "CopperIngot": 5,
       "FireOrgan": 1
     },
-    "name": "Red Iron Barricade",
+    "name": {
+      "en": "Red Iron Barricade",
+      "ptBR": "Barricada Vermelha de Ferro"
+    },
     "rank": 1
   },
   "TrafficBarricade04_Iron": {
@@ -6311,7 +7652,10 @@
     "ingredients": {
       "CopperIngot": 5
     },
-    "name": "White Iron Barricade",
+    "name": {
+      "en": "White Iron Barricade",
+      "ptBR": "Barricada Branca de Ferro"
+    },
     "rank": 1
   },
   "TrafficBarricade05_Iron": {
@@ -6324,7 +7668,10 @@
     "ingredients": {
       "CopperIngot": 5
     },
-    "name": "Iron Fence",
+    "name": {
+      "en": "Iron Fence",
+      "ptBR": "Cerca de Ferro"
+    },
     "rank": 1
   },
   "TrafficCone01_Iron": {
@@ -6337,7 +7684,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Traffic Cone",
+    "name": {
+      "en": "Traffic Cone",
+      "ptBR": "Cone"
+    },
     "rank": 1
   },
   "TrafficCone02_Iron": {
@@ -6350,7 +7700,10 @@
     "ingredients": {
       "Polymer": 2
     },
-    "name": "Fat Traffic Cone",
+    "name": {
+      "en": "Fat Traffic Cone",
+      "ptBR": "Cone de Trânsito Roliço"
+    },
     "rank": 1
   },
   "TrafficCone03_Iron": {
@@ -6363,7 +7716,10 @@
     "ingredients": {
       "Polymer": 1
     },
-    "name": "Skinny Traffic Cone",
+    "name": {
+      "en": "Skinny Traffic Cone",
+      "ptBR": "Cone de Trânsito Delgado"
+    },
     "rank": 1
   },
   "TrafficLight01_Iron": {
@@ -6377,7 +7733,10 @@
       "CopperIngot": 20,
       "ElectricOrgan": 2
     },
-    "name": "Traffic Light",
+    "name": {
+      "en": "Traffic Light",
+      "ptBR": "Semáforo"
+    },
     "rank": 1
   },
   "TrafficSign01_Iron": {
@@ -6390,7 +7749,10 @@
     "ingredients": {
       "CopperIngot": 5
     },
-    "name": "No Pals Beyond Sign",
+    "name": {
+      "en": "No Pals Beyond Sign",
+      "ptBR": "Placa para Proibir Passagem de Pals"
+    },
     "rank": 1
   },
   "TrafficSign02_Iron": {
@@ -6403,7 +7765,10 @@
     "ingredients": {
       "CopperIngot": 5
     },
-    "name": "Stop Sign",
+    "name": {
+      "en": "Stop Sign",
+      "ptBR": "Placa de Parada Obrigatória"
+    },
     "rank": 1
   },
   "TrafficSign03_Iron": {
@@ -6416,7 +7781,10 @@
     "ingredients": {
       "CopperIngot": 5
     },
-    "name": "Beware of Eikthyrdeer Sign",
+    "name": {
+      "en": "Beware of Eikthyrdeer Sign",
+      "ptBR": "Placa de Eikthyrdeers na Pista"
+    },
     "rank": 1
   },
   "TrafficSign04_Iron": {
@@ -6429,7 +7797,10 @@
     "ingredients": {
       "CopperIngot": 5
     },
-    "name": "Beware of Mammorest Sign",
+    "name": {
+      "en": "Beware of Mammorest Sign",
+      "ptBR": "Placa de Mammorests na Pista"
+    },
     "rank": 1
   },
   "TransmissionTower": {
@@ -6444,7 +7815,10 @@
       "CopperIngot": 20,
       "MachineParts2": 5
     },
-    "name": "Electric Pylon",
+    "name": {
+      "en": "Electric Pylon",
+      "ptBR": "Torre de Transmissão"
+    },
     "rank": 1
   },
   "Trap_LegHold": {
@@ -6457,7 +7831,10 @@
     "ingredients": {
       "CopperIngot": 5
     },
-    "name": "Bear Trap (Small)",
+    "name": {
+      "en": "Bear Trap (Small)",
+      "ptBR": "Armadilha de Urso (P)"
+    },
     "rank": 1
   },
   "Trap_LegHold_Big": {
@@ -6470,7 +7847,10 @@
     "ingredients": {
       "CopperIngot": 20
     },
-    "name": "Bear Trap (Large)",
+    "name": {
+      "en": "Bear Trap (Large)",
+      "ptBR": "Armadilha de Urso (G)"
+    },
     "rank": 1
   },
   "Trap_MineAttack": {
@@ -6484,7 +7864,10 @@
       "CopperIngot": 5,
       "FireOrgan": 2
     },
-    "name": "Mine",
+    "name": {
+      "en": "Mine",
+      "ptBR": "Mina Terrestre"
+    },
     "rank": 1
   },
   "Trap_MineElecShock": {
@@ -6498,7 +7881,10 @@
       "CopperIngot": 5,
       "ElectricOrgan": 2
     },
-    "name": "Electric Mine",
+    "name": {
+      "en": "Electric Mine",
+      "ptBR": "Mina Elétrica"
+    },
     "rank": 1
   },
   "Trap_MineFreeze": {
@@ -6512,7 +7898,10 @@
       "CopperIngot": 5,
       "IceOrgan": 2
     },
-    "name": "Ice Mine",
+    "name": {
+      "en": "Ice Mine",
+      "ptBR": "Mina Congelante"
+    },
     "rank": 1
   },
   "Trap_MovingPanel": {
@@ -6525,7 +7914,10 @@
     "ingredients": {
       "Pal_crystal_S": 50
     },
-    "name": "Moving Panels",
+    "name": {
+      "en": "Moving Panels",
+      "ptBR": "pt-BR_Text"
+    },
     "rank": 1
   },
   "Trap_Noose": {
@@ -6539,7 +7931,10 @@
       "Stone": 5,
       "Wood": 10
     },
-    "name": "Hanging Trap",
+    "name": {
+      "en": "Hanging Trap",
+      "ptBR": "Armadilha de Laço"
+    },
     "rank": 1
   },
   "WallSignboard": {
@@ -6552,7 +7947,10 @@
     "ingredients": {
       "Wood": 10
     },
-    "name": "Wall-Mounted Sign",
+    "name": {
+      "en": "Wall-Mounted Sign",
+      "ptBR": "Placa de Parede"
+    },
     "rank": 1
   },
   "WallTorch": {
@@ -6566,7 +7964,10 @@
       "Stone": 2,
       "Wood": 5
     },
-    "name": "Wall Torch",
+    "name": {
+      "en": "Wall Torch",
+      "ptBR": "Tocha de Parede"
+    },
     "rank": 1
   },
   "WallTorch02": {
@@ -6581,7 +7982,10 @@
       "Stone": 2,
       "Wood": 5
     },
-    "name": "Majestic Wall Torch",
+    "name": {
+      "en": "Majestic Wall Torch",
+      "ptBR": "Tocha de Parede Solene"
+    },
     "rank": 1
   },
   "WeaponFactory_Dirty_01": {
@@ -6596,7 +8000,10 @@
       "MachineParts": 10,
       "Processed_Wood": 10
     },
-    "name": "Weapon Workbench",
+    "name": {
+      "en": "Weapon Workbench",
+      "ptBR": "Fábrica de Armas"
+    },
     "rank": 1
   },
   "WeaponFactory_Dirty_02": {
@@ -6612,7 +8019,10 @@
       "PalOil": 10,
       "Processed_Wood": 20
     },
-    "name": "Weapon Assembly Line",
+    "name": {
+      "en": "Weapon Assembly Line",
+      "ptBR": "Fábrica de Linha de Armas"
+    },
     "rank": 1
   },
   "WeaponFactory_Dirty_03": {
@@ -6628,7 +8038,10 @@
       "IronIngot": 100,
       "MachineParts2": 10
     },
-    "name": "Weapon Assembly Line II",
+    "name": {
+      "en": "Weapon Assembly Line II",
+      "ptBR": "Fábrica de Linha de Armas II"
+    },
     "rank": 1
   },
   "WeaponFactory_Dirty_04": {
@@ -6643,14 +8056,20 @@
       "ManganeseIngot": 50,
       "Thermal_Core": 10
     },
-    "name": "Advanced Weapon Assembly Line",
+    "name": {
+      "en": "Advanced Weapon Assembly Line",
+      "ptBR": "Fábrica de Armas de Civilização Avançada"
+    },
     "rank": 1
   },
   "WheatSeeds": {
     "base": true,
     "category": null,
     "ingredients": {},
-    "name": "Wheat Seeds",
+    "name": {
+      "en": "Wheat Seeds",
+      "ptBR": "Semente de Trigo"
+    },
     "rank": 1
   },
   "Wire_Fence": {
@@ -6664,7 +8083,10 @@
       "CopperIngot": 5,
       "Stone": 10
     },
-    "name": "Wire Fence",
+    "name": {
+      "en": "Wire Fence",
+      "ptBR": "Cerca de Arame"
+    },
     "rank": 1
   },
   "WoodCreator": {
@@ -6678,7 +8100,10 @@
       "Stone": 5,
       "Wood": 15
     },
-    "name": "en Text",
+    "name": {
+      "en": "en Text",
+      "ptBR": "pt-BR_Text"
+    },
     "rank": 1
   },
   "Wood_Fence": {
@@ -6691,7 +8116,10 @@
     "ingredients": {
       "Wood": 3
     },
-    "name": "Wooden Fence",
+    "name": {
+      "en": "Wooden Fence",
+      "ptBR": "Cerca de Madeira"
+    },
     "rank": 1
   },
   "Wood_Gate": {
@@ -6704,7 +8132,10 @@
     "ingredients": {
       "Wood": 10
     },
-    "name": "Wooden Gate",
+    "name": {
+      "en": "Wooden Gate",
+      "ptBR": "Portão de Madeira"
+    },
     "rank": 1
   },
   "Wood_SlantedRoof": {
@@ -6717,7 +8148,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Slanted Roof",
+    "name": {
+      "en": "Wooden Slanted Roof",
+      "ptBR": "Telhado Inclinado de Madeira"
+    },
     "rank": 1
   },
   "Wood_TriangleWall": {
@@ -6730,7 +8164,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Triangular Wall",
+    "name": {
+      "en": "Wooden Triangular Wall",
+      "ptBR": "Parede Triangular de Madeira"
+    },
     "rank": 1
   },
   "Wood_TriangleWallReverse": {
@@ -6743,7 +8180,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Triangular Wall (Inverted)",
+    "name": {
+      "en": "Wooden Triangular Wall (Inverted)",
+      "ptBR": "Parede Triangular de Madeira (Invertida)"
+    },
     "rank": 1
   },
   "Wood_WindowWall": {
@@ -6756,7 +8196,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Wall and Window",
+    "name": {
+      "en": "Wooden Wall and Window",
+      "ptBR": "Parede com Janela de Madeira"
+    },
     "rank": 1
   },
   "WoodenBarricade": {
@@ -6770,7 +8213,10 @@
       "Fiber": 10,
       "Wood": 10
     },
-    "name": "Wooden Barricade",
+    "name": {
+      "en": "Wooden Barricade",
+      "ptBR": "Barricada de Madeira"
+    },
     "rank": 1
   },
   "Wooden_DiagonalWall": {
@@ -6783,7 +8229,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Diagonal Wall",
+    "name": {
+      "en": "Wooden Diagonal Wall",
+      "ptBR": "Parede Diagonal de Madeira"
+    },
     "rank": 1
   },
   "Wooden_DoorWall": {
@@ -6796,7 +8245,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Door",
+    "name": {
+      "en": "Wooden Door",
+      "ptBR": "Porta de Madeira"
+    },
     "rank": 1
   },
   "Wooden_PyramidRoof": {
@@ -6809,7 +8261,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Pyramid Roof",
+    "name": {
+      "en": "Wooden Pyramid Roof",
+      "ptBR": "Telhado de Pirâmide de Madeira"
+    },
     "rank": 1
   },
   "Wooden_SlopedRoofCorner": {
@@ -6822,7 +8277,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Slanted Triangular Roof",
+    "name": {
+      "en": "Wooden Slanted Triangular Roof",
+      "ptBR": "Telhado Inclinado Triangular de Madeira"
+    },
     "rank": 1
   },
   "Wooden_SlopedRoofCornerReverse": {
@@ -6835,7 +8293,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Slanted Corner Roof (Inverted)",
+    "name": {
+      "en": "Wooden Slanted Corner Roof (Inverted)",
+      "ptBR": "Telhado Inclinado Triangular de Madeira (Invertido)"
+    },
     "rank": 1
   },
   "Wooden_TriangleFoundation": {
@@ -6848,7 +8309,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Triangular Foundation",
+    "name": {
+      "en": "Wooden Triangular Foundation",
+      "ptBR": "Fundação Triangular de Madeira"
+    },
     "rank": 1
   },
   "Wooden_TriangleRoof": {
@@ -6861,7 +8325,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Triangular Roof",
+    "name": {
+      "en": "Wooden Triangular Roof",
+      "ptBR": "Telhado Triangular de Madeira"
+    },
     "rank": 1
   },
   "Wooden_TriangleStairsCorner": {
@@ -6874,7 +8341,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Corner Roof",
+    "name": {
+      "en": "Wooden Corner Roof",
+      "ptBR": "Telhado de Quina de Madeira"
+    },
     "rank": 1
   },
   "Wooden_WallGate": {
@@ -6887,7 +8357,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Pal Passage Entrance",
+    "name": {
+      "en": "Wooden Pal Passage Entrance",
+      "ptBR": "Passagem para Pals de Madeira"
+    },
     "rank": 1
   },
   "Wooden_foundation": {
@@ -6900,7 +8373,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Foundation",
+    "name": {
+      "en": "Wooden Foundation",
+      "ptBR": "Fundação de Madeira"
+    },
     "rank": 1
   },
   "Wooden_ladder": {
@@ -6913,7 +8389,10 @@
     "ingredients": {
       "Wood": 10
     },
-    "name": "Ladder",
+    "name": {
+      "en": "Ladder",
+      "ptBR": "Escada"
+    },
     "rank": 1
   },
   "Wooden_pillar": {
@@ -6926,7 +8405,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden_pillar",
+    "name": {
+      "en": null,
+      "ptBR": null
+    },
     "rank": 1
   },
   "Wooden_roof": {
@@ -6939,7 +8421,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Roof",
+    "name": {
+      "en": "Wooden Roof",
+      "ptBR": "Telhado de Madeira"
+    },
     "rank": 1
   },
   "Wooden_stair": {
@@ -6952,7 +8437,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Stairs",
+    "name": {
+      "en": "Wooden Stairs",
+      "ptBR": "Escada de Madeira"
+    },
     "rank": 1
   },
   "Wooden_wall": {
@@ -6965,7 +8453,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Wooden Wall",
+    "name": {
+      "en": "Wooden Wall",
+      "ptBR": "Muro de Madeira"
+    },
     "rank": 1
   },
   "WorkBench": {
@@ -6978,7 +8469,10 @@
     "ingredients": {
       "Wood": 2
     },
-    "name": "Primitive Workbench",
+    "name": {
+      "en": "Primitive Workbench",
+      "ptBR": "Bancada Primitiva"
+    },
     "rank": 1
   },
   "WorkBench_SkillUnlock": {
@@ -6993,7 +8487,10 @@
       "Pal_crystal_S": 10,
       "Wood": 30
     },
-    "name": "Pal Gear Workbench",
+    "name": {
+      "en": "Pal Gear Workbench",
+      "ptBR": "Fábrica de Equipamentos de Pal"
+    },
     "rank": 1
   },
   "WorkSpeedIncrease1": {
@@ -7008,7 +8505,10 @@
       "MachineParts2": 30,
       "StealIngot": 40
     },
-    "name": "Beta Wave Generator",
+    "name": {
+      "en": "Beta Wave Generator",
+      "ptBR": "Emissor de Ondas Beta"
+    },
     "rank": 1
   },
   "YakushimaBoss002_Relic": {
@@ -7021,7 +8521,10 @@
     "ingredients": {
       "YakushimaIngot001": 100
     },
-    "name": "Moon Lord Statue",
+    "name": {
+      "en": "Moon Lord Statue",
+      "ptBR": "Estátua do Senhor da Lua"
+    },
     "rank": 1
   },
   "Zabuton": {
@@ -7035,7 +8538,10 @@
       "Cloth": 3,
       "Fiber": 10
     },
-    "name": "Japanese Floor Cushion",
+    "name": {
+      "en": "Japanese Floor Cushion",
+      "ptBR": "Almofada"
+    },
     "rank": 1
   },
   "Zaisu": {
@@ -7050,7 +8556,10 @@
       "Fiber": 10,
       "Wood_Fine": 15
     },
-    "name": "Japanese Floor Chair",
+    "name": {
+      "en": "Japanese Floor Chair",
+      "ptBR": "Cadeira sem pernas"
+    },
     "rank": 1
   }
 }

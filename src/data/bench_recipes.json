@@ -3,7 +3,10 @@
     "description": "Item->station link generated from the PalMapObjectItemConverterParameterComponent (TargetTypesA/TargetTypesB/TargetRankMax) of each structure blueprint, cross referenced with TypeA/TypeB/Rank from DT_ItemDataTable_Common. Real game data, not an estimate.",
     "benches": {
       "AncientBlastFurnace": {
-        "name": "Ancient Furnace",
+        "name": {
+          "en": "Ancient Furnace",
+          "ptBR": "Forno da Civilização Antiga"
+        },
         "typesA": [
           "EPalItemTypeA::Material"
         ],
@@ -14,7 +17,10 @@
         "rankMax": 7
       },
       "AncientCookingStove": {
-        "name": "Ancient Kitchen",
+        "name": {
+          "en": "Ancient Kitchen",
+          "ptBR": "Cozinha da Civilização Antiga"
+        },
         "typesA": [
           "EPalItemTypeA::Food"
         ],
@@ -27,7 +33,10 @@
         "rankMax": 5
       },
       "AncientWorkBench": {
-        "name": "Ancient Workbench",
+        "name": {
+          "en": "Ancient Workbench",
+          "ptBR": "Bancada da Civilização Antiga"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Armor",
@@ -84,7 +93,10 @@
         "rankMax": 10
       },
       "BlastFurnace": {
-        "name": "Primitive Furnace",
+        "name": {
+          "en": "Primitive Furnace",
+          "ptBR": "Forno Primitivo"
+        },
         "typesA": [
           "EPalItemTypeA::Material"
         ],
@@ -95,7 +107,10 @@
         "rankMax": 1
       },
       "BlastFurnace3": {
-        "name": "Electric Furnace",
+        "name": {
+          "en": "Electric Furnace",
+          "ptBR": "Forno Elétrico"
+        },
         "typesA": [
           "EPalItemTypeA::Material"
         ],
@@ -106,7 +121,10 @@
         "rankMax": 3
       },
       "BlastFurnace4": {
-        "name": "Gigantic Furnace",
+        "name": {
+          "en": "Gigantic Furnace",
+          "ptBR": "Forno Gigantesco"
+        },
         "typesA": [
           "EPalItemTypeA::Material"
         ],
@@ -117,7 +135,10 @@
         "rankMax": 4
       },
       "BlastFurnace5": {
-        "name": "en Text",
+        "name": {
+          "en": "en Text",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::Material"
         ],
@@ -128,7 +149,10 @@
         "rankMax": 6
       },
       "BlastFurnace_2": {
-        "name": "BlastFurnace_2",
+        "name": {
+          "en": null,
+          "ptBR": null
+        },
         "typesA": [
           "EPalItemTypeA::Material"
         ],
@@ -139,7 +163,10 @@
         "rankMax": 2
       },
       "CampFire": {
-        "name": "Campfire",
+        "name": {
+          "en": "Campfire",
+          "ptBR": "Fogueira"
+        },
         "typesA": [
           "EPalItemTypeA::Food",
           "EPalItemTypeA::Material"
@@ -153,7 +180,10 @@
         "rankMax": 1
       },
       "CompositeDesk": {
-        "name": "Drafting Table",
+        "name": {
+          "en": "Drafting Table",
+          "ptBR": "Mesa de Projetos"
+        },
         "typesA": [
           "EPalItemTypeA::Blueprint"
         ],
@@ -164,7 +194,10 @@
         "rankMax": 1
       },
       "CookingStove": {
-        "name": "Cooking Pot",
+        "name": {
+          "en": "Cooking Pot",
+          "ptBR": "Panela"
+        },
         "typesA": [
           "EPalItemTypeA::Food"
         ],
@@ -177,7 +210,10 @@
         "rankMax": 2
       },
       "Crusher": {
-        "name": "Crusher",
+        "name": {
+          "en": "Crusher",
+          "ptBR": "Triturador"
+        },
         "typesA": [
           "EPalItemTypeA::Material"
         ],
@@ -190,7 +226,10 @@
         "rankMax": 2
       },
       "ElectricKitchen": {
-        "name": "Electric Kitchen",
+        "name": {
+          "en": "Electric Kitchen",
+          "ptBR": "Cozinha Elétrica"
+        },
         "typesA": [
           "EPalItemTypeA::Food"
         ],
@@ -203,7 +242,10 @@
         "rankMax": 3
       },
       "Factory_Comfortable_01": {
-        "name": "en Text",
+        "name": {
+          "en": "en Text",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Armor",
@@ -226,7 +268,10 @@
         "rankMax": 4
       },
       "Factory_Comfortable_02": {
-        "name": "en Text",
+        "name": {
+          "en": "en Text",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Armor",
@@ -249,7 +294,10 @@
         "rankMax": 4
       },
       "Factory_Hard_01": {
-        "name": "High-Quality Workbench",
+        "name": {
+          "en": "High-Quality Workbench",
+          "ptBR": "Bancada de Alta Qualidade"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Armor",
@@ -285,7 +333,10 @@
         "rankMax": 2
       },
       "Factory_Hard_02": {
-        "name": "Production Assembly Line",
+        "name": {
+          "en": "Production Assembly Line",
+          "ptBR": "Fábrica de Linha"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Armor",
@@ -321,7 +372,10 @@
         "rankMax": 3
       },
       "Factory_Hard_03": {
-        "name": "Production Assembly Line II",
+        "name": {
+          "en": "Production Assembly Line II",
+          "ptBR": "Fábrica de Linha II"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Armor",
@@ -359,7 +413,10 @@
         "rankMax": 4
       },
       "Factory_Hard_04": {
-        "name": "Advanced Workshop",
+        "name": {
+          "en": "Advanced Workshop",
+          "ptBR": "Fábrica de Civilização Avançada"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Armor",
@@ -397,7 +454,10 @@
         "rankMax": 5
       },
       "Factory_Money": {
-        "name": "Gold Coin Assembly Line",
+        "name": {
+          "en": "Gold Coin Assembly Line",
+          "ptBR": "Fábrica de Dinheiro"
+        },
         "typesA": [
           "EPalItemTypeA::Material"
         ],
@@ -408,7 +468,10 @@
         "rankMax": 3
       },
       "FlourMill": {
-        "name": "Mill",
+        "name": {
+          "en": "Mill",
+          "ptBR": "Moenda"
+        },
         "typesA": [
           "EPalItemTypeA::Food"
         ],
@@ -419,7 +482,10 @@
         "rankMax": 2
       },
       "HighTechKitchen": {
-        "name": "en Text",
+        "name": {
+          "en": "en Text",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::Food"
         ],
@@ -432,7 +498,10 @@
         "rankMax": 2
       },
       "HugeKitchen": {
-        "name": "Large-Scale Stone Oven",
+        "name": {
+          "en": "Large-Scale Stone Oven",
+          "ptBR": "Cozinha Grande"
+        },
         "typesA": [
           "EPalItemTypeA::Food"
         ],
@@ -445,7 +514,10 @@
         "rankMax": 4
       },
       "IceCrusher": {
-        "name": "Cryogenic Crusher",
+        "name": {
+          "en": "Cryogenic Crusher",
+          "ptBR": "Triturador de Gelo"
+        },
         "typesA": [
           "EPalItemTypeA::Material"
         ],
@@ -458,7 +530,10 @@
         "rankMax": 2
       },
       "MedicineFacility_01": {
-        "name": "Medieval Medicine Workbench",
+        "name": {
+          "en": "Medieval Medicine Workbench",
+          "ptBR": "Boticário Medieval"
+        },
         "typesA": [
           "EPalItemTypeA::Food",
           "EPalItemTypeA::Consume",
@@ -473,7 +548,10 @@
         "rankMax": 3
       },
       "MedicineFacility_02": {
-        "name": "Electric Medicine Workbench",
+        "name": {
+          "en": "Electric Medicine Workbench",
+          "ptBR": "Produção de Remédios Elétrica"
+        },
         "typesA": [
           "EPalItemTypeA::Food",
           "EPalItemTypeA::Consume",
@@ -488,7 +566,10 @@
         "rankMax": 4
       },
       "MedicineFacility_03": {
-        "name": "Advanced Medicine Workbench",
+        "name": {
+          "en": "Advanced Medicine Workbench",
+          "ptBR": "Produção de Remédios de Civilização Avançada"
+        },
         "typesA": [
           "EPalItemTypeA::Food",
           "EPalItemTypeA::Consume",
@@ -504,7 +585,10 @@
         "rankMax": 10
       },
       "RelicRecycler_test": {
-        "name": "RelicRecycler_test",
+        "name": {
+          "en": null,
+          "ptBR": null
+        },
         "typesA": [
           "EPalItemTypeA::Consume"
         ],
@@ -515,7 +599,10 @@
         "rankMax": 4
       },
       "SphereFactory_Black_01": {
-        "name": "Sphere Workbench",
+        "name": {
+          "en": "Sphere Workbench",
+          "ptBR": "Oficina de Esferas"
+        },
         "typesA": [
           "EPalItemTypeA::SpecialWeapon",
           "EPalItemTypeA::CaptureItemModifier"
@@ -528,7 +615,10 @@
         "rankMax": 3
       },
       "SphereFactory_Black_02": {
-        "name": "Sphere Assembly Line",
+        "name": {
+          "en": "Sphere Assembly Line",
+          "ptBR": "Fábrica de Linha de Esferas"
+        },
         "typesA": [
           "EPalItemTypeA::SpecialWeapon",
           "EPalItemTypeA::CaptureItemModifier"
@@ -541,7 +631,10 @@
         "rankMax": 4
       },
       "SphereFactory_Black_03": {
-        "name": "Sphere Assembly Line II",
+        "name": {
+          "en": "Sphere Assembly Line II",
+          "ptBR": "Fábrica de Linha de Esferas II"
+        },
         "typesA": [
           "EPalItemTypeA::SpecialWeapon",
           "EPalItemTypeA::CaptureItemModifier"
@@ -554,7 +647,10 @@
         "rankMax": 6
       },
       "SphereFactory_Black_04": {
-        "name": "Advanced Sphere Assembly Line",
+        "name": {
+          "en": "Advanced Sphere Assembly Line",
+          "ptBR": "Fábrica de Esferas de Civilização Avançada"
+        },
         "typesA": [
           "EPalItemTypeA::SpecialWeapon",
           "EPalItemTypeA::CaptureItemModifier"
@@ -567,7 +663,10 @@
         "rankMax": 7
       },
       "SphereFactory_Black_Base": {
-        "name": "SphereFactory_Black_Base",
+        "name": {
+          "en": null,
+          "ptBR": null
+        },
         "typesA": [
           "EPalItemTypeA::SpecialWeapon"
         ],
@@ -578,7 +677,10 @@
         "rankMax": 4
       },
       "SphereFactory_White_01": {
-        "name": "Superior Sphere Factory Ⅰ",
+        "name": {
+          "en": "Superior Sphere Factory Ⅰ",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::SpecialWeapon"
         ],
@@ -589,7 +691,10 @@
         "rankMax": 4
       },
       "SphereFactory_White_02": {
-        "name": "Superior Sphere Factory Ⅱ",
+        "name": {
+          "en": "Superior Sphere Factory Ⅱ",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::SpecialWeapon"
         ],
@@ -600,7 +705,10 @@
         "rankMax": 4
       },
       "SphereFactory_White_03": {
-        "name": "Superior Sphere Factory Ⅲ",
+        "name": {
+          "en": "Superior Sphere Factory Ⅲ",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::SpecialWeapon"
         ],
@@ -611,7 +719,10 @@
         "rankMax": 4
       },
       "WeaponFactoryBase": {
-        "name": "WeaponFactoryBase",
+        "name": {
+          "en": null,
+          "ptBR": null
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Consume",
@@ -632,7 +743,10 @@
         "rankMax": 4
       },
       "WeaponFactory_Clean_01": {
-        "name": "en Text",
+        "name": {
+          "en": "en Text",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Consume",
@@ -653,7 +767,10 @@
         "rankMax": 4
       },
       "WeaponFactory_Clean_02": {
-        "name": "en Text",
+        "name": {
+          "en": "en Text",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Consume",
@@ -674,7 +791,10 @@
         "rankMax": 4
       },
       "WeaponFactory_Clean_03": {
-        "name": "en Text",
+        "name": {
+          "en": "en Text",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Consume",
@@ -695,7 +815,10 @@
         "rankMax": 4
       },
       "WeaponFactory_Dirty_01": {
-        "name": "Weapon Workbench",
+        "name": {
+          "en": "Weapon Workbench",
+          "ptBR": "Fábrica de Armas"
+        },
         "typesA": [],
         "typesB": [
           "EPalItemTypeB::WeaponShotgun",
@@ -714,7 +837,10 @@
         "rankMax": 2
       },
       "WeaponFactory_Dirty_02": {
-        "name": "Weapon Assembly Line",
+        "name": {
+          "en": "Weapon Assembly Line",
+          "ptBR": "Fábrica de Linha de Armas"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Consume",
@@ -737,7 +863,10 @@
         "rankMax": 3
       },
       "WeaponFactory_Dirty_03": {
-        "name": "Weapon Assembly Line II",
+        "name": {
+          "en": "Weapon Assembly Line II",
+          "ptBR": "Fábrica de Linha de Armas II"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Consume",
@@ -762,7 +891,10 @@
         "rankMax": 4
       },
       "WeaponFactory_Dirty_04": {
-        "name": "Advanced Weapon Assembly Line",
+        "name": {
+          "en": "Advanced Weapon Assembly Line",
+          "ptBR": "Fábrica de Armas de Civilização Avançada"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Consume",
@@ -787,7 +919,10 @@
         "rankMax": 5
       },
       "WoodCrusher": {
-        "name": "Wood Dismantling Table",
+        "name": {
+          "en": "Wood Dismantling Table",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::Material"
         ],
@@ -798,7 +933,10 @@
         "rankMax": 2
       },
       "WorkBench": {
-        "name": "Primitive Workbench",
+        "name": {
+          "en": "Primitive Workbench",
+          "ptBR": "Bancada Primitiva"
+        },
         "typesA": [
           "EPalItemTypeA::Weapon",
           "EPalItemTypeA::Armor",
@@ -832,7 +970,10 @@
         "rankMax": 1
       },
       "WorkBench_SkillCard": {
-        "name": "en Text",
+        "name": {
+          "en": "en Text",
+          "ptBR": "pt-BR_Text"
+        },
         "typesA": [
           "EPalItemTypeA::Consume"
         ],
@@ -843,7 +984,10 @@
         "rankMax": 4
       },
       "WorkBench_SkillUnlock": {
-        "name": "Pal Gear Workbench",
+        "name": {
+          "en": "Pal Gear Workbench",
+          "ptBR": "Fábrica de Equipamentos de Pal"
+        },
         "typesA": [
           "EPalItemTypeA::Essential"
         ],

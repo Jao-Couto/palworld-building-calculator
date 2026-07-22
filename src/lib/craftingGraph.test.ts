@@ -5,7 +5,7 @@ import type { ItemDatabase } from './types';
 describe('aggregateCart', () => {
   it('returns itself as a raw material for a base item', () => {
     const db: ItemDatabase = {
-      Wood: { name: 'Wood', base: true, ingredients: {} },
+      Wood: { name: { en: 'Wood', ptBR: null }, base: true, ingredients: {} },
     };
 
     const result = aggregateCart(db, [{ itemId: 'Wood', quantity: 5 }]);
@@ -17,13 +17,13 @@ describe('aggregateCart', () => {
   it('splits raw materials and intermediates for a single recipe level', () => {
     const db: ItemDatabase = {
       Axe_Tier_00: {
-        name: 'Stone Axe',
+        name: { en: 'Stone Axe', ptBR: null },
         workbench: 'WorkBench',
         base: false,
         ingredients: { Stone: 5, Wood: 5 },
       },
-      Stone: { name: 'Stone', base: true, ingredients: {} },
-      Wood: { name: 'Wood', base: true, ingredients: {} },
+      Stone: { name: { en: 'Stone', ptBR: null }, base: true, ingredients: {} },
+      Wood: { name: { en: 'Wood', ptBR: null }, base: true, ingredients: {} },
     };
 
     const result = aggregateCart(db, [{ itemId: 'Axe_Tier_00', quantity: 3 }]);
@@ -35,12 +35,12 @@ describe('aggregateCart', () => {
   it('handles fractional per-unit ingredient quantities (batch recipes)', () => {
     const db: ItemDatabase = {
       Arrow: {
-        name: 'Arrow',
+        name: { en: 'Arrow', ptBR: null },
         base: false,
         // recipe produces 5 arrows per craft, using 1 wood -> 0.2 wood per arrow
         ingredients: { Wood: 0.2 },
       },
-      Wood: { name: 'Wood', base: true, ingredients: {} },
+      Wood: { name: { en: 'Wood', ptBR: null }, base: true, ingredients: {} },
     };
 
     const result = aggregateCart(db, [{ itemId: 'Arrow', quantity: 10 }]);
@@ -53,13 +53,13 @@ describe('aggregateCart', () => {
     // Diamond graph: Product needs PartA and PartB, both of which need Ore.
     const db: ItemDatabase = {
       Product: {
-        name: 'Product',
+        name: { en: 'Product', ptBR: null },
         base: false,
         ingredients: { PartA: 1, PartB: 1 },
       },
-      PartA: { name: 'Part A', base: false, ingredients: { Ore: 2 } },
-      PartB: { name: 'Part B', base: false, ingredients: { Ore: 3 } },
-      Ore: { name: 'Ore', base: true, ingredients: {} },
+      PartA: { name: { en: 'Part A', ptBR: null }, base: false, ingredients: { Ore: 2 } },
+      PartB: { name: { en: 'Part B', ptBR: null }, base: false, ingredients: { Ore: 3 } },
+      Ore: { name: { en: 'Ore', ptBR: null }, base: true, ingredients: {} },
     };
 
     const result = aggregateCart(db, [{ itemId: 'Product', quantity: 4 }]);
@@ -71,9 +71,9 @@ describe('aggregateCart', () => {
 
   it('combines multiple cart entries, including a crafted item requested both directly and as an ingredient', () => {
     const db: ItemDatabase = {
-      Sword: { name: 'Sword', base: false, ingredients: { Ingot: 3 } },
-      Ingot: { name: 'Ingot', base: false, ingredients: { Ore: 2 } },
-      Ore: { name: 'Ore', base: true, ingredients: {} },
+      Sword: { name: { en: 'Sword', ptBR: null }, base: false, ingredients: { Ingot: 3 } },
+      Ingot: { name: { en: 'Ingot', ptBR: null }, base: false, ingredients: { Ore: 2 } },
+      Ore: { name: { en: 'Ore', ptBR: null }, base: true, ingredients: {} },
     };
 
     const result = aggregateCart(db, [
@@ -89,7 +89,7 @@ describe('aggregateCart', () => {
 
   it('ignores cart entries with a non-positive quantity', () => {
     const db: ItemDatabase = {
-      Wood: { name: 'Wood', base: true, ingredients: {} },
+      Wood: { name: { en: 'Wood', ptBR: null }, base: true, ingredients: {} },
     };
 
     const result = aggregateCart(db, [{ itemId: 'Wood', quantity: 0 }]);
@@ -106,8 +106,8 @@ describe('aggregateCart', () => {
 describe('validateNoCycles', () => {
   it('passes for an acyclic graph', () => {
     const db: ItemDatabase = {
-      A: { name: 'A', base: false, ingredients: { B: 1 } },
-      B: { name: 'B', base: true, ingredients: {} },
+      A: { name: { en: 'A', ptBR: null }, base: false, ingredients: { B: 1 } },
+      B: { name: { en: 'B', ptBR: null }, base: true, ingredients: {} },
     };
 
     expect(() => validateNoCycles(db)).not.toThrow();
@@ -115,8 +115,8 @@ describe('validateNoCycles', () => {
 
   it('throws when a cycle is present', () => {
     const db: ItemDatabase = {
-      A: { name: 'A', base: false, ingredients: { B: 1 } },
-      B: { name: 'B', base: false, ingredients: { A: 1 } },
+      A: { name: { en: 'A', ptBR: null }, base: false, ingredients: { B: 1 } },
+      B: { name: { en: 'B', ptBR: null }, base: false, ingredients: { A: 1 } },
     };
 
     expect(() => validateNoCycles(db)).toThrow(/Cycle detected/);

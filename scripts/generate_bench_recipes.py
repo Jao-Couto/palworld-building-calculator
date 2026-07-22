@@ -31,7 +31,8 @@ BLUEPRINT_DIR = PAL / "Blueprint/MapObject/BuildObject"
 ITEM_DT = PAL / "DataTable/Item/DT_ItemDataTable_Common.json"
 RECIPE_DT = PAL / "DataTable/Item/DT_ItemRecipeDataTable_Common.json"
 BUILDOBJECT_DT = PAL / "DataTable/MapObject/Building/DT_BuildObjectDataTable_Common.json"
-NAMES_DT = ROOT / "L10N/en/Pal/DataTable/Text/DT_MapObjectNameText_Common.json"
+NAMES_DT_EN = ROOT / "L10N/en/Pal/DataTable/Text/DT_MapObjectNameText_Common.json"
+NAMES_DT_PT_BR = ROOT / "L10N/pt-BR/Pal/DataTable/Text/DT_MapObjectNameText_Common.json"
 
 OUTPUT_PATH = Path("src/data/bench_recipes.json")
 
@@ -222,15 +223,26 @@ def main():
     build_object_ids = set(load_json(BUILDOBJECT_DT)[0]["Rows"].keys())
     bench_rules, _unmatched_ids = build_bench_rules(build_object_ids)
 
-    names_rows = load_json(NAMES_DT)[0]["Rows"]
+    names_rows_en = load_json(NAMES_DT_EN)[0]["Rows"]
+    names_rows_pt_br = load_json(NAMES_DT_PT_BR)[0]["Rows"]
 
     def bench_name(bench_id):
-        row = names_rows.get(f"MAPOBJECT_NAME_{bench_id}")
-        return row["TextData"]["LocalizedString"] if row else bench_id
+        name = {
+          "en": None,
+          "ptBR": None,
+        }
+        row = names_rows_en.get(f"MAPOBJECT_NAME_{bench_id}")
+        if row:
+            name["en"] = row["TextData"]["LocalizedString"]
+        row = names_rows_pt_br.get(f"MAPOBJECT_NAME_{bench_id}")
+        if row:
+            name["ptBR"] = row["TextData"]["LocalizedString"]
+        return name
 
     for bench_id, rule in bench_rules.items():
+        display_name = bench_name(bench_id)["en"] or bench_id
         print(
-            f"{bench_id:28s} ({bench_name(bench_id)}) -> "
+            f"{bench_id:28s} ({display_name}) -> "
             f"rank <= {rule['rankMax']}, {len(rule['typesB'])} categorie(s)"
         )
 

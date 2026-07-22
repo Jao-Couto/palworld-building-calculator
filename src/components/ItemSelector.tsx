@@ -1,8 +1,11 @@
 import { useMemo, useState } from 'react';
-import type { Item, ItemDatabase } from '../lib/types';
+import { formatEnumTail } from '../lib/format';
+import { resolveName, UI_TEXT } from '../lib/i18n';
+import type { Item, ItemDatabase, Language } from '../lib/types';
 
 interface ItemSelectorProps {
   db: ItemDatabase;
+  lang: Language;
   /** Candidate item ids to search over (already scoped to the active section). */
   selectableIds: string[];
   selectedItemId: string | null;
@@ -16,17 +19,15 @@ interface ItemSelectorProps {
 
 const MAX_RESULTS = 20;
 
-/** "EPalBuildObjectTypeForUIDisplay::Product_Repair" -> "Product Repair" */
 function formatBadge(item: Item): string | null {
   if (item.workbench) return item.workbench;
-  if (item.category?.uiDisplay) {
-    return item.category.uiDisplay.split('::').pop()?.replaceAll('_', ' ') ?? null;
-  }
+  if (item.category?.uiDisplay) return formatEnumTail(item.category.uiDisplay);
   return null;
 }
 
 export function ItemSelector({
   db,
+  lang,
   selectableIds,
   selectedItemId,
   quantity,
@@ -43,19 +44,22 @@ export function ItemSelector({
       selectableIds
         .map((id): [string, Item] => [id, db[id]])
         .filter(([, item]) => item != null)
-        .sort(([, a], [, b]) => a.name.localeCompare(b.name)),
-    [db, selectableIds],
+        .map(([id, item]): [string, Item, string] => [id, item, resolveName(item.name, lang, id)])
+        .sort(([, , a], [, , b]) => a.localeCompare(b)),
+    [db, selectableIds, lang],
   );
 
   const matches = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return entries.slice(0, MAX_RESULTS);
     return entries
-      .filter(([id, item]) => item.name.toLowerCase().includes(q) || id.toLowerCase().includes(q))
+      .filter(([id, , name]) => name.toLowerCase().includes(q) || id.toLowerCase().includes(q))
       .slice(0, MAX_RESULTS);
   }, [entries, query]);
 
   const selectedItem = selectedItemId ? db[selectedItemId] : null;
+  const selectedItemName = selectedItem ? resolveName(selectedItem.name, lang, selectedItemId!) : null;
+  const t = UI_TEXT[lang].selector;
 
   return (
     <div className="rounded-lg border border-slate-700 bg-slate-800/50 p-4">
@@ -74,9 +78,9 @@ export function ItemSelector({
       {query.trim() !== '' && (
         <ul className="mt-2 max-h-64 divide-y divide-slate-700 overflow-y-auto rounded-md border border-slate-700">
           {matches.length === 0 && (
-            <li className="px-3 py-2 text-sm text-slate-500">No matching results.</li>
+            <li className="px-3 py-2 text-sm text-slate-500">{t.noResults}</li>
           )}
-          {matches.map(([id, item]) => (
+          {matches.map(([id, item, name]) => (
             <li key={id}>
               <button
                 type="button"
@@ -86,7 +90,7 @@ export function ItemSelector({
                 }}
                 className="flex w-full items-center justify-between px-3 py-2 text-left text-sm text-slate-200 hover:bg-slate-700"
               >
-                <span>{item.name}</span>
+                <span>{name}</span>
                 {formatBadge(item) && (
                   <span className="ml-2 shrink-0 text-xs text-slate-400">{formatBadge(item)}</span>
                 )}
@@ -99,14 +103,14 @@ export function ItemSelector({
       {selectedItem && (
         <div className="mt-4 flex items-center justify-between gap-4 rounded-md bg-slate-900 px-3 py-2">
           <div>
-            <div className="font-semibold text-slate-100">{selectedItem.name}</div>
+            <div className="font-semibold text-slate-100">{selectedItemName}</div>
             {formatBadge(selectedItem) && (
               <div className="text-xs text-slate-400">{formatBadge(selectedItem)}</div>
             )}
           </div>
           <div className="flex items-center gap-2">
             <label htmlFor="quantity" className="text-sm text-slate-400">
-              Qty
+              {t.quantity}
             </label>
             <input
               id="quantity"
@@ -121,7 +125,7 @@ export function ItemSelector({
               onClick={onAddToCart}
               className="rounded-md bg-sky-600 px-3 py-1 text-sm font-medium text-white hover:bg-sky-500"
             >
-              Add to cart
+              {t.addToCart}
             </button>
           </div>
         </div>

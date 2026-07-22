@@ -1,45 +1,48 @@
-import type { CartEntry, ItemDatabase } from '../lib/types';
+import { resolveName, UI_TEXT } from '../lib/i18n';
+import type { CartEntry, ItemDatabase, Language } from '../lib/types';
 
 interface CartProps {
   db: ItemDatabase;
+  lang: Language;
   entries: CartEntry[];
   onChangeQuantity: (itemId: string, quantity: number) => void;
   onRemove: (itemId: string) => void;
   onClear: () => void;
 }
 
-export function Cart({ db, entries, onChangeQuantity, onRemove, onClear }: CartProps) {
+export function Cart({ db, lang, entries, onChangeQuantity, onRemove, onClear }: CartProps) {
+  const t = UI_TEXT[lang].cart;
+
   return (
     <div className="rounded-lg border border-slate-700 bg-slate-800/50 p-4">
       <div className="mb-3 flex items-center justify-between">
-        <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-400">Cart</h2>
+        <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-400">
+          {t.heading}
+        </h2>
         {entries.length > 0 && (
           <button
             type="button"
             onClick={onClear}
             className="text-xs text-slate-400 hover:text-slate-200"
           >
-            Clear
+            {t.clear}
           </button>
         )}
       </div>
 
       {entries.length === 0 ? (
-        <p className="text-sm text-slate-500">
-          No items yet. Search an item or building and add it to the cart.
-        </p>
+        <p className="text-sm text-slate-500">{t.empty}</p>
       ) : (
         <ul className="space-y-2">
           {entries.map((entry) => {
             const item = db[entry.itemId];
+            const name = item ? resolveName(item.name, lang, entry.itemId) : entry.itemId;
             return (
               <li
                 key={entry.itemId}
                 className="flex items-center justify-between gap-2 rounded-md bg-slate-900 px-2 py-1.5"
               >
-                <span className="min-w-0 flex-1 truncate text-sm text-slate-200">
-                  {item?.name ?? entry.itemId}
-                </span>
+                <span className="min-w-0 flex-1 truncate text-sm text-slate-200">{name}</span>
                 <input
                   type="number"
                   min={1}
@@ -52,7 +55,7 @@ export function Cart({ db, entries, onChangeQuantity, onRemove, onClear }: CartP
                 <button
                   type="button"
                   onClick={() => onRemove(entry.itemId)}
-                  aria-label={`Remove ${item?.name ?? entry.itemId} from cart`}
+                  aria-label={t.removeAriaLabel(name)}
                   className="shrink-0 text-slate-500 hover:text-red-400"
                 >
                   ×
