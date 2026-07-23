@@ -27,13 +27,21 @@ CRAFTING_GRAPH = Path("src/data/crafting_graph.json")
 NAMES_DT_EN = ROOT / "L10N/en/Pal/DataTable/Text/DT_ItemNameText_Common.json"
 NAMES_DT_PT_BR = ROOT / "L10N/pt-BR/Pal/DataTable/Text/DT_ItemNameText_Common.json"
 DESC_DT_EN = ROOT / "L10N/en/Pal/DataTable/Text/DT_ItemDescriptionText_Common.json"
-DESC_DT_PT_BR = ROOT / "L10N/pt-BR/Pal/DataTable/Text/DT_ItemDescriptionText_Common.json"
+DESC_DT_PT_BR = (
+    ROOT / "L10N/pt-BR/Pal/DataTable/Text/DT_ItemDescriptionText_Common.json"
+)
 PAL_NAMES_DT_EN = ROOT / "L10N/en/Pal/DataTable/Text/DT_PalNameText_Common.json"
-BUILDING_NAMES_DT_EN = ROOT / "L10N/en/Pal/DataTable/Text/DT_MapObjectNameText_Common.json"
-BUILDING_NAMES_DT_PT_BR = ROOT / "L10N/pt-BR/Pal/DataTable/Text/DT_MapObjectNameText_Common.json"
+BUILDING_NAMES_DT_EN = (
+    ROOT / "L10N/en/Pal/DataTable/Text/DT_MapObjectNameText_Common.json"
+)
+BUILDING_NAMES_DT_PT_BR = (
+    ROOT / "L10N/pt-BR/Pal/DataTable/Text/DT_MapObjectNameText_Common.json"
+)
 BENCH_RECIPES = Path("src/data/bench_recipes.json")
 UI_COMMON_DT_EN = ROOT / "L10N/en/Pal/DataTable/Text/DT_UI_Common_Text_Common.json"
-UI_COMMON_DT_PT_BR = ROOT / "L10N/pt-BR/Pal/DataTable/Text/DT_UI_Common_Text_Common.json"
+UI_COMMON_DT_PT_BR = (
+    ROOT / "L10N/pt-BR/Pal/DataTable/Text/DT_UI_Common_Text_Common.json"
+)
 
 OUTPUT_PATH = Path("src/data/items.json")
 
@@ -98,8 +106,8 @@ def main():
 
     def item_name(item_id):
         name = {
-          "en": None,
-          "ptBR": None,
+            "en": None,
+            "ptBR": None,
         }
         name_key = name_key_for(item_id)
         row = names_en.get(name_key)
@@ -112,21 +120,40 @@ def main():
 
     def item_description(item_id):
         description = {
-          "en": None,
-          "ptBR": None,
+            "en": None,
+            "ptBR": None,
         }
         desc_key = description_key_for(item_id)
         row = desc_en.get(desc_key)
         if row:
             description["en"] = resolve_rich_text(
-                row["TextData"]["LocalizedString"], names_en, building_names_en, pal_names_en, ui_common_en
+                row["TextData"]["LocalizedString"],
+                names_en,
+                building_names_en,
+                pal_names_en,
+                ui_common_en,
             )
         row = desc_pt_br.get(desc_key)
         if row:
             description["ptBR"] = resolve_rich_text(
-                row["TextData"]["LocalizedString"], names_pt_br, building_names_pt_br, pal_names_en, ui_common_pt_br
+                row["TextData"]["LocalizedString"],
+                names_pt_br,
+                building_names_pt_br,
+                pal_names_en,
+                ui_common_pt_br,
             )
         return description
+
+    def ui_common_type_display(id, type_name):
+        id = id.split("::")[-1]
+        return {
+            "en": ui_common_en.get(f"COMMON_ITEM{type_name}_{id}", {})
+            .get("TextData", {})
+            .get("LocalizedString", id),
+            "ptBR": ui_common_pt_br.get(f"COMMON_ITEM{type_name}_{id}", {})
+            .get("TextData", {})
+            .get("LocalizedString", id),
+        }
 
     def item_category(item_id):
         # Not every recipe Product_Id/Material_Id exists in DT_ItemDataTable_Common
@@ -134,8 +161,17 @@ def main():
         # is display-only metadata and can legitimately be all-None.
         row = items.get(item_id)
         if not row:
-            return {"typeA": None, "typeB": None}
-        return {"typeA": row.get("TypeA"), "typeB": row.get("TypeB")}
+            return {
+                "typeA": None,
+                "typeB": None,
+                "uiDisplay": {"en": None, "ptBR": None},
+            }
+        result = {
+            "typeA": row.get("TypeA"),
+            "typeB": row.get("TypeB"),
+            "uiDisplay": ui_common_type_display(row.get("TypeA"), "TYPE_A"),
+        }
+        return result
 
     # The item set and its normalized ingredients come straight from the
     # validated crafting graph - this script only layers display metadata
