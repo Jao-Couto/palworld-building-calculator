@@ -65,7 +65,7 @@ raw DataTables
    │
    ├─ scripts/crafting_graph.py ──▶ src/data/crafting_graph.json   (validated graph spine)
    │      · sentinel ("None") + casing normalization
-   │      · item graph (ingredients normalized "per 1 unit produced")
+   │      · item graph (raw ingredient counts + productCount per craft)
    │      · building graph (materials per structure)
    │      · referential validation (every id resolves) — raises on orphan
    │      · cycle validation (3-state DFS) — raises on cycle
@@ -119,7 +119,14 @@ never anyone else's ingredient.
     "rarity": 0,
     "workbench": "WorkBench",
     "base": false,
+    "productCount": 1,
     "ingredients": { "Stone": 5, "Wood": 5 }
+  },
+  "Arrow": {
+    "name": { "en": "Arrow", "ptBR": "Flecha" },
+    "base": false,
+    "productCount": 10,
+    "ingredients": { "Wood": 2, "Stone": 2 }
   },
   "Wood": {
     "name": { "en": "Wood", "ptBR": "Madeira" },
@@ -133,7 +140,11 @@ never anyone else's ingredient.
 - `name` / `description` are per-language (`LocalizedName`, `en` / `ptBR`);
   `i18n.ts` resolves the active language and falls back to English then the
   raw id.
-- `ingredients` is a map of `item_id -> quantity per unit crafted`.
+- `ingredients` is a map of `item_id -> raw material count per craft` (the
+  amount one craft consumes, **not** normalized per produced unit).
+- `productCount` is how many units one craft yields (batch size). Only
+  craftable items have it; absent means 1. Above, one Arrow craft consumes
+  2 Wood + 2 Stone and produces 10 arrows.
 - `workbench` / `category` / `price` / `rarity` / `rank` are display-only
   metadata and do **not** participate in the quantity calculation.
 
@@ -152,34 +163,44 @@ too, not only at runtime.
 type DFSState = 'unvisited' | 'in_progress' | 'done';
 ```
 
-### 2. Calculation: post-order DFS with memoization
+### 2. Calculation: batched, top-down demand in topological order
+
+Crafting is **batched**: a craft yields `productCount` units at once, so to
+satisfy a demand of `d` units you run `ceil(d / productCount)` crafts, each
+consuming the full raw `ingredients`. Asking for 1 Arrow (yield 10) still runs
+one whole batch — 2 Wood + 2 Stone consumed, 10 produced.
+
+Because the number of crafts depends on the **total** demand for an item
+(summed across every parent that needs it), the `ceil` must be applied once on
+the aggregated demand — not per path, and not per unit. That rules out the
+old per-unit memoization (ceil is non-linear). Instead demand flows top-down
+in topological order:
 
 ```text
-calculate(itemId, quantity, cache):
-    if itemId is a raw material:
-        return { itemId: quantity }
-
-    if cache has itemId:
-        reuse the already-computed per-unit subtotal, multiply by quantity
-
-    subtotal = {}
-    for each (ingredientId, qtyPerUnit) in itemId's recipe:
-        result = calculate(ingredientId, qtyPerUnit, cache)
-        mergeInto(subtotal, result)
-
-    cache[itemId] = subtotal  // per unit, before multiplying
-    return subtotal * quantity
+aggregate(cart):
+    demand = {}                       // seed from cart quantities
+    for itemId in topoOrder(reachable from cart):   // each item BEFORE its ingredients
+        d = demand[itemId]
+        if d <= 0 or itemId is a raw material: continue
+        crafts   = ceil(d / productCount)
+        produced[itemId] = crafts * productCount
+        for (ingredientId, rawCount) in itemId's ingredients:
+            demand[ingredientId] += crafts * rawCount
 ```
 
-Key point: memoization is keyed by **item**, not by path in the graph —
-that's what turns the complexity from exponential (naive tree) into linear
-in the number of unique items (equivalent to solving in topological order).
+Processing parents before children (reverse post-order DFS over the validated
+DAG) guarantees an item's demand is final before we decide its batch count.
+Reachability keeps it to just the items the cart touches, so it stays linear
+in that subgraph.
 
 ### 3. Output
 
-The final result is a map of `base_item_id -> total quantity`, plus
-optionally an intermediate tree structure (so the UI can show "how many
-intermediate Axes you need to craft," not just the raw materials).
+The result splits `totals` into `rawMaterials` (base items — total consumed)
+and `intermediates` (craftable items — total **produced**, `crafts *
+productCount`, which can exceed what was requested when the last batch leaves
+leftovers). Intermediates include the cart entries themselves, so a crafted
+item requested directly and also needed as an ingredient shows its combined
+total.
 
 ## Decision: item → workbench link
 

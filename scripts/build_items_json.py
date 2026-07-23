@@ -149,7 +149,7 @@ def main():
         workbench = bench_entry["primaryBench"] if bench_entry else None
         row = items.get(item_id, {})
 
-        output[item_id] = {
+        item_out = {
             "name": item_name(item_id),
             "description": item_description(item_id),
             "category": item_category(item_id),
@@ -159,6 +159,12 @@ def main():
             "base": is_base,
             "ingredients": entry["ingredients"],
         }
+        # Only craftable items have a yield; ingredients are raw per-recipe
+        # amounts, so the consumer needs productCount to know how many units a
+        # craft produces (see scripts/crafting_graph.py).
+        if not is_base:
+            item_out["productCount"] = entry["productCount"]
+        output[item_id] = item_out
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:

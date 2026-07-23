@@ -63,6 +63,9 @@ function ItemCard({ entry, db, lang }: { entry: Entry; db: ItemDatabase; lang: L
           <div>
             <div className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-400">
               {t.recipe}
+              {item.productCount && item.productCount > 1 ? (
+                <span className="ml-1 font-mono normal-case text-slate-500">×{item.productCount}</span>
+              ) : null}
             </div>
             <ul className="space-y-1 text-sm">
               {ingredientEntries.map(([ingredientId, quantity]) => (

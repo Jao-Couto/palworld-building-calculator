@@ -22,7 +22,16 @@ export interface LocalizedName {
 export interface Item {
   name: LocalizedName;
   base: boolean;
+  /**
+   * Raw per-recipe material amounts (item_id -> count), NOT normalized per
+   * unit. One craft consumes these and yields `productCount` units.
+   */
   ingredients: Record<string, number>;
+  /**
+   * Units produced by one craft (batch yield). Only craftable items have it;
+   * absent/undefined means 1. Buildings always produce 1 (field omitted).
+   */
+  productCount?: number;
   workbench?: string | null;
   category?: BuildingCategory | null;
   rank?: number;

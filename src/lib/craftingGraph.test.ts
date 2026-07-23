@@ -32,21 +32,52 @@ describe('aggregateCart', () => {
     expect(result.intermediates).toEqual({ Axe_Tier_00: 3 });
   });
 
-  it('handles fractional per-unit ingredient quantities (batch recipes)', () => {
+  it('rounds up to whole crafts for a batch recipe (yield > 1)', () => {
     const db: ItemDatabase = {
+      // one craft yields 10 arrows, consuming 2 wood
       Arrow: {
         name: { en: 'Arrow', ptBR: null },
         base: false,
-        // recipe produces 5 arrows per craft, using 1 wood -> 0.2 wood per arrow
-        ingredients: { Wood: 0.2 },
+        productCount: 10,
+        ingredients: { Wood: 2 },
       },
       Wood: { name: { en: 'Wood', ptBR: null }, base: true, ingredients: {} },
     };
 
-    const result = aggregateCart(db, [{ itemId: 'Arrow', quantity: 10 }]);
+    // asking for 1 arrow still runs a whole batch: 10 produced, 2 wood consumed
+    const one = aggregateCart(db, [{ itemId: 'Arrow', quantity: 1 }]);
+    expect(one.rawMaterials).toEqual({ Wood: 2 });
+    expect(one.intermediates).toEqual({ Arrow: 10 });
 
-    expect(result.rawMaterials).toEqual({ Wood: 2 });
-    expect(result.intermediates).toEqual({ Arrow: 10 });
+    // 11 arrows needs 2 crafts -> 20 produced, 4 wood
+    const eleven = aggregateCart(db, [{ itemId: 'Arrow', quantity: 11 }]);
+    expect(eleven.rawMaterials).toEqual({ Wood: 4 });
+    expect(eleven.intermediates).toEqual({ Arrow: 20 });
+  });
+
+  it('applies the batch ceil once on total demand, summed across parents', () => {
+    // Both Sword and Knife consume Bolt; Bolt is crafted 10 at a time from 1 Iron.
+    const db: ItemDatabase = {
+      Sword: { name: { en: 'Sword', ptBR: null }, base: false, ingredients: { Bolt: 3 } },
+      Knife: { name: { en: 'Knife', ptBR: null }, base: false, ingredients: { Bolt: 4 } },
+      Bolt: {
+        name: { en: 'Bolt', ptBR: null },
+        base: false,
+        productCount: 10,
+        ingredients: { Iron: 1 },
+      },
+      Iron: { name: { en: 'Iron', ptBR: null }, base: true, ingredients: {} },
+    };
+
+    const result = aggregateCart(db, [
+      { itemId: 'Sword', quantity: 1 },
+      { itemId: 'Knife', quantity: 1 },
+    ]);
+
+    // Total Bolt demand = 3 + 4 = 7 -> ceil(7/10) = 1 craft -> 10 produced, 1 Iron.
+    // (Rounding per-parent would wrongly give 2 crafts / 2 Iron.)
+    expect(result.intermediates).toEqual({ Sword: 1, Knife: 1, Bolt: 10 });
+    expect(result.rawMaterials).toEqual({ Iron: 1 });
   });
 
   it('reuses a memoized subtotal for an ingredient shared across branches', () => {
