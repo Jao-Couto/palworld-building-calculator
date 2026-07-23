@@ -1,5 +1,7 @@
 import { resolveName, UI_TEXT } from '../lib/i18n';
 import type { CartEntry, ItemDatabase, Language } from '../lib/types';
+import { CloseIcon } from './icons';
+import { ItemThumb } from './ItemThumb';
 
 interface CartProps {
   db: ItemDatabase;
@@ -14,24 +16,18 @@ export function Cart({ db, lang, entries, onChangeQuantity, onRemove, onClear }:
   const t = UI_TEXT[lang].cart;
 
   return (
-    <div className="rounded-lg border border-slate-700 bg-slate-800/50 p-4">
+    <div className="rounded-xl border border-border bg-surface p-4">
       <div className="mb-3 flex items-center justify-between">
-        <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-400">
-          {t.heading}
-        </h2>
+        <h2 className="text-sm font-semibold uppercase tracking-wide text-text-muted">{t.heading}</h2>
         {entries.length > 0 && (
-          <button
-            type="button"
-            onClick={onClear}
-            className="text-xs text-slate-400 hover:text-slate-200"
-          >
+          <button type="button" onClick={onClear} className="text-xs text-text-muted hover:text-accent">
             {t.clear}
           </button>
         )}
       </div>
 
       {entries.length === 0 ? (
-        <p className="text-sm text-slate-500">{t.empty}</p>
+        <p className="text-sm text-text-muted">{t.empty}</p>
       ) : (
         <ul className="space-y-2">
           {entries.map((entry) => {
@@ -40,9 +36,12 @@ export function Cart({ db, lang, entries, onChangeQuantity, onRemove, onClear }:
             return (
               <li
                 key={entry.itemId}
-                className="flex items-center justify-between gap-2 rounded-md bg-slate-900 px-2 py-1.5"
+                className="flex items-center gap-2 rounded-lg bg-surface-2 px-2 py-1.5"
               >
-                <span className="min-w-0 flex-1 truncate text-sm text-slate-200">{name}</span>
+                {item && <ItemThumb id={entry.itemId} item={item} size={24} />}
+                <span className="min-w-0 flex-1 break-words text-sm leading-tight text-text-primary" title={name}>
+                  {name}
+                </span>
                 <input
                   type="number"
                   min={1}
@@ -50,15 +49,15 @@ export function Cart({ db, lang, entries, onChangeQuantity, onRemove, onClear }:
                   onChange={(e) =>
                     onChangeQuantity(entry.itemId, Math.max(1, Number(e.target.value) || 1))
                   }
-                  className="w-14 shrink-0 rounded-md border border-slate-600 bg-slate-800 px-1.5 py-0.5 text-right text-sm text-slate-100 focus:border-sky-500 focus:outline-none"
+                  className="w-14 shrink-0 rounded-md border border-border bg-bg px-1.5 py-0.5 text-right text-sm tabular-nums text-text-primary focus:border-accent focus:outline-none"
                 />
                 <button
                   type="button"
                   onClick={() => onRemove(entry.itemId)}
                   aria-label={t.removeAriaLabel(name)}
-                  className="shrink-0 text-slate-500 hover:text-red-400"
+                  className="shrink-0 text-text-muted hover:text-red-500"
                 >
-                  ×
+                  <CloseIcon size={16} />
                 </button>
               </li>
             );

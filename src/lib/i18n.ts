@@ -76,6 +76,43 @@ export interface UiText {
     price: string;
     recipe: string;
     rawMaterial: string;
+    favoritesOnly: string;
+    clearFilters: string;
+    recentTitle: string;
+    resultsCount: (n: number) => string;
+    suggestionsAria: string;
+  };
+  theme: {
+    toLight: string;
+    toDark: string;
+    toggleAria: string;
+  };
+  card: {
+    addToCart: string;
+    quantity: string;
+    favorite: string;
+    unfavorite: string;
+    openDetails: string;
+  };
+  detail: {
+    close: string;
+    description: string;
+    noDescription: string;
+    whereToCraft: string;
+    craftTree: string;
+    noRecipe: string;
+    base: string;
+    yields: (n: number) => string;
+  };
+  toast: {
+    added: (name: string, qty: number) => string;
+  };
+  quantityList: {
+    itemsCount: (n: number) => string;
+    sortByQuantity: string;
+    sortByName: string;
+    copyList: string;
+    copied: string;
   };
 }
 
@@ -130,6 +167,43 @@ export const UI_TEXT: Record<Language, UiText> = {
       price: 'Price',
       recipe: 'Recipe',
       rawMaterial: 'Raw material',
+      favoritesOnly: 'Favorites',
+      clearFilters: 'Clear filters',
+      recentTitle: 'Recently viewed',
+      resultsCount: (n) => `${n} item${n === 1 ? '' : 's'}`,
+      suggestionsAria: 'Search suggestions',
+    },
+    theme: {
+      toLight: 'Light',
+      toDark: 'Dark',
+      toggleAria: 'Toggle light/dark theme',
+    },
+    card: {
+      addToCart: 'Add to cart',
+      quantity: 'Qty',
+      favorite: 'Add to favorites',
+      unfavorite: 'Remove from favorites',
+      openDetails: 'View details',
+    },
+    detail: {
+      close: 'Close',
+      description: 'Description',
+      noDescription: 'No description available.',
+      whereToCraft: 'Where to craft',
+      craftTree: 'Crafting tree',
+      noRecipe: 'This is a raw material — no recipe.',
+      base: 'Raw material',
+      yields: (n) => `yields ${n}`,
+    },
+    toast: {
+      added: (name, qty) => `Added ${qty}× ${name} to cart`,
+    },
+    quantityList: {
+      itemsCount: (n) => `${n} item${n === 1 ? '' : 's'}`,
+      sortByQuantity: 'Quantity',
+      sortByName: 'Name (A-Z)',
+      copyList: 'Copy list',
+      copied: 'List copied',
     },
   },
   ptBR: {
@@ -182,6 +256,43 @@ export const UI_TEXT: Record<Language, UiText> = {
       price: 'Preço',
       recipe: 'Receita',
       rawMaterial: 'Matéria-prima',
+      favoritesOnly: 'Favoritos',
+      clearFilters: 'Limpar filtros',
+      recentTitle: 'Vistos recentemente',
+      resultsCount: (n) => `${n} ${n === 1 ? 'item' : 'itens'}`,
+      suggestionsAria: 'Sugestões de busca',
+    },
+    theme: {
+      toLight: 'Claro',
+      toDark: 'Escuro',
+      toggleAria: 'Alternar tema claro/escuro',
+    },
+    card: {
+      addToCart: 'Adicionar ao carrinho',
+      quantity: 'Qtd',
+      favorite: 'Adicionar aos favoritos',
+      unfavorite: 'Remover dos favoritos',
+      openDetails: 'Ver detalhes',
+    },
+    detail: {
+      close: 'Fechar',
+      description: 'Descrição',
+      noDescription: 'Sem descrição disponível.',
+      whereToCraft: 'Onde fabricar',
+      craftTree: 'Árvore de fabricação',
+      noRecipe: 'Isto é uma matéria-prima — sem receita.',
+      base: 'Matéria-prima',
+      yields: (n) => `rende ${n}`,
+    },
+    toast: {
+      added: (name, qty) => `${qty}× ${name} adicionado(s) ao carrinho`,
+    },
+    quantityList: {
+      itemsCount: (n) => `${n} ${n === 1 ? 'item' : 'itens'}`,
+      sortByQuantity: 'Quantidade',
+      sortByName: 'Nome (A-Z)',
+      copyList: 'Copiar lista',
+      copied: 'Lista copiada',
     },
   },
 };

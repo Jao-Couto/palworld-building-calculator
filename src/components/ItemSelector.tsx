@@ -2,6 +2,8 @@ import { useMemo, useState } from 'react';
 import { formatEnumTail } from '../lib/format';
 import { resolveName, UI_TEXT } from '../lib/i18n';
 import type { Item, ItemDatabase, Language } from '../lib/types';
+import { PlusIcon } from './icons';
+import { ItemThumb } from './ItemThumb';
 
 interface ItemSelectorProps {
   db: ItemDatabase;
@@ -21,7 +23,7 @@ const MAX_RESULTS = 20;
 
 function formatBadge(item: Item): string | null {
   if (item.workbench) return item.workbench;
-  if (item.category?.uiDisplay) return formatEnumTail(item.category.uiDisplay);
+  if (item.category?.uiDisplay) return formatEnumTail(item.category.uiDisplay.en ?? '');
   return null;
 }
 
@@ -62,8 +64,8 @@ export function ItemSelector({
   const t = UI_TEXT[lang].selector;
 
   return (
-    <div className="rounded-lg border border-slate-700 bg-slate-800/50 p-4">
-      <label htmlFor="item-search" className="mb-1 block text-sm font-medium text-slate-300">
+    <div className="rounded-xl border border-border bg-surface p-4">
+      <label htmlFor="item-search" className="mb-1 block text-sm font-medium text-text-secondary">
         {label}
       </label>
       <input
@@ -72,14 +74,12 @@ export function ItemSelector({
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={placeholder}
-        className="w-full rounded-md border border-slate-600 bg-slate-900 px-3 py-2 text-slate-100 placeholder-slate-500 focus:border-sky-500 focus:outline-none"
+        className="w-full rounded-lg border border-border bg-bg px-3 py-2 text-text-primary placeholder-text-muted focus:border-accent focus:outline-none"
       />
 
       {query.trim() !== '' && (
-        <ul className="mt-2 max-h-64 divide-y divide-slate-700 overflow-y-auto rounded-md border border-slate-700">
-          {matches.length === 0 && (
-            <li className="px-3 py-2 text-sm text-slate-500">{t.noResults}</li>
-          )}
+        <ul className="mt-2 max-h-64 divide-y divide-border overflow-y-auto rounded-lg border border-border">
+          {matches.length === 0 && <li className="px-3 py-2 text-sm text-text-muted">{t.noResults}</li>}
           {matches.map(([id, item, name]) => (
             <li key={id}>
               <button
@@ -88,11 +88,12 @@ export function ItemSelector({
                   onSelectItem(id);
                   setQuery('');
                 }}
-                className="flex w-full items-center justify-between px-3 py-2 text-left text-sm text-slate-200 hover:bg-slate-700"
+                className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm text-text-primary hover:bg-surface-2"
               >
-                <span>{name}</span>
+                <ItemThumb id={id} item={item} size={24} />
+                <span className="flex-1 truncate">{name}</span>
                 {formatBadge(item) && (
-                  <span className="ml-2 shrink-0 text-xs text-slate-400">{formatBadge(item)}</span>
+                  <span className="ml-2 shrink-0 text-xs text-text-muted">{formatBadge(item)}</span>
                 )}
               </button>
             </li>
@@ -101,15 +102,18 @@ export function ItemSelector({
       )}
 
       {selectedItem && (
-        <div className="mt-4 flex items-center justify-between gap-4 rounded-md bg-slate-900 px-3 py-2">
-          <div>
-            <div className="font-semibold text-slate-100">{selectedItemName}</div>
-            {formatBadge(selectedItem) && (
-              <div className="text-xs text-slate-400">{formatBadge(selectedItem)}</div>
-            )}
+        <div className="mt-4 flex items-center justify-between gap-4 rounded-lg bg-surface-2 px-3 py-2">
+          <div className="flex min-w-0 items-center gap-2">
+            <ItemThumb id={selectedItemId!} item={selectedItem} size={32} />
+            <div className="min-w-0">
+              <div className="truncate font-semibold text-text-primary">{selectedItemName}</div>
+              {formatBadge(selectedItem) && (
+                <div className="truncate text-xs text-text-muted">{formatBadge(selectedItem)}</div>
+              )}
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <label htmlFor="quantity" className="text-sm text-slate-400">
+          <div className="flex shrink-0 items-center gap-2">
+            <label htmlFor="quantity" className="text-sm text-text-muted">
               {t.quantity}
             </label>
             <input
@@ -118,13 +122,14 @@ export function ItemSelector({
               min={1}
               value={quantity}
               onChange={(e) => onChangeQuantity(Math.max(1, Number(e.target.value) || 1))}
-              className="w-20 rounded-md border border-slate-600 bg-slate-800 px-2 py-1 text-right text-slate-100 focus:border-sky-500 focus:outline-none"
+              className="w-20 rounded-md border border-border bg-bg px-2 py-1 text-right tabular-nums text-text-primary focus:border-accent focus:outline-none"
             />
             <button
               type="button"
               onClick={onAddToCart}
-              className="rounded-md bg-sky-600 px-3 py-1 text-sm font-medium text-white hover:bg-sky-500"
+              className="flex items-center gap-1.5 rounded-lg bg-accent px-3 py-1.5 text-sm font-medium text-white hover:bg-accent2"
             >
+              <PlusIcon size={16} />
               {t.addToCart}
             </button>
           </div>

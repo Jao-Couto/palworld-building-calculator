@@ -1,3 +1,142 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ---- Semantic design tokens (see tailwind.config.js) -------------------- */
+:root {
+  --color-bg: #faf7ee; /* cream */
+  --color-surface: #ffffff;
+  --color-surface-2: #f4f1e7;
+  --color-border: #e4e0d4;
+  --color-text-primary: #2b2b28;
+  --color-text-secondary: #6b6a62;
+  --color-text-muted: #8a8880;
+}
+
+.dark {
+  --color-bg: #14131a;
+  --color-surface: #1d1c25;
+  --color-surface-2: #262530;
+  --color-border: #2e2d38;
+  --color-text-primary: #f2f0e8;
+  --color-text-secondary: #a8a6b0;
+  --color-text-muted: #7c7a85;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: 'Rajdhani', 'Chivo', ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .clamp-2,
+  .clamp-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .clamp-2 {
+    -webkit-line-clamp: 2;
+  }
+  .clamp-3 {
+    -webkit-line-clamp: 3;
+  }
+}
+
+/* ---- Rarity + category color scales -------------------------------------
+   Kept as CSS classes (not Tailwind color utilities) so they can be applied
+   dynamically from a key without tripping Tailwind's content purge, and so
+   they carry their own dark-mode overrides. */
+@layer components {
+  .rar-common {
+    background: #f1efe8;
+    color: #5f5e5a;
+  }
+  .rar-uncommon {
+    background: #eaf3de;
+    color: #3b6d11;
+  }
+  .rar-rare {
+    background: #e6f1fb;
+    color: #185fa5;
+  }
+  .rar-epic {
+    background: #f3e5c8;
+    color: #7a5b12;
+  }
+  .rar-legendary {
+    background: #faeeda;
+    color: #854f0b;
+  }
+
+  .cat-mineral {
+    background: #e6f1fb;
+    color: #185fa5;
+  }
+  .cat-organic {
+    background: #eaf3de;
+    color: #3b6d11;
+  }
+  .cat-tech {
+    background: #eeedfe;
+    color: #534ab7;
+  }
+  .cat-energy {
+    background: #faeeda;
+    color: #854f0b;
+  }
+  .cat-other {
+    background: #f1efe8;
+    color: #5f5e5a;
+  }
+
+  .dark .rar-common {
+    background: #23221d;
+    color: #b6b4ac;
+  }
+  .dark .rar-uncommon {
+    background: #1c2c14;
+    color: #9cc06f;
+  }
+  .dark .rar-rare {
+    background: #14283d;
+    color: #7db0e6;
+  }
+  .dark .rar-epic {
+    background: #2b2410;
+    color: #d8b25a;
+  }
+  .dark .rar-legendary {
+    background: #2e2210;
+    color: #e0a24d;
+  }
+
+  .dark .cat-mineral {
+    background: #14283d;
+    color: #7db0e6;
+  }
+  .dark .cat-organic {
+    background: #1c2c14;
+    color: #9cc06f;
+  }
+  .dark .cat-tech {
+    background: #201f36;
+    color: #a9a2ee;
+  }
+  .dark .cat-energy {
+    background: #2e2210;
+    color: #e0a24d;
+  }
+  .dark .cat-other {
+    background: #23221d;
+    color: #b6b4ac;
+  }
+}

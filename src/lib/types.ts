@@ -38,6 +38,13 @@ export interface Item {
 	description?: LocalizedName;
 	price?: number | null;
 	rarity?: number | null;
+	/**
+	 * URL to the item's sprite/image. NOT present in the generated data yet
+	 * (see the frontend-redesign spec's data-model gap) — currently supplied by
+	 * a mock in src/lib/mockImages.ts. When real sprites are added to the ETL
+	 * output this field is populated for real and the mock is dropped.
+	 */
+	imageUrl?: string | null;
 }
 
 export type ItemDatabase = Record<string, Item>;
